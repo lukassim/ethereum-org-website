@@ -4,7 +4,7 @@ description: Pregled NFTjev na Ethereumu
 lang: sl
 template: primeri uporabe v praksi
 emoji: ":frame_with_picture:"
-sidebar: pravilno
+sidebar: true
 sidebarDepth: 2
 image: ../../assets/infrastructure_transparent.png
 alt: "Eth logotip prikazan prek holograma."
@@ -429,37 +429,37 @@ To predstavlja zmanjšanje za vsaj 99.95% skupne porabe energije glede na Digico
 
 Posledica 100,000 Visa transakcij je 149kWh - [povprečna poraba energije Bitcoin omrežja na transakcijo v primerjavi z omrežjem Vise leta 2020, S](https://www.statista.com/statistics/881541/bitcoin-energy-consumption-transaction-comparison-visa/)tatista
 
-Year-ending September 2020 they processed 140,839,000,000 transactions – [Visa financials report Q4 2020](https://s1.q4cdn.com/050606653/files/doc_financials/2020/q4/Visa-Inc.-Q4-2020-Operational-Performance-Data.pdf)
+Septembra, konec leta 2020 so sprocesirali 140,839,000,000 transakcij – [Visa finančno poročilo Q4 2020](https://s1.q4cdn.com/050606653/files/doc_financials/2020/q4/Visa-Inc.-Q4-2020-Operational-Performance-Data.pdf)
 
-#### 3. Eth2 energy usage for 100,000 transactions {#fn-3}
+#### 3. Eth2 poraba energije za 100,000 transakcij {#fn-3}
 
-It's estimated that Eth2 will allow the network to process between 25,000 and 100,000 transactions per second, with [100,000 as the theoretical maximum right now](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698).
+Ocenjuje se, da bo Eth2 omrežju omogočal, da bo procesiralo med 25,000 in 100,000 transakcij na sekundo, kjer [100,000 predstavlja trenutni teoretični maksimum](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698).
 
-[Vitalik Buterin on transactions per second potential on Eth2](https://twitter.com/VitalikButerin/status/1312905884549300224?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1312905886327664640%7Ctwgr%5E%7Ctwcon%5Es2_&ref_url=https%3A%2F%2Fwww.coinspeaker.com%2Fvitalik-buterin-ethereum-layer-2%2F)
+[Vitalik Buterin o potencialu transakcij na sekundo na Eth2](https://twitter.com/VitalikButerin/status/1312905884549300224?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1312905886327664640%7Ctwgr%5E%7Ctwcon%5Es2_&ref_url=https%3A%2F%2Fwww.coinspeaker.com%2Fvitalik-buterin-ethereum-layer-2%2F)
 
-At the bare minimum, Eth2 will allow 64 times the amount of transactions as today which sits at around 15 transactions. That's the amount of shard chains (extra data and capacity) being introduced. [More on shard chains](/eth2/shard-chains/)
+Eth2 bo omogočal vsaj 64-krat večjo količino transakcij kot danes, ko ta številka stoji okoli 15 transakcij. To je število razdrobljenih verig (dodatnih podatkov in kapacitet), ki se jih uvaja. [Več o razdrobljenih verigah](/eth2/shard-chains/)
 
-That means we can estimate how long it will take to process 100,000 transactions so we can compare it to the Visa example above.
+To pomeni, da lahko ocenimo, kako dolgo bo trajalo, da se sprocesira 100,000 transakcij in tako to primerjamo z zgornjim primerom Vise.
 
-- `15 * 64 = 960` transactions per second.
-- `100,000 / 960 = 104.2` seconds to process 100,000 transactions.
+- `15 * 64 = 960` transakcij na sekundo.
+- `100,000 / 960 = 104.2` sekund za procesiranje 100,000 transakcij.
 
-In 104.2 seconds, the Ethereum network will use the following amount of energy:
+V 104.2 sekundah bo Ethereum omrežje porabilo sledečo količino energije:
 
-`1.44kWh daily usage * 10,000 network nodes = 14,400kWh` per day.
+`1.44kWh dnevne porabe * 10,000 vozlišč v omrežju = 14,400kWh` na dan.
 
-There are 86,400 seconds in a day, so `14,400 / 86,400 = 0.1666666667kWh` per second.
+V dnevu je 86,400 sekund, tako da `14,400 / 86,400 = 0.1666666667kWh` na sekundo.
 
 If we multiply that by the amount of time it takes to process 100,000 transaction: `0.1666666667 * 104.2 = 17.3666666701 kWh`.
 
-That is **11.6554809866%** of the energy consumed by the same amount of transactions on Visa.
+To je **11.6554809866%** energije, ki jo za enako število transakcij porabi Visa.
 
-And remember, this is based on the minimum amount of transactions that Eth2 will be able to handle per second. If Eth2 reaches its potential of 100,000 transactions per second, 100,000 transactions would consume 0.1666666667kWh.
+In zapomnite si, da je to zasnovano na podalgi minimalne količine transakcij, ki jih bo lahko Eth2 izvedel na sekundo. Če Eth2 doseže svoj potencial 100,000 transkacij na sekundo, bi 100,000 transakcij porabilo 0.1666666667kWh.
 
-To put it another way, if Visa handled 140,839,000,000 transactions at a cost of 149 kWh per 100,000 transactions that's 209,850,110 kWh energy consumed for the year.
+Drugače povedano, če bi Visa obdelala 140,839,000,000 transakcij po 149kWh na 100,000 transakcij, bi to pomenilo 209,850,110kWh porabe energije na leto.
 
-Eth2 in a single year stands to consume 5,256,000 kWh. With a potential of 788,940,000,000 - 3,153,600,000,000 transactions processed in that time.
+Eth2 bo v enem samem letu predvidoma porabil 5,256,000kWh. S potencialom za 788,940,000,000 - 3,153,600,000,000 transakcij procesiranih v tem času.
 
 <InfoBanner emoji=":evergreen_tree:">
-  If you think these stats are incorrect or can be made more accurate, please raise an issue or PR. These are estimates by the ethereum.org team made using publicly accessible information and the current Eth2 design. This doesn't represent an official promise from the Ethereum Foundation. 
+  Če mislite, da so te statistike nepravilne, oziroma bi lahko bile bolj natančne, prosimo izpostavite težavo ali PR. To se ocene ekipe ethereum.org, izdelane z uporabo javno dostopnih informacij in trenutne zasnove Eth2. To ne predstzvlja uradne obljube s strani Ethereum Fundacije. 
 </InfoBanner>
