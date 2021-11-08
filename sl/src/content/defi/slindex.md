@@ -4,7 +4,7 @@ description: Pregled DeFi na Ethereumu
 lang: sl
 template: primeri uporabe v praksi
 emoji: ":money_with_wings:"
-sidebar: pravilno
+sidebar: true
 image: ../../assets/use-cases/defi.png
 alt: "Ethereum logotip narejen iz lego kock."
 sidebarDepth: 2
@@ -190,7 +190,7 @@ Nagradni bazen je ustvarjen iz vseh obresti, ki so bile pridobljene z posojanjem
 
 Na Ethereumu obstaja na tisoče žetonov. Decentralizirane borze (DEXs) vam omogočajo trgovanje z različnimi žetoni, kadarkoli želite. Nikoli ne prepustite kontrole nad vašimi žetoni. To je kot uporaba denarne menjalnice, ko obiščete drugo državo. Vendar DeFi verzija se nikoli ne zapre. Trgi so odprti 24/7, 365 dni na leto in tehonologija zagotavlja, da bo za sprejem naročila vedno nekdo na voljo.
 
-Naprimer, če želite uporabljati loterijo brez izgube PoolTogether (opisano zgoraj), boste potrebovali žeton kot je Dai ali USDC. These DEXs allow you to swap your ETH for those tokens and back again when you're finished.
+Naprimer, če želite uporabljati loterijo brez izgube PoolTogether (opisano zgoraj), boste potrebovali žeton kot je Dai ali USDC. Te DEXi vam omogočajo da menjate vaš ETH za tiste žetone in nazaj v ETH, ko ste končali.
 
 <ButtonLink to="/dapps/?category=finance">Oglejte si borze žetonov</ButtonLink>
 
@@ -378,5 +378,5 @@ todo -->## Nadaljno branje {#futher-reading}
 
 ### Skupnosti {#communities}
 
-- [DeFi Llama Discord server](https://discord.gg/buPFYXzDDd)
+- [DeFi Llama Discord strežnik](https://discord.gg/buPFYXzDDd)
 - [DeFi Pulse Discord strežnik](https://discord.gg/Gx4TCTk)
