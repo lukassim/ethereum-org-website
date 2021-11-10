@@ -1,113 +1,113 @@
 ---
-title: Decentralized autonomous organizations (DAOs)
-description: An overview of DAOs on Ethereum
-lang: en
+title: Dezentralisierte Autonome Organisationen (DAO)
+description: Eine Übersicht der DAOs auf Ethereum
+lang: de
 template: use-cases
 emoji: ":handshake:"
 sidebar: true
 sidebarDepth: 2
 image: ../../assets/use-cases/dao-2.png
-alt: "A representation of a DAO voting on a proposal."
-summaryPoints: '[ "Member-owned communities without centralized leadership.", "A safe way to collaborate with internet strangers.", "A safe place to commit funds to a specific cause.", ] ---'
+alt: "Eine Repräsentation eines Abstimmungsvorschlags in einem DAO."
+summaryPoints: '[ "Im Mitgliederbesitz befindliche Gemeinschaften ohne zentrale Führung.", "Eine sichere Art, mit Fremden im Internet zusammenzuarbeiten.", "Ein sicherer Ort, um Geld für bestimmte Zwecke freizugeben.",] ---'
 ---
 
-## What are DAOs? {#what-are-daos}
+## Was sind DAOs? {#what-are-daos}
 
-DAOs are an effective and safe way to work with like-minded folks around the globe.
+DAOs sind eine effektive und sichere Möglichkeit, mit Gleichgesinnten auf der ganzen Welt zu arbeiten.
 
-Think of them like an internet-native business that's collectively owned and managed by its members. They have built-in treasuries that no one has the authority to access without the approval of the group. Decisions are governed by proposals and voting to ensure everyone in the organisation has a voice.
+Stellen Sie sich DAOs wie internetbasierte Unternehmen vor, die sich im Besitz aller Mitglieder befinden und die kollektiv geführt werden. Sie verfügen über eingebaute Finanzabteilungen, auf die niemand ohne die Zustmmung der Gruppe Zugriff hat. Entscheidungen werden durch Vorschläge und Abstimmungen geregelt, um sicherzustellen, dass jedes Mitglied der Organisation eine Stimme bekommt.
 
-There's no CEO who can authorise spending based on their own whims and no chance of a dodgy CFO manipulating the books. Everything is out in the open and the rules around spending are baked into the DAO via its code.
+Es gibt keine Geschäftsführer, die Geld nach eigenen Ermessen ausgeben können, und keinen Finanzvorstand, der die Bilanzen manipulieren könnte. Alles wird transparent offengelegt und das Regularium, um über geplante Ausgaben zu entscheiden, ist durch den Code in die DAO integriert.
 
-## Why do we need DAOs? {#why-dao}
+## Warum brauchen wir DAOs? {#why-dao}
 
-Starting an organisation with someone that involves funding and money requires a lot of trust in the people you're working with. But it’s hard to trust someone you’ve only ever interacted with on the internet. With DAOs you don’t need to trust anyone else in the group, just the DAO’s code, which is 100% transparent and verifiable by anyone.
+Ein Unternehmen mit jemandem zu gründen und dafür Gelder und Finanzierungsmöglichkeiten bereitzustellen, benötigt viel Vertrauen in die Menschen, mit denen Sie arbeiten. Allerdings ist es schwierig, jemandem zu vertrauen, den Sie nur durch das Internet kennen. Durch DAOs müssen Sie anderen in der Gruppe nicht vertrauen, sondern nur dem DAO-Code, der 100 % transparent und für jeden einsehbar ist.
 
-This opens up so many new opportunities for global collaboration and coordination.
+Dies eröffnet viele neue Möglichkeiten für globale Zusammenarbeit und Koordination.
 
-### A comparison {#dao-comparison}
+### Ein Vergleich {#dao-comparison}
 
-| DAO                                                                                                                     | A traditional organisation                                                                       |
-| ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| Usually flat, and fully democratized.                                                                                   | Usually hierarchical.                                                                            |
-| Voting required by members for any changes to be implemented.                                                           | Depending on structure, changes can be demanded from a sole party, or voting may be offered.     |
-| Votes tallied, and outcome implemented automatically without trusted intermediary.                                      | If voting allowed, votes are tallied internally, and outcome of voting must be handled manually. |
-| Services offered are handled automatically in a decentralized manner (for example distribution of philanthropic funds). | Requires human handling, or centrally controlled automation, prone to manipulation.              |
-| All activity is transparent and fully public.                                                                           | Activity is typically private, and limited to the public.                                        |
+| DAO                                                                                                                   | Ein traditionelles Unternehmen                                                                                                   |
+| --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Normalerweise flach und vollständig demokratisiert.                                                                   | Normalerweise hierarchisch.                                                                                                      |
+| Abstimmung durch die Gruppe notwendig, um Veränderungen zu implementieren.                                            | Je nach Struktur können Veränderungen entweder durch einzelne Parteien verlangt oder durch offene Abstimmungen angeboten werden. |
+| Stimmen werden gezählt und das Ergebnis wird automatisch ohne vertrauenswürdige Dritte implementiert.                 | Sofern Abstimmungen erlaubt sind, werden Stimmen intern gezählt und das Ergebnis muss manuell umgesetzt werden.                  |
+| Angebotene Dienste werden automatisch auf dezentrale Weise abgewickelt (etwa die Verteilung philantropischer Mittel). | Benötigt menschlichen Eingriff oder zentral kontrollierte Automatismen, anfällig gegenüber Manipulation.                         |
+| Alle Aktivitäten sind transparent und vollständig öffentlich.                                                         | Alle Aktivitäten bleiben normalerweise unternehmensintern, begrenzte Einsicht durch Öffentlichkeit.                              |
 
-### DAO examples {#dao-examples}
+### Beispiele für DAOs {#dao-examples}
 
-To help this make more sense, here's a few examples of how you could use a DAO:
+Für ein besseres Verständnis bieten sich diese Beispiele für die Nutzung einer DAO an:
 
-- A charity – you can accept membership and donations from anyone in the world and the group can decide how they want to spend donations.
-- A freelancer network – you could create a network of contractors who pool their funds for office spaces and software subscriptions.
-- Ventures and grants – you could create a venture fund that pools investment capital and votes on ventures to back. Repaid money could later be redistributed amongst DAO-members.
+- Eine Wohltätigkeitsorganisation: Sie können Mitgliedschaften und Spenden von allen Menschen auf der Welt annehmen und die Gruppe entscheidet, wie die Gelder ausgegeben werden sollen.
+- Ein Freelancer-Netzwerk: Sie könnten ein Netzwerk aus Auftragnehmern schaffen, die ihr Geld für Büroräume und Softwarelizenzen zusammenlegen.
+- Unternehmen und Zuschüsse - Sie könnten einen Risikofonds gründen, der Investitionskapital bündelt und über zu unterstützende Unternehmen abstimmt. Das zurückgezahlte Geld könnte später unter den DAO-Mitgliedern neu verteilt werden.
 
-## DAO membership {#dao-membership}
+## DAO Mitgliedschaft {#dao-membership}
 
-There are different models for DAO membership. Membership can determine how voting works and other key parts of the DAO.
+Es gibt verschiedene Modelle für eine DAO-Mitgliedschaft. Die Mitglieder können bestimmen, wie Abstimmungen und andere wichtige Teile der DAO funktionieren.
 
-### Token-based membership {#token-based-membership}
+### Token-basierte Mitgliedschaft {#token-based-membership}
 
-Usually fully permissionless, depending on the token used. Mostly these governance tokens can be traded permissionlessly on a decentralized exchange. Others must be earned through providing liquidity or some other ‘proof of work’. Either way, simply holding the token grants access to voting.
+In der Regel völlig zustimmungsfrei, je nach verwendetem Token. Mostly these governance tokens can be traded permissionlessly on a decentralized exchange. Andere müssen durch die Bereitstellung von Liquidität oder einen anderen "Arbeitsnachweis" erworben werden. In jedem Fall gewährt der Besitz des Tokens Zugang zur Abstimmung.
 
-_Typically used to govern broad decentralized protocols and/or tokens themselves._
+_In der Regel werden sie zur Steuerung umfangreicher dezentraler Protokolle und/oder Token selbst verwendet._
 
-#### A famous example {#token-example}
+#### Ein berühmtes Beispiel {#token-example}
 
-[MakerDAO](https://makerdao.com) – MakerDAO's token MKR is widely available on decentralized exchanges. So anyone can buy into having voting power on the Maker protocol's future.
+[MakerDAO](https://makerdao.com) – Der Token MKR von MakerDAO ist auf dezentralen Börsen weit verbreitet. Jeder kann sich also ein Stimmrecht über die Zukunft des Maker-Protokolls erkaufen.
 
-### Share-based membership {#share-based-membership}
+### Anteilbasierte Mitgliedschaft {#share-based-membership}
 
-Share-based DAOs are more permissioned, but still quite open. Any prospective members can submit a proposal to join the DAO, usually offering tribute of some value in the form of tokens or work. Shares represent direct voting power and ownership. Members can exit at anytime with their proportionate share of the treasury.
+Anteilsbasierte DAOs sind stärker reglementiert, aber immer noch recht offen. Jedes potenzielle Mitglied kann einen Antrag auf Beitritt zur DAO stellen und bietet in der Regel eine Gegenleistung in Form von Token oder Arbeit an. Anteile stehen für direkte Stimmrechte und Eigentum. Die Mitglieder können jederzeit mit ihrem Anteil an der Kapitalbeteiligung aussteigen.
 
-_Typically used for more closer-knit, human-centric organizations like charities, worker collectives, and investment clubs. Can also govern protocols and tokens as well._
+_Wird in der Regel für kleinere, auf den Menschen ausgerichtete Organisationen wie Wohltätigkeitsorganisationen, Arbeitnehmerkollektive und Investmentclubs verwendet. Sie können auch Protokolle und Token regeln._
 
-#### A famous example {#share-example}
+#### Ein berühmtes Beispiel {#share-example}
 
-[MolochDAO](http://molochdao.com/) – MolochDAO is focused on funding Ethereum projects. They require a proposal for membership so the group can assess whether you have the necessary expertise and capital to make informed judgments about potential grantees. You can't just buy access to the DAO on the open market.
+[MolochDAO](http://molochdao.com/) – MolochDAO ist auf die Finanzierung von Ethereum-Projekten ausgerichtet. Sie verlangen einen Antrag auf Mitgliedschaft, damit die Gruppe beurteilen kann, ob über das nötige Fachwissen und Kapital verfügt, um fundierte Urteile über potenzielle Zuschussempfänger zu treffen. Man kann den Zugang zur DAO nicht einfach auf dem freien Markt kaufen.
 
-## How do DAOs work? {#how-daos-work}
+## Wie funktionieren DAOs? {#how-daos-work}
 
-The backbone of a DAO is its smart contract. The contract defines the rules of the organisation and holds the group's treasury. Once the contract is live on Ethereum, no one can change the rules except by a vote. If anyone tries to do something that's not covered by the rules and logic in the code, it will fail. And because the treasury is defined by the smart contract too that means no one can spend the money without the group's approval either. This means that DAOs don't need a central authority. Instead the group makes decisions collectively and payments are authorised automatically when votes pass.
+Das Rückgrat einer DAO ist ihr Smart Contract. Der Smart Conttract legt die Regeln der Organisation fest und verwaltet die Finanzmittel der Gruppe. Sobald der Smart Cointract auf Ethereum aktiv ist, kann niemand mehr die Regeln ändern, außer durch eine Abstimmung. Wenn jemand versucht, etwas zu tun, was nicht durch die Regeln und die Logik des Codes abgedeckt ist, wird es fehlschlagen. Und da die Schatzkammer ebenfalls durch den Smart Contract definiert ist, kann auch niemand das Geld ohne die Zustimmung der Gruppe ausgeben. Das bedeutet, dass DAOs keine zentrale Autorität benötigen. Stattdessen trifft die Gruppe gemeinsam Entscheidungen, und die Zahlungen werden automatisch genehmigt, wenn die Abstimmung positiv ausfällt.
 
-This is possible because smart contracts are tamper-proof once they go live on Ethereum. You can't just edit the code (the DAOs rules) without people noticing because everything is public.
+Dies ist möglich, weil Smart Contracts manipulationssicher sind, sobald sie auf Ethereum in Betrieb gehen. Man kann nicht einfach den Code (die Regeln der DAOs) ändern, ohne dass es jemand merkt, weil alles öffentlich ist.
 
-<DocLink to="/developers/docs/smart-contracts/" title="More on smart contracts" />
+<DocLink to="/developers/docs/smart-contracts/" title="Mehr zu Smart Contracts" />
 
-## Ethereum and DAOs {#ethereum-and-daos}
+## Ethereum und DAOs {#ethereum-and-daos}
 
-Ethereum is the perfect foundation for DAOs for a number of reasons:
+Ethereum ist aus einer Reihe von Gründen die perfekte Grundlage für DAOs:
 
-- Ethereum’s own consensus is distributed and established enough for organizations to trust the network.
-- Smart contract code can’t be modified once live, even by its owners. This allows the DAO to run by the rules it was programmed with.
-- Smart contracts can send/receive funds. Without this you'd need a trusted intermediary to manage group funds.
-- The Ethereum community has proven to be more collaborative than competitive, allowing for best practices and support systems to emerge quickly.
+- Der Ethereum-eigene Konsens ist so weit verbreitet und etabliert, dass Unternehmen dem Netzwerk vertrauen können.
+- Der Code eines Smart Contracts kann nicht mehr geändert werden, auch nicht von seinen Besitzern. Dies ermöglicht es der DAO, nach den Regeln zu arbeiten, mit denen sie programmiert wurde.
+- Intelligente Verträge können Gelder senden/empfangen. Andernfalls bräuchten Sie einen vertrauenswürdigen Vermittler für die Verwaltung der Geldmittel der Gruppe.
+- Die Ethereum-Community hat sich als eher kollaborativ als konkurrierend erwiesen, so dass sich schnell bewährte Verfahren und Unterstützungssysteme herausbilden konnten.
 
-## Join / start a DAO {#join-start-a-dao}
+## Einer DAO beitreten / gründen {#join-start-a-dao}
 
-### Join a DAO {#join-a-dao}
+### Einer DAO beitreten {#join-a-dao}
 
-- [Ethereum community DAOs](/community/#decentralized-autonomous-organizations-daos/community/#decentralized-autonomous-organizations-daos)
-- [DAOHaus's list of DAOs](https://app.daohaus.club/explore)
+- [Ethereum Community DAOs](/community/#decentralized-autonomous-organizations-daos/community/#decentralized-autonomous-organizations-daos)
+- [DAOHaus Liste der DAOs](https://app.daohaus.club/explore)
 
-### Start a DAO {#start-a-dao}
+### Eine DAO gründen {#start-a-dao}
 
-- [Summon a DAO with DAOHaus](https://app.daohaus.club/summon)
-- [Create an Aragon-powered DAO](https://aragon.org/product)
-- [Start a colony](https://colony.io/)
-- [Build a DAO with DAOstack](https://daostack.io/)
+- [Gründe eine DAO mit DAOHaus](https://app.daohaus.club/summon)
+- [Gründe eine von Aragon betriebene DAO](https://aragon.org/product)
+- [Beginne deine Kolonie](https://colony.io/)
+- [Gründe eine DAO mit DAOstack](https://daostack.io/)
 
-## Further reading {#further-reading}
+## Weiterführende Informationen {#further-reading}
 
-### DAO Articles {#dao-articles}
+### DAO Artikel {#dao-articles}
 
-- [What's a DAO?](https://aragon.org/dao) – [Aragon](https://aragon.org/)
-- [House of DAOs](https://wiki.metagame.wtf/docs/great-houses/house-of-daos) – [Metagame](https://wiki.metagame.wtf/)
-- [What is a DAO and what is it for?](https://daohaus.substack.com/p/-what-is-a-dao-and-what-is-it-for) – [DAOhaus](https://daohaus.club/)
-- [How to Start a DAO-Powered Digital Community](https://daohaus.substack.com/p/four-and-a-half-steps-to-start-a) – [DAOhaus](https://daohaus.club/)
-- [What is a DAO?](https://coinmarketcap.com/alexandria/article/what-is-a-dao) – [Coinmarketcap](https://coinmarketcap.com)
+- [Was ist eine DAO?](https://aragon.org/dao) – [Aragon](https://aragon.org/)
+- [Haus der DAOs](https://wiki.metagame.wtf/docs/great-houses/house-of-daos) - [Metagame](https://wiki.metagame.wtf/)
+- [Was ist eine DAO und wofür ist sie da?](https://daohaus.substack.com/p/-what-is-a-dao-and-what-is-it-for) – [DAOhaus](https://daohaus.club/)
+- [Wie man eine DAO-gestützte digitale Gemeinschaft gründet](https://daohaus.substack.com/p/four-and-a-half-steps-to-start-a) – [DAOhaus](https://daohaus.club/)
+- [Was ist eine DAO?](https://coinmarketcap.com/alexandria/article/what-is-a-dao) – [Coinmarketcap](https://coinmarketcap.com)
 
 ### Videos {#videos}
 
-- [What is a DAO in crypto?](https://youtu.be/KHm0uUPqmVE)
+- [Was ist eine DAO in der Kryptowirtschaft?](https://youtu.be/KHm0uUPqmVE)
