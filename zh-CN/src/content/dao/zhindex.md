@@ -11,7 +11,7 @@ alt: "A representation of a DAO voting on a proposal."
 summaryPoints: '[ "Member-owned communities without centralized leadership.", "A safe way to collaborate with internet strangers.", "A safe place to commit funds to a specific cause.", ] ---'
 ---
 
-## What are DAOs? {#what-are-daos}
+## What is DAOs? {#what-are-daos}
 
 DAOs are an effective and safe way to work with like-minded folks around the globe.
 
