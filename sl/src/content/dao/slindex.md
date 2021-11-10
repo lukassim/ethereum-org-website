@@ -11,7 +11,7 @@ alt: "Predstavitev DAO, ki glasuje o predlogu."
 summaryPoints: '[ "Skupnosti v lasti članov brez centraliziranega vodstva", "Varen način za slodelovanje s stujci prek spleta.", "Varno mesto za namen sredstev v specifičen namen", ] ---'
 ---
 
-## Kaj so DAOs? {#what-are-daos}
+## What is DAOs? {#what-are-daos}
 
 DAOs so učinkovit in varen način za delo z enakomislečimi osebami po celem svetu.
 
