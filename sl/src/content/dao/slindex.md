@@ -49,7 +49,7 @@ Obstajajo različni modeli za članstvo v DAO. Članstvo lahko določa kako delu
 
 ### Članstvo na podlagi lastništva žetonov {#token-based-membership}
 
-Ponavadi povsem brez potrebnega soglasja, odvisno od uporabljenih žetonov. Mostly these governance tokens can be traded permissionlessly on a decentralized exchange. Drugi morajo biti zasluženi prek zagotavljanja likvidnosti ali nektari z dokazom o delu. V obeh pirmerih vam lastništvo zagotavlja možnost glasovanja.
+Ponavadi povsem brez potrebnega soglasja, odvisno od uporabljenih žetonov. Mostly these governance tokens can be traded permissionlessly on a decentralized exchange. Others must be earned through providing liquidity or some other ‘proof-of-work’. V obeh pirmerih vam lastništvo zagotavlja možnost glasovanja.
 
 _Ponavadi se ta oblika uporablja za upravljanje obširnih decentraliziranih protokolov in/ali samih žetonov._
 
