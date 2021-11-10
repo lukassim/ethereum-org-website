@@ -11,7 +11,7 @@ alt: "Eine Repräsentation eines Abstimmungsvorschlags in einem DAO."
 summaryPoints: '[ "Im Mitgliederbesitz befindliche Gemeinschaften ohne zentrale Führung.", "Eine sichere Art, mit Fremden im Internet zusammenzuarbeiten.", "Ein sicherer Ort, um Geld für bestimmte Zwecke freizugeben.",] ---'
 ---
 
-## What is DAOs? {#what-are-daos}
+## Was sind DAOs? {#what-are-daos}
 
 DAOs sind eine effektive und sichere Möglichkeit, mit Gleichgesinnten auf der ganzen Welt zu arbeiten.
 
