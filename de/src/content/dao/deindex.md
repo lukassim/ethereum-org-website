@@ -49,7 +49,7 @@ Es gibt verschiedene Modelle für eine DAO-Mitgliedschaft. Die Mitglieder könne
 
 ### Token-basierte Mitgliedschaft {#token-based-membership}
 
-In der Regel völlig zustimmungsfrei, je nach verwendetem Token. Mostly these governance tokens can be traded permissionlessly on a decentralized exchange. Andere müssen durch die Bereitstellung von Liquidität oder einen anderen "Arbeitsnachweis" erworben werden. In jedem Fall gewährt der Besitz des Tokens Zugang zur Abstimmung.
+In der Regel völlig zustimmungsfrei, je nach verwendetem Token. Mostly these governance tokens can be traded permissionlessly on a decentralized exchange. Others must be earned through providing liquidity or some other ‘proof-of-work’. In jedem Fall gewährt der Besitz des Tokens Zugang zur Abstimmung.
 
 _In der Regel werden sie zur Steuerung umfangreicher dezentraler Protokolle und/oder Token selbst verwendet._
 
