@@ -1,106 +1,106 @@
 ---
-title: Decentralized autonomous organizations (DAOs)
-description: An overview of DAOs on Ethereum
-lang: en
-template: use-cases
+title: 去中心化自治组织 (DAOs)
+description: 介绍以太链上的DAOs
+lang: 英语
+template: 使用场景
 emoji: ":handshake:"
-sidebar: true
+sidebar: 是
 sidebarDepth: 2
 image: ../../assets/use-cases/dao-2.png
-alt: "A representation of a DAO voting on a proposal."
-summaryPoints: '[ "Member-owned communities without centralized leadership.", "A safe way to collaborate with internet strangers.", "A safe place to commit funds to a specific cause.", ] ---'
+alt: "展示了DAO组织对提案进行投票表决。"
+summaryPoints: '[ "没有中心化决策层的成员自治社区。", "在互联网上与陌生人合作的安全方式。", "将资金用于投资的安全场所。", ] ---'
 ---
 
 ## What is DAOs? {#what-are-daos}
 
-DAOs are an effective and safe way to work with like-minded folks around the globe.
+加入各类去中心化自治组织(DAO)，高效而安全地与世界上志同道合的人们一起合作。
 
-Think of them like an internet-native business that's collectively owned and managed by its members. They have built-in treasuries that no one has the authority to access without the approval of the group. Decisions are governed by proposals and voting to ensure everyone in the organisation has a voice.
+你可以把它看作一个互联网原生企业，由其成员共同拥有和管理。 DAO拥有内置资金库，任何人只有经组织批准才能获得操作权限。 通过提案和投票，任何人都可以参与到组织决策中去。
 
-There's no CEO who can authorise spending based on their own whims and no chance of a dodgy CFO manipulating the books. Everything is out in the open and the rules around spending are baked into the DAO via its code.
+不会有CEO仅凭心血来潮就随意支出，也不会有CFO徇私枉法操纵账簿。 一切行为都是公开的，有关开支的规则都会通过代码铸进DAO组织里。
 
-## Why do we need DAOs? {#why-dao}
+## 为什么我们需要DAO？ {#why-dao}
 
-Starting an organisation with someone that involves funding and money requires a lot of trust in the people you're working with. But it’s hard to trust someone you’ve only ever interacted with on the internet. With DAOs you don’t need to trust anyone else in the group, just the DAO’s code, which is 100% transparent and verifiable by anyone.
+涉及募集资金、操作资产，成立一个这样的组织需要对共事者极大的信任， 不过显然要相信互联网上素不相识的人是很困难的。 通过DAOs你不需要相信组织中的其他人，而只需要相信DAO的代码就够了。这些都是100%公开透明且任何人都可以验证的，
 
-This opens up so many new opportunities for global collaboration and coordination.
+这为全球合作提供了诸多新机会。
 
-### A comparison {#dao-comparison}
+### 对比 {#dao-comparison}
 
-| DAO                                                                                                                     | A traditional organisation                                                                       |
-| ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| Usually flat, and fully democratized.                                                                                   | Usually hierarchical.                                                                            |
-| Voting required by members for any changes to be implemented.                                                           | Depending on structure, changes can be demanded from a sole party, or voting may be offered.     |
-| Votes tallied, and outcome implemented automatically without trusted intermediary.                                      | If voting allowed, votes are tallied internally, and outcome of voting must be handled manually. |
-| Services offered are handled automatically in a decentralized manner (for example distribution of philanthropic funds). | Requires human handling, or centrally controlled automation, prone to manipulation.              |
-| All activity is transparent and fully public.                                                                           | Activity is typically private, and limited to the public.                                        |
+| 去中心化自治组织（DAO)             | 传统组织                          |
+| ------------------------- | ----------------------------- |
+| 通常是扁平化的，并且完全民主。           | 通常等级鲜明。                       |
+| 需要成员投票才能进行决策。             | 取决于组织结构，可能一部分人就能进行决策，也可能投票表决。 |
+| 不需要可信的中间人就可以自动计算投票、执行结果。  | 计票就在内部进行，并且是人工公布结果。           |
+| 以去中心化方式自动提供服务。(例如慈善基金的分配) | 需要人工处理或中心化控制，易受操纵。            |
+| 所有活动公开透明。                 | 活动通常是私下进行的，不向公众开放。            |
 
-### DAO examples {#dao-examples}
+### DAO相关案例 {#dao-examples}
 
-To help this make more sense, here's a few examples of how you could use a DAO:
+为了帮助你更好地理解，这里有一些DAO的应用实例：
 
-- A charity – you can accept membership and donations from anyone in the world and the group can decide how they want to spend donations.
-- A freelancer network – you could create a network of contractors who pool their funds for office spaces and software subscriptions.
-- Ventures and grants – you could create a venture fund that pools investment capital and votes on ventures to back. Repaid money could later be redistributed amongst DAO-members.
+- 捐赠——你可以接受来自世界上任何人的会员资格和捐赠，组织可以决定如何使用捐款。
+- 自由职业者网络——你可以创建一个承包商网络，为办公室和软件订阅募集资金。
+- 商业投资——你可以成立一个投资基金，将资金集中起来，并投票进行商业投资。 后续收益可以分配给相应DAO成员。
 
-## DAO membership {#dao-membership}
+## 成为DAO成员 {#dao-membership}
 
-There are different models for DAO membership. Membership can determine how voting works and other key parts of the DAO.
+你可以通过多种方法成为各类DAO组织的成员。 成员们可以决定投票方式和其他DAO的关键事项。
 
-### Token-based membership {#token-based-membership}
+### 令牌成员 {#token-based-membership}
 
-Usually fully permissionless, depending on the token used. Mostly these governance tokens can be traded permissionlessly on a decentralized exchange. Others must be earned through providing liquidity or some other ‘proof-of-work’. Either way, simply holding the token grants access to voting.
+取决于使用的令牌，通常没有全部权限。 这些治理令牌大部分可以在去中心化交易所进行无限制交易， Others must be earned through providing liquidity or some other ‘proof-of-work’. 无论何种方式，只要你持有令牌就可以参与投票。
 
-_Typically used to govern broad decentralized protocols and/or tokens themselves._
+_通常用来管理广泛去中心化协议和/或令牌本身。_
 
-#### A famous example {#token-example}
+#### 知名案例 {#token-example}
 
-[MakerDAO](https://makerdao.com) – MakerDAO's token MKR is widely available on decentralized exchanges. So anyone can buy into having voting power on the Maker protocol's future.
+[MakerDAO](https://makerdao.com)——MakerDAO的令牌MKR在各大去中心化交易所都能找到。 所以任何人都可以买入MKR来参与Maker协议的投票。
 
-### Share-based membership {#share-based-membership}
+### 份额成员 {#share-based-membership}
 
-Share-based DAOs are more permissioned, but still quite open. Any prospective members can submit a proposal to join the DAO, usually offering tribute of some value in the form of tokens or work. Shares represent direct voting power and ownership. Members can exit at anytime with their proportionate share of the treasury.
+份额机制的DAO组织通常有更大权限，但仍然是相当公开透明的。 通过贡献令牌或者参与开发，任何符合资格的成员都可以提请加入组织。 你所拥有的份额直接代表了投票权和所有权。 成员可以在撤出保险库份额后随时退出。
 
-_Typically used for more closer-knit, human-centric organizations like charities, worker collectives, and investment clubs. Can also govern protocols and tokens as well._
+_通常用于慈善机构、工人团体和投资俱乐部等等以人为中心的组织。 组织也可以管理协议和令牌。_
 
-#### A famous example {#share-example}
+#### 知名案例 {#share-example}
 
-[MolochDAO](http://molochdao.com/) – MolochDAO is focused on funding Ethereum projects. They require a proposal for membership so the group can assess whether you have the necessary expertise and capital to make informed judgments about potential grantees. You can't just buy access to the DAO on the open market.
+[MolochDAO](http://molochdao.com/)——MolochDAO致力于以太链上的项目公募。 通过成员表决提案，来决定你是否有足够的能力和资本，去做出事关潜在受益人的决策。 你无法通过直接购买令牌来加入组织。
 
-## How do DAOs work? {#how-daos-work}
+## DAO如何运作？ {#how-daos-work}
 
-The backbone of a DAO is its smart contract. The contract defines the rules of the organisation and holds the group's treasury. Once the contract is live on Ethereum, no one can change the rules except by a vote. If anyone tries to do something that's not covered by the rules and logic in the code, it will fail. And because the treasury is defined by the smart contract too that means no one can spend the money without the group's approval either. This means that DAOs don't need a central authority. Instead the group makes decisions collectively and payments are authorised automatically when votes pass.
+智能合约是DAO的核心。 合约界定了组织的规则，管理组织的资金。 一旦合约在以太链上启用，除非表决通过，任何人都不能修改规则， 任何违背代码逻辑和规则的行为都不会成功。 由于资金库是由智能合约定义的，任何人都不能未经组织批准而挪用资金。 这意味着DAO不需要一个中心化管理机构， 相反，组织共同作出决定，而付款会在投票通过后自动获得批准。
 
-This is possible because smart contracts are tamper-proof once they go live on Ethereum. You can't just edit the code (the DAOs rules) without people noticing because everything is public.
+之所以能够做到这一点，是因为智能合约一旦生活在以太链生效，就无法被篡改。 一切都是公开的，只要修改代码 (DAOs组织规则) 就会被发现。
 
-<DocLink to="/developers/docs/smart-contracts/" title="More on smart contracts" />
+<DocLink to="/developers/docs/smart-contracts/" title="了解更多关于智能合约的信息" />
 
-## Ethereum and DAOs {#ethereum-and-daos}
+## 以太坊与DAO {#ethereum-and-daos}
 
-Ethereum is the perfect foundation for DAOs for a number of reasons:
+以太坊为DAO提供了良好基础，原因如下：
 
-- Ethereum’s own consensus is distributed and established enough for organizations to trust the network.
-- Smart contract code can’t be modified once live, even by its owners. This allows the DAO to run by the rules it was programmed with.
-- Smart contracts can send/receive funds. Without this you'd need a trusted intermediary to manage group funds.
-- The Ethereum community has proven to be more collaborative than competitive, allowing for best practices and support systems to emerge quickly.
+- 以太坊本身已经建立足够的共识，足以让各类组织信任以太坊网络。
+- 智能合约一旦生效就无法更改，即便是其所有者也是如此。 这使得DAO能够按照它已编程的规则运运作
+- 智能合约可以发送/接收资金。 有了这点，你就不需要可信的中间人来管理组织资金。
+- 比起竞争，以太坊社区更趋向于合作，这使得各类应用和服务系统蓬勃而生。
 
-## Join / start a DAO {#join-start-a-dao}
+## 加入/创立DAO {#join-start-a-dao}
 
-### Join a DAO {#join-a-dao}
+### 加入DAO {#join-a-dao}
 
-- [Ethereum community DAOs](/community/#decentralized-autonomous-organizations-daos/community/#decentralized-autonomous-organizations-daos)
-- [DAOHaus's list of DAOs](https://app.daohaus.club/explore)
+- [以太坊社区中的DAO](/community/#decentralized-autonomous-organizations-daos/community/#decentralized-autonomous-organizations-daos)
+- [DAOHaus中的DAO](https://app.daohaus.club/explore)
 
-### Start a DAO {#start-a-dao}
+### 创立DAO {#start-a-dao}
 
-- [Summon a DAO with DAOHaus](https://app.daohaus.club/summon)
-- [Create an Aragon-powered DAO](https://aragon.org/product)
-- [Start a colony](https://colony.io/)
-- [Build a DAO with DAOstack](https://daostack.io/)
+- [使用DAOHaus创立DAO](https://app.daohaus.club/summon)
+- [创立Aragon支持的DAO](https://aragon.org/product)
+- [创立colony](https://colony.io/)
+- [使用DAOstack创立DAO](https://daostack.io/)
 
-## Further reading {#further-reading}
+## 延伸阅读 {#further-reading}
 
-### DAO Articles {#dao-articles}
+### DAO相关文章 {#dao-articles}
 
 - [What's a DAO?](https://aragon.org/dao) – [Aragon](https://aragon.org/)
 - [House of DAOs](https://wiki.metagame.wtf/docs/great-houses/house-of-daos) – [Metagame](https://wiki.metagame.wtf/)
@@ -108,6 +108,6 @@ Ethereum is the perfect foundation for DAOs for a number of reasons:
 - [How to Start a DAO-Powered Digital Community](https://daohaus.substack.com/p/four-and-a-half-steps-to-start-a) – [DAOhaus](https://daohaus.club/)
 - [What is a DAO?](https://coinmarketcap.com/alexandria/article/what-is-a-dao) – [Coinmarketcap](https://coinmarketcap.com)
 
-### Videos {#videos}
+### 相关视频 {#videos}
 
 - [What is a DAO in crypto?](https://youtu.be/KHm0uUPqmVE)
