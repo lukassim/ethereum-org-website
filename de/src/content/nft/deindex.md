@@ -1,91 +1,91 @@
 ---
-title: Non-fungible tokens (NFT)
-description: An overview of NFTs on Ethereum
-lang: en
+title: Non-fungible-Token (NFT)
+description: Ein Überblick über NFTs auf Ethereum
+lang: de
 template: use-cases
 emoji: ":frame_with_picture:"
 sidebar: true
 sidebarDepth: 2
 image: ../../assets/infrastructure_transparent.png
-alt: "An Eth logo being displayed via hologram."
-summaryPoints: '[ "A way to represent anything unique as an Ethereum-based asset.", "NFTs are giving more power to content creators than ever before.", "Powered by smart contracts on the Ethereum blockchain.", ] ---'
+alt: "Ein Eth Logo abgebildet als Hologramm."
+summaryPoints: '["Ein Weg um alles das einzigartig ist als Ethereum-basiertes Asset darzustellebn.", "NFTs bringen den Content-Creatorn mehr Macht als je zuvor.", "Powered by Smart-Contracts auf der Ethereum Blockchain"] ---'
 ---
 
-NFTs are currently taking the digital art and collectibles world by storm. Digital artists are seeing their lives change thanks to huge sales to a new crypto-audience. And celebrities are joining in as they spot a new opportunity to connect with fans. But digital art is only one way to use NFTs. Really they can be used to represent ownership of any unique asset, like a deed for an item in the digital or physical realm.
+NFTs überrumpeln zurzeit regelrecht die Welt der digitalen Kunst im Eiltempo. Digitale Künstler erleben gerade wie sich ihre Leben unwiderruflich ändern dank der enormen Verkäufe an ein neues Krypto-Publikum. Und Prommis sind auch immer mehr dabei da sich neue Gelegenheiten eröffnen, um mit den Fans zu kommunizieren. Aber digitale Kunst ist nur ein Weg um NFTs zu nutzen. Tatsächlich können sie verwendet werden um jegliche Art von Besitz eines einzigartigen Assets festzustellen, wie eine Urkunde für einen digitalen oder physischen Gegenstand.
 
-If Andy Warhol had been born in the late 90s, he probably would have minted Campbell's Soup as an NFT. It's only a matter of time before Kanye puts a run of Yeezys on Ethereum. And one day owning your car might be proved with an NFT.
+Wäre Andy Warhol Ende der 90er Jahre geboren, hätte er wohl die Campbell Suppe als NFT geminted. Es ist nur eine Frage der Zeit, bevor Kanye eine Kollektion Yeezys auf Ethereum umsetzt. Und eines Tages beweist du vielleicht den Besitz deines Autos mit einem NFT.
 
-## What's an NFT? {#what-are-nfts}
+## Was ist ein NFT? {#what-are-nfts}
 
-NFTs are tokens that we can use to represent ownership of unique items. They let us tokenise things like art, collectibles, even real estate. They can only have one official owner at a time and they're secured by the Ethereum blockchain – no one can modify the record of ownership or copy/paste a new NFT into existence.
+NFTs sind Token, die wir benutzen können um Eigentum an einzigartigen Objekten zu repräsentieren. Sie lassen uns Dinge wie Kunst, Sammlerstücke oder gar Immobilien tokenisieren. Sie können nur einen offiziellen Besitzer gleichzeitig haben und sind durch die Ethereum Blockchain abgesichert - keiner kann den Eigentumsnachweis modifizieren oder ein neues gleichartiges NFT "in die Existenz kopieren".
 
-NFT stands for non-fungible token. Non-fungible is an economic term that you could use to describe things like your furniture, a song file, or your computer. These things are not interchangeable for other items because they have unique properties.
+NFT steht für Non-Fungible-Token. Non-Fungible ist ein ökonomischer Begriff den man z.B. im Zusammenhang mit Dingen wie Möbel, eine Song-Datei oder einen Computer verwenden kann. Diese Dinge sind nicht gegen andere gleichwertig austauschbar, da sie einzigartige Eigenschaften besitzen.
 
-Fungible items, on the other hand, can be exchanged because their value defines them rather than their unique properties. For example, ETH or dollars are fungible because 1 ETH / $1 USD is exchangeable for another 1 ETH / $1 USD. <iframe width="100%" height="315" src="https://www.youtube.com/embed/Xdkkux6OxfM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+Im Gegensatz dazu, können fungible Objekte einfach ausgetauscht werden - ihr Wert definiert sie, nicht ihre einzigartigen Eigenschaften. Zum Beispiel, ETH oder Euro sind fungible - jeder 1€ Euro bzw. jeder 1 Ether ist für einen anderen 1€ Euro oder 1 Ether ohne Änderung der unterliegenden Eigenschaften austauschbar. 1€ ist ein von einem anderen 1€ Euro nicht unterscheidbar. <iframe width="100%" height="315" src="https://www.youtube.com/embed/Xdkkux6OxfM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
 
-## The internet of assets {#internet-of-assets}
+## Das Internet der Assets {#internet-of-assets}
 
-NFTs and Ethereum solve some of the problems that exist in the internet today. As everything becomes more digital, there's a need to replicate the properties of physical items like scarcity, uniqueness, and proof of ownership. Not to mention that digital items often only work in the context of their product. For example you can't re-sell an iTunes mp3 you've purchased, or you can't exchange one company's loyalty points for another platform's credit even if there's a market for it.
+NFTs und Ethereum lösen so manche Probleme die im heutigen Internet existieren. Da alles digital wird, benötigt es Mittel Eigenschaften von physischen Objekten wie Knappheit, Einzigartigkeit und Eigentumsnachweis auf digitale Art und Weise nachzubilden. Ganz zu schweigen davon, dass digitale Objekte oft nur in einem bestimmten Kontext ihre Produktes funktionieren. Zum Beispiel kannst du kein iTunes mp3 weiterverkaufen oder Bonuspunkte der einen Firma für die einer anderen umtauschen - auch wenn es dafür Marktnachfrage gäbe.
 
-Here's how an internet of NFTs compared to the internet most of us use today looks...
+Hier ist, wie ein Internet der NFTs im Vergleich zum derzeitigen Internet aussehen könnte...
 
-### A comparison {#nft-comparison}
+### Ein Vergleich {#nft-comparison}
 
-| An NFT internet                                                                                                                                                                                             | The internet today                                                                                                                                                         |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| NFTs are digitally unique, no two NFTs are the same.                                                                                                                                                        | A copy of a file, like an .mp3 or .jpg, is the same as the original.                                                                                                       |
-| Every NFT must have an owner and this is of public record and easy for anyone to verify.                                                                                                                    | Ownership records of digital items are stored on servers controlled by institutions – you must take their word for it.                                                     |
-| NFTs are compatible with anything built using Ethereum. An NFT ticket for an event can be traded on every Ethereum marketplace, for an entirely different NFT. You could trade a piece of art for a ticket! | Companies with digital items must build their own infrastructure. For example an app that issues digital tickets for events would have to build their own ticket exchange. |
-| Content creators can sell their work anywhere and can access a global market.                                                                                                                               | Creators rely on the infrastructure and distribution of the platforms they use. These are often subject to terms of use and geographical restrictions.                     |
-| Creators can retain ownership rights over their own work, and claim resale royalties directly.                                                                                                              | Platforms, such as music streaming services, retain the majority of profits from sales.                                                                                    |
-| Items can be used in surprising ways. For example, you can use digital artwork as collateral in a decentralised loan.                                                                                       |                                                                                                                                                                            |
+| Internet der NFTs                                                                                                                                                                                                                                           | Das Internet heute                                                                                                                                                                         |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| NFTs sind digital einzigartig, keine zwei NFTs können gleich sein.                                                                                                                                                                                          | Die Kopie einer Datei, wie z.B. eines mp3s oder jpgs ist dasselbe wie das Original.                                                                                                        |
+| Jedes NFT muss einen Besitzer haben - diese Information ist öffentlich und für jeden leicht überprüfbar.                                                                                                                                                    | Besitznachweise von digitalen Objekten werden auf von Institutionen kontrollierten Servern gespeichert - du musst ihnen vertrauen.                                                         |
+| NFTs sind mit allem kompatibel, was mit Ethereum gebaut wurde. Ein NFT-Ticket für ein Event kann auf jedem Ethereum-basierten Marktplatz gehandelt werden, für ein beispielsweise komplett anderes NFT. Du könntest dein Ticket sogar gegen Kunst tauschen! | Firmen mit digitalen Objekten müssen ihre eigene Infrastruktur aufbauen. Zum Beispiel eine App die digitale Tickets für Events ausgibt müsste ihren eigenen Ticket-Handelsplatz erstellen. |
+| Content-Creator können ihre Arbeit überall verkaufen und auf einen globalen Markt zugreifen.                                                                                                                                                                | Creator sind von der Infrastruktur und Distrubution der Plattform die sie benützen abhängig. Diese unterliegen meist Nutzungbedinungen und geographischen Beschränkungen.                  |
+| Creator behalten die Eigentumsrechte an ihren Werken und können Wiederverkaufsgebühren direkt einheben.                                                                                                                                                     | Plattformen, wie z. B. Musik-Streaming-Dienste, behalten einen Großteil der Gewinne aus verkäufen ein.                                                                                     |
+| Objekte können auf überraschende Art und Weise verwendet werden. Zum Beispiel, kannst du digitale Kunstwerke als Sicherheit für einen dezentrales Darlehen hinterlegen.                                                                                     |                                                                                                                                                                                            |
 
-### NFT examples {#nft-examples}
+### NFT Beispiele {#nft-examples}
 
-The NFT world is relatively new. In theory, the scope for NFTs is anything that is unique that needs provable ownership. Here are some examples of NFTs that exist today, to help you get the idea:
+Die Welt der NFTs ist relativ neu. Theoretisch ist der Anwendungsbereich für NFTs alles, was einzigartig ist und nachweisbare Besitzrechte benötigt. Hier sind einige Beispiele von NFTs die jetzt schon existieren, um dir eine etwas bessere Vorstellung zu geben:
 
-- [A unique digital artwork](https://foundation.app/artworks)
-- [A unique sneaker in a limited-run fashion line](https://www.metagrail.co/auctions/91cf83fb-3477-4155-aae8-6dcb9b853397)
-- [An in-game item](https://market.decentraland.org/)
-- [An essay](https://zora.co/0x517bab7661C315C63C6465EEd1b4248e6f7FE183/145)
-- [A digital collectible](https://www.larvalabs.com/cryptopunks/details/1)
-- [A domain name](https://app.ens.domains/name/ethereum.eth)
-- [A ticket that gives you access to an event or a coupon](https://www.yellowheart.io/)
+- [Ein einzigartiges digitales Kunstwerk](https://foundation.app/artworks)
+- [Ein einzigartiger Sneaker in einer limitierten Modelinie](https://www.metagrail.co/auctions/91cf83fb-3477-4155-aae8-6dcb9b853397)
+- [Ein In-Game-Item](https://market.decentraland.org/)
+- [Ein Essay](https://zora.co/0x517bab7661C315C63C6465EEd1b4248e6f7FE183/145)
+- [Ein digitales Sammlerstück](https://www.larvalabs.com/cryptopunks/details/1)
+- [Ein Domain Name](https://app.ens.domains/name/ethereum.eth)
+- [Ein ticket, dass dir Zutritt zu einem Event verschafft oder ein Gutschein](https://www.yellowheart.io/)
 
-### ethereum.org examples {#ethereum-org-examples}
+### ethereum.org Beispiele {#ethereum-org-examples}
 
-We use NFTs to give back to our contributors and we've even got our own NFT domain name.
+Wir benutzen NFTs um unseren Mitwirkenden etwas zurückzugeben, und wir haben sogar unseren eigenen NFT-Domain-Namen.
 
-#### POAPs (Proof of attendance protocol) {#poaps}
+#### POAPs (Proof-Of-Attendence-Protocol) {#poaps}
 
-If you contribute to ethereum.org, you can claim a POAP NFT. These are collectibles that prove you participated in an event. Some crypto meetups have used POAPs as a form of ticket to their events. [More on contributing](/en/contributing/#poap).
+Wenn du zu ethereum.org beiträgst, kannst du ein POAP NFT beanspruchen. Das sind Sammlerstücke die beweisen, dass du bei einem bestimmten Event teilgenommen / beigetragen hast. Einige Krypto-Meetups haben POAPs als eine Form von Ticket für ihre Events verwendet. [Mehr zum Beitragen](/en/contributing/#poap).
 
 ![ethereum.org POAP](../../assets/use-cases/poap.png)
 
 #### ethereum.eth {#ethereum-dot-eth}
 
-This website has an alternative domain name powered by NFTs, **ethereum.eth**. Our `.org` address is centrally managed by a domain name system (DNS) provider, whereas ethereum`.eth` is registered on Ethereum via the Ethereum Name Service (ENS). And its owned and managed by us. [Check our ENS record](https://app.ens.domains/name/ethereum.eth)
+Diese Website hat einen alternativen Domain-Namen powered by NFTs, **ethereum.eth**. Unsere `.org` Adresse wird zentral von einem "Domain Name System Provider" (DNS) verwaltet, ethereum`.eth` ist andererseits über den Ethereum Name Service (ENS) registriert. Ethereum.eth ist unser Eigentum und wird von uns verwaltet. [Schau dir unseren ENS-Record an](https://app.ens.domains/name/ethereum.eth)
 
-[More on ENS](https://app.ens.domains)
+[Mehr zu ENS](https://app.ens.domains)
 
-## How do NFTs work? {#how-nfts-work}
+## Wie funktionieren NFTs? {#how-nfts-work}
 
-NFTs are different from ERC-20 tokens, such as DAI or LINK, in that each individual token is completely unique and is not divisible. NFTs give the ability to assign or claim ownership of any unique piece of digital data, trackable by using Ethereum's blockchain as a public ledger. An NFT is minted from digital objects as a representation of digital or non-digital assets. For example, an NFT could represent:
+NFTs sind anders als ERC-20 Token wie DAI oder LINK, da die einzelnen Token komplett einzigartig und nicht verkennbar sind. NFTs geben die Möglichkeit, jedes einzigartige Objekt an digitalen Daten zu übertragen oder zu beanspruchen, und zwar durch die Nutzung der Ethereum-Blockchain als öffentliches Register. Ein NFT wird sozusagen aus digitalen Objekten "geprägt", um digitale oder nicht digitale Werte zu repräsentieren. Zum Beispiel, könnte ein NFT folgendes repräsentieren:
 
-- Digital Art:
+- Digitale Kunst:
   - GIFs
-  - Collectibles
-  - Music
+  - Sammlerstücke
+  - Musik
   - Videos
-- Real World Items:
-  - Deeds to a car
-  - Tickets to a real world event
-  - Tokenized invoices
-  - Legal documents
-  - Signatures
-- Lots and lots more options to get creative with!
+- Reale Gegenstände:
+  - Titel bei einem Auto
+  - Tickets zu Events in der realen Welt
+  - Tokenisierte Rechnungen
+  - Rechtliche Dokumente
+  - Signaturen
+- Viele, viele weitere Möglichkeiten um kreativ zu werden!
 
-An NFT can only have one owner at a time. Ownership is managed through the uniqueID and metadata that no other token can replicate. NFTs are minted through smart contracts that assign ownership and manage the transferability of the NFT's. When someone creates or mints an NFT, they execute code stored in smart contracts that conform to different standards, such as ERC-721. This information is added to the blockchain where the NFT is being managed. The minting process, from a high level, has the following steps that it goes through:
+Ein NFT kann zeitgleich nur einen Besitzer haben. Ownership is managed through the uniqueID and metadata that no other token can replicate. NFTs are minted through smart contracts that assign ownership and manage the transferability of the NFT's. When someone creates or mints an NFT, they execute code stored in smart contracts that conform to different standards, such as ERC-721. This information is added to the blockchain where the NFT is being managed. The minting process, from a high level, has the following steps that it goes through:
 
 - Creating a new block
 - Validating information
@@ -297,7 +297,7 @@ When you mint an NFT, a few things have to happen:
 
 All these tasks are done by miners. And they let the rest of the network know about your NFT and who owns it. This means mining needs to be sufficiently difficult, otherwise anyone could just claim that they own the NFT you just minted and fraudulently transfer ownership. There are lots of incentives in place to make sure miners are acting honestly.
 
-[More on mining](/developers/docs/consensus-mechanisms/pow/)
+[Mehr zum Mining](/developers/docs/consensus-mechanisms/pow/)
 
 #### Securing your NFT with mining {#securing-nfts}
 
@@ -388,7 +388,7 @@ Want to turn your content into a NFT?
 
 Most NFTs are built using a consistent standard known as [ERC-721](/developers/docs/standards/tokens/erc-721/). However there are other standards that you might want to look into. The [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) standard allows for semi-fungible tokens which is particularly useful in the realm of gaming. And more recently, [EIP-2309](https://eips.ethereum.org/EIPS/eip-2309) has been proposed to make minting NFTs a lot more efficient. This standard lets you mint as many as you like in one transaction!
 
-## Further reading {#further-reading}
+## Weiterführende Informationen {#further-reading}
 
 - [Crypto art data](https://cryptoart.io/data) – Richard Chen, updated automatically
 - [OpenSea: the NFT Bible](https://opensea.io/blog/guides/non-fungible-tokens/) – _Devin Fizner, January 10 2020_
