@@ -11,11 +11,11 @@ sidebarDepth: 2
 summaryPoints: '[ “当前金融体系的全球开放替代品。”] “允许您借贷、储蓄、投资、交易等产品。 , "基于任何人都可以编程的开放源码技术。"。" ---'
 ---
 
-DeFi 是一个开放的全球金融系统，专为互联网时代而构建——是不透明、严格控制并由数十年历史的基础设施和流程结合在一起的系统的替代方案。 它使您可以控制和了解您的资金。 它让您有机会接触全球市场，并可以替代当地货币或银行业务。 DeFi 产品向任何有互联网连接的人开放金融服务，产品主要由用户创造和维护。 DeFi is an open and global financial system built for the internet age – an alternative to a system that's opaque, tightly controlled, and held together by decades-old infrastructure and processes. It gives you control and visibility over your money. It gives you exposure to global markets and alternatives to your local currency or banking options. DeFi products open up financial services to anyone with an internet connection and they're largely owned and maintained by their users. So far tens of billions of dollars worth of crypto has flowed through DeFi applications and it's growing every day.
+DeFi 是一个开放的全球金融系统，专为互联网时代而构建——是不透明、严格控制并由数十年历史的基础设施和流程结合在一起的系统的替代方案。 它使您可以控制和了解您的资金。 它让您有机会接触全球市场，并可以替代当地货币或银行业务。 DeFi 产品向任何有互联网连接的人开放金融服务，产品主要由用户创造和维护。 迄今为止，价值数百亿美元的加密货币已经通过DeFi应用流动，而且每天都在增长。
 
 ## 什么是 DeFi？ {#what-is-defi}
 
-DeFi is a collective term for financial products and services that are accessible to anyone who can use Ethereum – anyone with an internet connection. With DeFi, the markets are always open and there are no centralized authorities who can block payments or deny you access to anything. Services that were previously slow and at risk of human error are automatic and safer now that they're handled by code that anyone can inspect and scrutinize. 使用 DeFi，市场始终是开放的，没有中央机构可以阻止付款或拒绝您访问任何东西。 以前缓慢的、有可能出现人为错误的服务，现在由任何人都可以检查和审查的代码来处理，变得自动和安全。
+DeFi 是金融产品和服务的统称，任何可以使用以太坊的人都可以访问这些产品和服务——任何有互联网连接的人。 使用 DeFi，市场始终是开放的，没有中央机构可以阻止付款或拒绝您访问任何东西。 以前缓慢的、有可能出现人为错误的服务，现在由任何人都可以检查和审查的代码来处理，变得自动和安全。
 
 那里有一个蓬勃发展的加密经济，你可以在那里放贷、借入、做多/做空、赚取利息等等。 精通加密技术的阿根廷人已经使用 DeFi 来逃避严重的通货膨胀。 公司已经开始按时向员工发放工资。 有些人甚至在不需要任何个人身份证明的情况下，就已经获得或偿还了价值数百万美元的贷款。 <iframe width="100%" height="315px" src="https://www.youtube.com/embed/H-O3r2YMWJ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
 
@@ -48,13 +48,13 @@ DeFi is a collective term for financial products and services that are accessibl
 
 ## 从比特币开始... {#bitcoin}
 
-Bitcoin in many ways was the first DeFi application. Bitcoin lets you really own and control value and send it anywhere around the world. It does this by providing a way for a large number of people, who don't trust each other, to agree on a ledger of accounts without the need for a trusted intermediary. Bitcoin is open to anyone and no one has the authority to change its rules. Bitcoin's rules, like its scarcity and its openness, are written into the technology. It's not like traditional finance where governments can print money which devalues your savings and companies can shut down markets. 比特币让您真正能够拥有和掌控价值，并将其发送到世界任何地方。 它通过提供一种方式，让大量彼此不信任的人，在不需要信任的中介的情况下，就账户的分类账达成一致。 比特币对任何人开放，任何人都无权更改其规则。 比特币的规则，比如它的稀缺性和开放性，都被写入了技术中。 这与传统金融不同，在传统金融中，政府可以印钞使您的储蓄贬值，而机构可以关闭市场。
+比特币从某种程度来讲，是第一个DeFi应用。 比特币让您真正能够拥有和掌控价值，并将其发送到世界任何地方。 它通过提供一种方式，让大量彼此不信任的人，在不需要信任的中介的情况下，就账户的分类账达成一致。 比特币对任何人开放，任何人都无权更改其规则。 比特币的规则，比如它的稀缺性和开放性，都被写入了技术中。 这与传统金融不同，在传统金融中，政府可以印钞使您的储蓄贬值，而机构可以关闭市场。
 
-以太坊以此为基础。 就像比特币一样，规则不会因你而改变，每个人都可以访问。 Ethereum builds on this. Like Bitcoin, the rules can't change on you and everyone has access. But it also makes this digital money programmable, using [smart contracts](/glossary#smart-contract), so you can go beyond storing and sending value. <iframe width="100%" height="315" src="https://www.youtube.com/embed/qFBYB4W2tqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+以太坊以此为基础。 就像比特币一样，规则不会因你而改变，每个人都可以访问。 它也使这种数字货币可以程序化，使用[smart contracts](/glossary#smart-contract)技术，让它的价值不仅限于储蓄与交易。 <iframe width="100%" height="315" src="https://www.youtube.com/embed/qFBYB4W2tqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
 
 ## 程序化的货币 {#programmable-money}
 
-This sounds odd... "why would I want to program my money"? However, this is more just a default feature of tokens on Ethereum. Anyone can program logic into payments. So you can get the control and security of Bitcoin mixed with the services provided by financial institutions. This lets you do things with cryptocurrencies that you can't do with Bitcoin like lending and borrowing, scheduling payments, investing in index funds and more. 然而，这只是以太坊代币的默认功能。 任何人都可以将逻辑编程到支付中。 因此，您可以将比特币的控制权和安全性与金融机构提供的服务相结合。 这让你可以用加密货币做一些你用比特币做不到的事情，比如借贷、预约付款、投资指数基金等等。
+这听起来很奇怪……“为什么我想要对我的钱进行编程”？ 然而，这只是以太坊代币的默认功能。 任何人都可以将逻辑编程到支付中。 因此，您可以将比特币的控制权和安全性与金融机构提供的服务相结合。 这让你可以用加密货币做一些你用比特币做不到的事情，比如借贷、预约付款、投资指数基金等等。
 
 <InfoBanner shouldSpaceBetween emoji=":eyes:">
   <div>如果您不熟悉以太坊，请尝试一下我们推荐的以太坊应用程序。</div>
@@ -63,7 +63,7 @@ This sounds odd... "why would I want to program my money"? However, this is more
 
 ## 你可以用 DeFi 做什么？ {#defi-use-cases}
 
-大多数金融服务在以太坊都有去中心化的替代方案。 There's a decentralized alternative to most financial services. But Ethereum also creates opportunities for creating financial products that are completely new. This is an ever-growing list. 这是一个不断增长的清单。
+大多数金融服务在以太坊都有去中心化的替代方案。 但以太坊也为创造全新的金融产品创造了机会。 这是一个不断增长的清单。
 
 - [向世界各地汇款](#send-money)
 - [在全球范围内流转资金](#stream-money)
@@ -81,13 +81,13 @@ This sounds odd... "why would I want to program my money"? However, this is more
 
 ### 向世界各地快速汇款 {#send-money}
 
-As a blockchain, Ethereum is designed for sending transactions in a secure and global way. Like Bitcoin, Ethereum makes sending money around the world as easy as sending an email. Just enter your recipient's [ENS name](/nft/#nft-domains) (like bob.eth) or their account address from your wallet and your payment will go directly to them in minutes (usually). To send or receive payments, you will need a [wallet](/wallets/). 与比特币一样，以太坊使得向世界各地发送资金就像发送电子邮件一样容易。 只要输入您的收件人的[ ENS 名字](/nft/#nft-domains)（如 bob.eth）或他们在你钱包中的账户地址，您的付款将（通常）在几分钟内直接到达他们手中。 要发送或接收付款，您将需要一个[钱包](/wallets/)。
+作为一个区块链，以太坊是为了让用户在全球范围内安全地发送交易而设计的。 与比特币一样，以太坊使得向世界各地发送资金就像发送电子邮件一样容易。 只要输入您的收件人的[ ENS 名字](/nft/#nft-domains)（如 bob.eth）或他们在你钱包中的账户地址，您的付款将（通常）在几分钟内直接到达他们手中。 要发送或接收付款，您将需要一个[钱包](/wallets/)。
 
 <ButtonLink to="/dapps/?category=finance">查看支付 dapps</ButtonLink>
 
 #### 在全球范围内流转资金... {#stream-money}
 
-You can also stream money over Ethereum. This lets you pay someone their salary by the second, giving them access to their money whenever they need it. Or rent something by the second like a storage locker or electric scooter. 这可以让您秒速支付某人的工资，让他们可以在需要时获得钱。 或者立刻租用一些东西，如储物柜或电动滑板车。
+您也可以在以太坊上汇款。 这可以让您秒速支付某人的工资，让他们可以在需要时获得钱。 或者立刻租用一些东西，如储物柜或电动滑板车。
 
 而且，如果您不想发送 [ ETH](/eth/) ，因为它的价值可能会发生改变， 以太坊上还有很多其他替代的货币，比如稳定币。
 
@@ -95,9 +95,9 @@ You can also stream money over Ethereum. This lets you pay someone their salary 
 
 ### 获取稳定币 {#stablecoins}
 
-加密货币的波动对很多金融产品和一般消费来说，都是一个问题。 Cryptocurrency volatility is a problem for lots of financial products and general spending. The DeFi community has solved this with stablecoins. Their value stays pegged to an another asset, usually a popular currency like dollars. 它们的价值保持与另一种资产挂钩，通常是像美元这样受欢迎的货币。
+加密货币的波动对很多金融产品和一般消费来说，都是一个问题。 DeFi 社区已经通过稳定币解决了这个问题。 它们的价值保持与另一种资产挂钩，通常是像美元这样受欢迎的货币。
 
-Coins like Dai or USDC have a value that stays within a few cents of a dollar. This makes them perfect for earning or retail. Many people in Latin America have used stablecoins as a way of protecting their savings in a time of great uncertainty with their government-issued currencies. 这使他们能够完美地赚钱或零售。 在政府发行的货币出现巨大不确定性的时候，拉丁美洲的许多人使用稳定币作为保护其储蓄的一种方式。
+Dai 或 USDC 等代币的价值和美元差距通常保持在几分之内。 这使他们能够完美地赚钱或零售。 在政府发行的货币出现巨大不确定性的时候，拉丁美洲的许多人使用稳定币作为保护其储蓄的一种方式。
 
 <ButtonLink to="/stablecoins/">更多关于稳定币的信息</ButtonLink>
 
@@ -116,19 +116,19 @@ Coins like Dai or USDC have a value that stays within a few cents of a dollar. T
 
 #### 隐私借贷 {#borrowing-privacy}
 
-今天，贷款和借钱都是围绕着相关的个人。 Today, lending and borrowing money all revolves around the individuals involved. Banks need to know whether you're likely to repay a loan before lending.
+今天，贷款和借钱都是围绕着相关的个人。 银行在放贷前，需要了解您是否有可能偿还贷款。
 
-Decentralized lending works without either party having to identify themselves. Instead the borrower must put up collateral that the lender will automatically receive if their loan is not repaid. Some lenders even accept NFTs as collateral. NFTs are a deed to a unique asset, like a painting. [More on NFTs](/nft/) 取而代之的是，借款人必须提供抵押品，如果他们的贷款没有偿还，贷款人将自动获得抵押品。 有些放款人甚至接受 NFT 作为抵押品。 NFTs 是一种独特的资产，如绘画。 [ 更多关于 NFTs 的内容 ](/nft/)
+去中心化借贷的进行不需要任何一方表明自己的身份。 取而代之的是，借款人必须提供抵押品，如果他们的贷款没有偿还，贷款人将自动获得抵押品。 有些放款人甚至接受 NFT 作为抵押品。 NFTs 是一种独特的资产，如绘画。 [ 更多关于 NFTs 的内容 ](/nft/)
 
 这允许您可以在没有信用验证或透露私人信息的情况下借钱。
 
 #### 获得全球资金 {#access-global-funds}
 
-When you use a decentralized lender you have access to funds deposited from all over the globe, not just the funds in the custody of your chosen bank or institution. This make loans more accessible and improves the interest rates. 这使贷款更容易获得，并提高利率。
+当您使用分散的放款人时，可以使用来自全球各地的存款，而不仅仅是由您选定的银行或机构保管的资金。 这使贷款更容易获得，并提高利率。
 
 #### 税收优惠 {#tax-efficiencies}
 
-借贷可以让您获得您所需的资金，而无需出售您的 ETH（该行为需要征税）。 Borrowing can give you access to the funds you need without needing to sell your ETH (a taxable event). Instead you can use ETH as collateral for a stablecoin loan. This gives you the cash-flow you need and lets you keep your ETH. Stablecoins are tokens that are much better for when you need cash as they don't fluctuate in value like ETH. [More on stablecoins](#stablecoins) 这给了您所需的现金流，并允许您继续持有您的 ETH。 当您需要现金时，稳定币更好，因为它们不会像 ETH 一样波动。 [ 更多关于稳定币的内容 ](#stablecoins)
+借贷可以让您获得您所需的资金，而无需出售您的 ETH（该行为需要征税）。 相反，您可以使用 ETH 作为抵押，借出稳定币。 这给了您所需的现金流，并允许您继续持有您的 ETH。 当您需要现金时，稳定币更好，因为它们不会像 ETH 一样波动。 [ 更多关于稳定币的内容 ](#stablecoins)
 
 #### 闪电贷 {#flash-loans}
 
@@ -136,11 +136,11 @@ When you use a decentralized lender you have access to funds deposited from all 
 
 它们现在还没有被非技术人员广泛使用，但它们向所有人暗示了未来的可能。
 
-It works on the basis that the loan is taken out and paid back within the same transaction. If it can't be paid back, the transaction reverts as if nothing ever happened. 如果无法偿还，交易就会恢复原状，就像什么都没有发生过一样。
+它的工作原理是，在同一笔交易中进行贷款和还款。 如果无法偿还，交易就会恢复原状，就像什么都没有发生过一样。
 
-经常使用的资金被存放在流动资金池（用于借贷的大资金池）。 The funds that are often used are held in liquidity pools (big pools of funds used for borrowing). If they are not being used at a given moment, this creates an opportunity for someone to borrow these funds, conduct business with them, and repay them in-full quite literally at the same time they're borrowed.
+经常使用的资金被存放在流动资金池（用于借贷的大资金池）。 如果它们在某一时刻没有被利用，这就创造了一个机会，有人可以借用这些资金，用它们开展业务，并在借入资金的同时全额偿还。
 
-这意味着大量的逻辑必须包含在一个专门的交易中。 This means a lot of logic must be included in a very bespoke transaction. A simple example might be someone using a flash loan to borrow as much of an asset at one price so they can sell it on a different exchange where the price is higher.
+这意味着大量的逻辑必须包含在一个专门的交易中。 一个简单的例子可能是有人使用闪电贷款，以一个价格借入尽可能多的资产，这样他们就可以在价格更高的不同交易所出售资产。
 
 所以在单笔交易中会发生以下情况：
 
@@ -151,7 +151,7 @@ It works on the basis that the loan is taken out and paid back within the same t
 
 如果交易所 B 的供应突然下降，而用户无法购买足够的资金来支付原始贷款，交易就会失败。
 
-要想在传统金融世界做上述的例子，您需要大量的资金。 这些赚钱的策略只有那些现在已经拥有财富的人才能使用。 To be able to do the above example in the traditional finance world, you'd need an enormous amount of money. These money-making strategies are only accessible to those with existing wealth. Flash loans are an example of a future where having money is not necessarily a prerequisite for making money.
+要想在传统金融世界做上述的例子，您需要大量的资金。 这些赚钱的策略只有那些现在已经拥有财富的人才能使用。 闪电贷款是未来的一个例子，在这里，拥有金钱不一定是赚钱的先决条件。
 
 [更多关于闪电贷的内容](https://aave.com/flash-loans/)
 
@@ -161,11 +161,11 @@ It works on the basis that the loan is taken out and paid back within the same t
 
 #### 借款 {#lending}
 
-You can earn interest on your crypto by lending it and see your funds grow in real time. Right now interest rates are much higher than what you're likely to get at your local bank (if you're lucky enough to be able to access one). Here's an example: 现在的利率比你在当地银行可能得到的要高得多（如果你足够幸运能够使用当地的银行系统）。 这里有一个案例：
+您可以通过借出你的加密货币来赚取利息，并看到您资金的实时增长。 现在的利率比你在当地银行可能得到的要高得多（如果你足够幸运能够使用当地的银行系统）。 这里有一个案例：
 
 - 您借出 100 Dai [ 稳定币](/ stablecoin /), 借给类似 Aave 的产品。
 - 您会收到 100 个 Aave Dai（aDai），这是一个代表您借出 Dai 的象征。
-- Your aDai will increase based on the interest rates and you can see your balance growing in your wallet. Dependent on the APR, your wallet balance will read something like 100.1234 after a few days or even hours! 根据APR，您的钱包余额在几天甚至几小时后会显示为 100.1234 这样的数字。
+- 您的 aDai 将根据利率增加，您可以看到钱包里的余额在增长。 根据APR，您的钱包余额在几天甚至几小时后会显示为 100.1234 这样的数字。
 - 您可以在任何时候提取与您的 aDai 余额相等的普通 Dai。
 
 <ButtonLink to="/dapps/?category=finance">查看更多借贷 dapps</ButtonLink>
@@ -188,9 +188,9 @@ You can earn interest on your crypto by lending it and see your funds grow in re
 
 ### 兑换代币 {#swaps}
 
-以太坊上有数千种代币。 There are thousands of tokens on Ethereum. Decentralized exchanges (DEXs) let you trade different tokens whenever you want. You never give up control of your assets. This is like using a currency exchange when visiting a different country. But the DeFi version never closes. The markets are 24/7, 365 days a year and the technology guarantees there will always be someone to accept a trade. 您永远掌控您的资产。 这就像在访问一个不同的国家时，使用货币兑换。 但 DeFi 版本从来不休息。 市场是 24/7，一年 365 天，技术保证总是会有人接受交易。
+以太坊上有数千种代币。 去中心化的交易所（DEX）让你随时交易不同的代币。 您永远掌控您的资产。 这就像在访问一个不同的国家时，使用货币兑换。 但 DeFi 版本从来不休息。 市场是 24/7，一年 365 天，技术保证总是会有人接受交易。
 
-For example, if you want to use the no-loss lottery PoolTogether (described above), you'll need a token like Dai or USDC. These DEXss allow you to swap your ETH for those tokens and back again when you're finished. 这些去中心化交易所允许您将您的 ETH 换成这些代币，当你完成后再换回来。
+例如，如果您想使用无损彩票 PoolTogether（如上所述），您需要一个像 Dai 或 USDC 的代币。 这些去中心化交易所允许您将您的 ETH 换成这些代币，当你完成后再换回来。
 
 <ButtonLink to="/dapps/?category=finance">查看代币兑换</ButtonLink>
 
@@ -198,9 +198,9 @@ For example, if you want to use the no-loss lottery PoolTogether (described abov
 
 ### 高级交易 {#trading}
 
-对于喜欢更多控制的交易者来说，还有更多高级选项。 限价单、永续合约、保证金交易等都是可能的。 There are more advanced options for traders who like a little more control. Limit orders, perpetuals, margin trading and more are all possible. With Decentralized trading you get access to global liquidity, the market never closes, and you're always in control of your assets.
+对于喜欢更多控制的交易者来说，还有更多高级选项。 限价单、永续合约、保证金交易等都是可能的。 通过去中心化的交易，您可以获得全球的流动性，市场永远不会关闭，而且您始终控制着您的资产。
 
-当您使用中心化交易所时，您必须在交易前存入您的资产，并相信交易所会照看好它们。 When you use a centralized exchange you have to deposit your assets before the trade and trust them to look after them. While your assets are deposited, they're at risk as centralized exchanges are attractive targets for hackers.
+当您使用中心化交易所时，您必须在交易前存入您的资产，并相信交易所会照看好它们。 当您的资产被存入时，它们会面临风险，因为中心化交易所对黑客来说是诱人的目标。
 
 <ButtonLink to="/dapps/?category=finance">查看更多交易 dapps</ButtonLink>
 
@@ -208,9 +208,9 @@ For example, if you want to use the no-loss lottery PoolTogether (described abov
 
 ### 增长您的投资组合 {#investing}
 
-There are fund management products on Ethereum that will try to grow your portfolio based on a strategy of your choice. This is automatic, open to everyone, and doesn't need a human manager taking a cut of your profits. 这是自动的，对每个人都开放，不需要有经理从您的利润中抽成。
+以太坊上有一些基金管理产品，它们会尝试根据您选择的策略来增长您的投资组合。 这是自动的，对每个人都开放，不需要有经理从您的利润中抽成。
 
-一个很好的例子是 [ DeFi 指数（DPI）](https://defipulse.com/blog/defi-pulse-index/)。 A good example is the [DeFi Pulse Index fund (DPI)](https://defipulse.com/blog/defi-pulse-index/). This is a fund that rebalances automatically to ensure your portfolio always includes [the top DeFi tokens by market capitalisation](https://www.coingecko.com/en/defi). You never have to manage any of the details and you can withdraw from the fund whenever you like. 您从来不需要管理任何细节，您可以随时从基金中提取。
+一个很好的例子是 [ DeFi 指数（DPI）](https://defipulse.com/blog/defi-pulse-index/)。 这是一个自动进行再平衡的基金，以确保您的组合总是包含[市值最高的 DeFi 代币](https://www.coingecko.com/en/defi) 。 您从来不需要管理任何细节，您可以随时从基金中提取。
 
 <ButtonLink to="/dapps/?category=finance">查看投资 dapps</ButtonLink>
 
@@ -221,21 +221,21 @@ There are fund management products on Ethereum that will try to grow your portfo
 以太坊是一个理想的众筹平台：
 
 - 潜在的资助者可以来自任何地方 —— 以太坊及其代币向世界上任何地方的任何人开放。
-- It's transparent so fundraisers can prove how much money has been raised. You can even trace how funds are being spent later down the line. 您甚至可以在以后的工作中追踪资金的使用情况。
+- 它是透明的，所以募捐者可以证明已经筹集了多少钱。 您甚至可以在以后的工作中追踪资金的使用情况。
 - 募捐者可以设置自动退款，例如，如果有一个特定的最后期限和最低金额没有达到，就可以自动退款。
 
 <ButtonLink to="/dapps/?category=finance">查看更多众筹 dapps</ButtonLink>
 
 #### 二次方融资 {#quadratic-funding}
 
-Ethereum is open source software and a lot of the work so far has been funded by the community. This has led to the growth of an interesting new fundraising model: quadratic funding. This has the potential to improve the way we fund all types of public goods in the future. 这产生了一种有趣的新型募资模式：二次方融资。 这有可能改善我们在未来为各种公共产品募资的方式。
+以太坊是开源的，到目前为止，很多工作都是由社区资助的。 这产生了一种有趣的新型募资模式：二次方融资。 这有可能改善我们在未来为各种公共产品募资的方式。
 
-Quadratic funding makes sure that the projects that receive the most funding are those with the most unique demand. In other words, projects that stand to improve the lives of the most people. Here's how it works: 换句话说，就是那些能够改善大多数人生活的项目。 二次方融资确保获得最多资金的项目是那些具有最独特需求的项目。
+二次方融资确保获得最多资金的项目是那些具有最独特需求的项目。 换句话说，就是那些能够改善大多数人生活的项目。 二次方融资确保获得最多资金的项目是那些具有最独特需求的项目。
 
 1. 捐赠的资金有一个匹配池。
 2. 一轮公共融资开始。
 3. 人们可以通过捐献一些钱，来表明他们对一个项目的需求。
-4. 一旦这轮结束，匹配池的资金就会分配给项目。 Once the round is over, the matching pool is distributed to projects. Those with the most unique demand get the highest amount from the matching pool.
+4. 一旦这轮结束，匹配池的资金就会分配给项目。 那些有最独特需求的项目，从匹配池中获得最高金额。
 
 这意味着获得100 笔 1 美元捐款的项目A最终可能比获得1笔1 万美元捐款的项目B获得更多的资金（取决于匹配池的大小）。
 
@@ -245,7 +245,7 @@ Quadratic funding makes sure that the projects that receive the most funding are
 
 ### 保险 {#insurance}
 
-Decentralized insurance aims to make insurance cheaper, faster to pay out, and more transparent. With more automation, coverage is more affordable and pay-outs are a lot quicker. The data used to decide on your claim is completely transparent. 随着自动化程度的提高，保险的价格更加低廉，赔付的速度也快了很多。 用来决定你的索赔的数据是完全透明的。
+去中心化的保险旨在使保险更便宜，更快支付，更透明。 随着自动化程度的提高，保险的价格更加低廉，赔付的速度也快了很多。 用来决定你的索赔的数据是完全透明的。
 
 以太坊产品，就像任何软件一样，可能会出现漏洞。 因此，现在该领域的很多保险产品都侧重于保护其用户免受资金损失。 然而，有一些项目开始为日常生活建立保障。 这方面的一个很好的例子是 Etherisc 粮食公司旨在保护[保护肯尼亚的小农户免受干旱和洪水的影响](https://blog.etherisc.com/etherisc-teams-up-with-chainlink-to-deliver-crop-insurance-in-kenya-137e433c29dc)。 去中心化的保险可以为那些经常被传统保险拒之门外的农民提供更便宜的保障。
 
@@ -263,22 +263,22 @@ Decentralized insurance aims to make insurance cheaper, faster to pay out, and m
 
 ## DeFi 是如何运作的？ {#how-defi-works}
 
-DeFi uses cryptocurrencies and smart contracts to provide services that don't need intermediaries. In today's financial world, financial institutions act as guarantors of transactions. This gives these institutions immense power because your money flows through them. Plus billions of people around the world can't even access a bank account. 在现代金融体系下，金融机构扮演了交易的担保人。 因为您的资产通过这些机构流通，这使得这些机构拥有巨大的能量。 世界上还有数十亿人甚至无法使用银行账户。
+DeFi 使用加密货币和智能合约来提供不需要中介的金融服务。 在现代金融体系下，金融机构扮演了交易的担保人。 因为您的资产通过这些机构流通，这使得这些机构拥有巨大的能量。 世界上还有数十亿人甚至无法使用银行账户。
 
-在 DeFi，智能合约取代了交易中的金融机构。 In DeFi, a smart contract replaces the financial institution in the transaction. A smart contract is a type of Ethereum account that can hold funds and can send/refund them based on certain conditions. No one can alter that smart contract when it's live – it will always run as programmed. 当智能合约上线时，没有人可以改变它，它将永远按照程序运行。
+在 DeFi，智能合约取代了交易中的金融机构。 智能合约是一种以太坊账户，可以持有资金，并可以根据某些条件发送/ 退还资金。 当智能合约上线时，没有人可以改变它，它将永远按照程序运行。
 
-A contract that's designed to hand out an allowance or pocket money could be programmed to send money from Account A to Account B every Friday. And it will only ever do that as long as Account A has the required funds. No one can change the contract and add Account C as a recipient to steal funds. 只有账户 A 拥有所需资金，它才会这样做。 没有人可以改变智能合约，将账户 C 添加为收款人，窃取资金。
+一份旨在发放补贴或零用钱的合同可以被编程为：每周五从 A 账户向 B 账户汇款。 只有账户 A 拥有所需资金，它才会这样做。 没有人可以改变智能合约，将账户 C 添加为收款人，窃取资金。
 
-智能合约也是公开的，任何人都可以检查和审计。 Contracts are also public for anyone to inspect and audit. This means bad contracts will often come under community scrutiny pretty quickly.
+智能合约也是公开的，任何人都可以检查和审计。 这意味着不好的合约往往会很快受到社会的监督。
 
-This does mean there's currently a need to trust the more technical members of the Ethereum community who can read code. The open-source based community helps keep developers in check, but this need will diminish over time as smart contracts become easier to read and other ways to prove trustworthiness of code are developed. 基于开源的社区有助于控制开发者，但随着智能合约变得更容易阅读，以及其他证明代码可信度的方法的开发，这种需求将随着时间的推移而减少。
+这确实意味着，目前需要信任以太坊社区中能够阅读代码的技术成员。 基于开源的社区有助于控制开发者，但随着智能合约变得更容易阅读，以及其他证明代码可信度的方法的开发，这种需求将随着时间的推移而减少。
 
 ## 以太坊与 DeFi {#ethereum-and-defi}
 
 以太坊为 DeFi 提供了良好基础，原因如下：
 
-- No one owns Ethereum or the smart contracts that live on it – this gives everyone an opportunity to use DeFi. This also means no one can change the rules on you. 这也意味着任何人都不能改变规则。
-- DeFi products all speak the same language behind the scenes: Ethereum. This means many of the products work together seamlessly. You can lend tokens on one platform and exchange the interest-bearing token in a different market on an entirely different application. This is like being able to cash loyalty points in at your bank. 这意味着许多产品能够无缝合作。 您可以在一个平台上借出代币，并在一个完全不同的应用中，在不同的市场上交换带利息的代币。 这就像能够在您的银行将积分兑现。
+- 没有人拥有以太坊或部署在以太坊上的智能合约 —— 这让每个人都有机会使用 DeFi。 这也意味着任何人都不能改变规则。
+- DeFi 产品都使用相同的语言：以太坊。 这意味着许多产品能够无缝合作。 您可以在一个平台上借出代币，并在一个完全不同的应用中，在不同的市场上交换带利息的代币。 这就像能够在您的银行将积分兑现。
 - 代币和加密货币是建立在以太坊这个共享账本上的 —— 记录交易和所有权是以太坊的事情。
 - 以太坊允许财务自由 —— 大多数产品永远不会保管您的资金，您的资产由你掌握。
 
@@ -291,7 +291,7 @@ This does mean there's currently a need to trust the more technical members of t
 
 ## 构建 DeFi {#build-defi}
 
-DeFi is an open-source movement. The DeFi protocols and applications are all open for you to inspect, fork, and innovate on. Because of this layered stack (they all share the same base blockchain and assets), protocols can be mixed and matched to unlock unique combo opportunities. DeFi 协议和应用都是开放的，您可以自行检查、分叉和创新。 由于这个分层堆栈（他们都共享相同的基础区块链和资产)，协议可以混合和匹配以解锁独特的组合机会。
+DeFi 是一场开源行动。 DeFi 协议和应用都是开放的，您可以自行检查、分叉和创新。 由于这个分层堆栈（他们都共享相同的基础区块链和资产)，协议可以混合和匹配以解锁独特的组合机会。
 
 <ButtonLink to="/developers/docs/dapps/">更多关于构建 dapps 的信息</ButtonLink>
 
