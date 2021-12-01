@@ -227,7 +227,7 @@ NFT svet in svet [decentraliziranih financ (DeFi)](/defi/) začenjata sodelovati
 
 Obstajajo DeFi aplikacije, ki vam omogočajo, da si sposodite denar z uporabo zavarovanja. Naprimer, lahko uporabite 10 ETH kot zavarovanje, da si izposodite 5000 DAI ([stabilen kovanec](/stablecoins/)). To zagotavlja da bo posojilodajalec poplačan – v primeru da posojilojemalec ne odplača DAI, bo zavarovanje poslano posojilodajalcu. Vendar nimajo vsi dovolj kriprovalut, da bi jih lahko uporabili za zavarovanje.
 
-Projekti začenjajo z raziskovanjem uporabe NFTjev kot zavaroavanja. Predstavljajte si, da ste pred časom kupili redek CryptoPunk NFT – zanj lahko po današnjih cenah iztržite več 100 tisoč dolarjev. Če jih zastavite kot zavarovanje, boste lahko dostopali dostopali do posojil znotraj enakih pravil. Če ne odlačate DAI, bo vaš CryptoPunk, uporabljen kot zavarovanje, poslan posojilodajalcu. To bi sčasoma lahko delovalo za vse kar bi tokenizirali kot NFT.
+Projekti začenjajo z raziskovanjem uporabe NFTjev kot zavaroavanja. Predstavljajte si, da ste pred časom kupili redek CryptoPunk NFT – zanj lahko po današnjih cenah iztržite več tisoč dolarjev. Če jih zastavite kot zavarovanje, boste lahko dostopali dostopali do posojil znotraj enakih pravil. Če ne odlačate DAI, bo vaš CryptoPunk, uporabljen kot zavarovanje, poslan posojilodajalcu. To bi sčasoma lahko delovalo za vse kar bi tokenizirali kot NFT.
 
 In to na Ethereumu ni težko, saj si oba svetova (NFT in DeFi) delita isto infrastrukturo.
 
