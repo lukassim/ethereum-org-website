@@ -85,265 +85,265 @@ NFTs sind anders als ERC-20 Token wie DAI oder LINK, da die einzelnen Token komp
   - Signaturen
 - Viele, viele weitere Möglichkeiten um kreativ zu werden!
 
-Ein NFT kann zeitgleich nur einen Besitzer haben. Ownership is managed through the uniqueID and metadata that no other token can replicate. NFTs are minted through smart contracts that assign ownership and manage the transferability of the NFT's. When someone creates or mints an NFT, they execute code stored in smart contracts that conform to different standards, such as ERC-721. This information is added to the blockchain where the NFT is being managed. The minting process, from a high level, has the following steps that it goes through:
+Ein NFT kann zeitgleich nur einen Besitzer haben. Eigentumsrechte werden durch die einzigartige Id und den Metadaten die kein anderen Token nachbilden kann repräsentiert. NFTs werden durch Smart-Contracts erstellt, die die Eigentumsrechte zuweisen und die Übertragbarkeit von NFTs verwalten. Wenn man ein NFT erstellt, führt man Code aus der in Smart-Contracts gespeichert ist und meist unterschiedlichen Standards entspricht - zum Beispiel ERC-721. Diese Information wird in der Blockchain gespeichert, wo das NFT verwaltet wird. Der Erstellungsprozess, auf hohem Niveau, besteht aus folgenden Schritten:
 
-- Creating a new block
-- Validating information
-- Recording information into the blockchain
+- Erstellung eines neuen Blocks
+- Validieren der Informationen
+- Aufzeichnen von Informationen in die Blockchain
 
-NFT's have some special properties:
+NFTs haben einige spezielle Eigenschaften:
 
-- Each token minted has a unique identifier that is directly linked to one Ethereum address.
-- They're not directly interchangeable with other tokens 1:1. For example 1 ETH is exactly the same as another ETH. This isn't the case with NFTs.
-- Each token has an owner and this information is easily verifiable.
-- They live on Ethereum and can be bought and sold on any Ethereum-based NFT market.
+- Jeder erstellte Token hat einen einzigartigen Identifikator der direkt mit einer Ethereum-Adresse verbunden ist.
+- Sie sind nicht direkt mit anderen Token 1:1 austauschbar / verwechselbar. Beispielsweise ist 1 ETH genau dasselbe wie irgendein anderer ETH. Bei NFTs ist das nicht der Fall.
+- Jeder Token hat einen Besitzer und diese Information ist einfach verifizierbar.
+- Sie existieren auf Ethereum und können auf jedem Ethereum-basierten NFT-Marktplatz gehandelt werden.
 
-In other words, if you _own_ an NFT:
+In anderen Worten, wenn du ein NFT _besitzt_:
 
-- You can easily prove you own it.
-  - Proving you own an NFT is very similar to proving you have ETH in your account.
-  - For example, let's say you purchase an NFT, and the ownership of the unique token is transferred to your wallet via your public address.
-  - The token proves that your copy of the digital file is the original.
-  - Your private key is proof-of-ownership of the original.
-  - The content creator's public key serves as a certificate of authenticity for that particular digital artefact.
-    - The creators public key is essentially a permanent part of the token's history. The creator's public key can demonstrate that the token you hold was created by a particular individual, thus contributing to its market value (vs a counterfeit).
-  - Another way to think about proving you own the NFT is by signing messages to prove you own the private key behind the address.
-    - As mentioned above, your private key is proof-of-ownership of the original. This tells us that the private keys behind that address control the NFT.
-    - A signed message can be used as proof that you own your private keys without revealing them to anybody and thus proving you own the NFT as well!
-- No one can manipulate it in any way.
-- You can sell it, and in some cases this will earn the original creator resale royalties.
-- Or, you can hold it forever, resting comfortably knowing your asset is secured by your wallet on Ethereum.
+- Kannst du den Besitz einfach nachweisen.
+  - Der Besitznachweis bei einem NFT ist sehr ähnlich zum Beweis das du ETH in deiner Wallet hast.
+  - Nehmen wir beispielsweise an, du kaufst ein NFT und das Eigentum an dem einzigartigen Token wird über deine öffentliche Adresse an deine Wallet übertragen.
+  - Der Token beweist, dass deine Kopie der digitalen Datei das Original ist.
+  - Dein privater Schlüssel ist der Besitznachweis.
+  - Der öffentliche Schlüssel des Erstellers dient als Echtheitszertifikat für dieses spezielle digitale Artefakt.
+    - Der öffentliche Schlüssel des Erstellers ist fester Bestandteil der Historie des Tokens. Er kann demonstrieren das der von dir gehaltene Token von einer bestimmten Partei erstellt wurde. Auf diese Weise kann einfach von Fälschungen unterschieden werden.
+  - Ein anderer Weg über den Besitznachweis eines NFT nachzudenken ist, dass man durch das signieren einer Nachricht beweist den privaten Schlüssel hinter einer Adresse zu besitzen.
+    - Wie oben erwähnt ist also dein privater Schlüssel der Besitznachweis. Dies sagt uns, dass der private Schlüssel hinter dieser Adresse das NFT kontrolliert.
+    - Eine signierte Nachricht kann benutzt werden um zu beweisen das den privaten Schlüssel besitzt ohne diesen zu offenbaren - und damit auch das du ein NFT besitzt!
+- Niemand kann es in irgendeiner Weise manipulieren.
+- Du kannst es verkaufen, und in einigen Fällen verdienen die ursprünglichen Urheber Lizensgebühren an den Wiederverkäufe.
+- Oder du behältst es für immer, mit dem ruhigen Gewissen, dass das Asset durch dein Wallet auf Ethereum gesichert ist.
 
-And if you _create_ an NFT:
+Wenn du ein NFT _erstellst_:
 
-- You can easily prove you're the creator.
-- You determine the scarcity.
-- You can earn royalties every time it's sold.
-- You can sell it on any NFT market or peer-to-peer. You're not locked in to any platform and you don't need anyone to intermediate.
+- Kannst du den Besitz einfach nachweisen.
+- Bestimmst du über die Seltenheit.
+- Kannst du bei jedem Verkauf Lizenzgebühren verdienen.
+- Kannst du es auf einem NFT-Marktplatz oder Peer-to-Peer verkaufen. Bist du an keine Plattform gebunden und du brauchst niemanden als Vermittler.
 
-### Scarcity {#scarcity}
+### Seltenheit {#scarcity}
 
-The creator of an NFT gets to decide the scarcity of their asset.
+Der Ersteller eines NFT entscheidet über die Seltenheit der Assets.
 
-For example, consider a ticket to a sporting event. Just as an organizer of an event can choose how many tickets to sell, the creator of an NFT can decide how many replicas exist. Sometimes these are exact replicas, such as 5000 General Admission tickets. Sometimes several are minted that are very similar, but each slightly different, such as a ticket with an assigned seat. In another case, the creator may want to create an NFT where only one is minted as a special rare collectible.
+Denke beispielsweise an eine Eintrittskarte für ein Sportereignis. So wie ein Veranstalter einer Veranstaltung wählen kann, wie viele Tickets verkauft werden, kann der Ersteller eines NFT entscheiden, wie viele Repliken existieren. Manchmal handelt es sich dabei um genaue Repliken, wie etwa 5000 Eintrittskarten. Manchmal werden mehrere Stücke geminted, die sehr ähnlich sind, aber jeweils etwas unterschiedlich, wie z. B. ein Ticket mit einem zugewiesenem Sitzplatz. In einem anderen Fall könnte der Ersteller ein NFT kreieren wollen, von dem nur ein einziges als spezielles seltenes Sammlerstück geminted wird.
 
-In these cases, each NFT would still have a unique identifier (like a bar code on a traditional "ticket"), with only one owner. The intended scarcity of the NFT matters, and is up to the creator. A creator may intend to make each NFT completely unique to create scarcity, or have reasons to produce several thousand replicas. Remember, this information is all public.
+In diesen Fällen hätte jedes NFT immer noch einen eindeutigen Identifikator (wie ein Barcode auf einem traditionellen "Ticket"), mit nur einem Besitzer. Die beabsichtigte Knappheit der NFTs ist wichtig und liegt bei dem Ersteller. Ein Schöpfer kann beabsichtigen, jedes NFT einzigartig zu machen, um Knappheit zu schaffen, oder Gründe haben um mehrere tausend Repliken zu produzieren. Denke daran, diese Informationen sind alle öffentlich zugänglich.
 
-### Royalties {#royalties}
+### Lizenzgebühren (Royalties) {#royalties}
 
-Some NFTs will automatically pay out royalties to their creators when they're sold. This is still a developing concept but it's one of the most powerful. Original owners of [EulerBeats Originals](https://eulerbeats.com/) earn an 8% royalty every time the NFT is sold on. And some platforms, like [Foundation](https://foundation.app) and [Zora](https://zora.co/), support royalties for their artists.
+Manche NFTs zahlen automatisch Lizenzgebühren, sogenannte Royalties an ihre Ersteller aus, wenn sie verkauft werden. Diese Konzept ist noch in der Entwicklung, ist aber eines der einflussreichsten. Genuine Besitzer von [EulerBeats Originals](https://eulerbeats.com/) verdienen jedes Mal 8 % Lizenzgebühr, wenn das NFT weiterverkauft wird. Und einige Plattformen wie [Foundation](https://foundation.app) und [Zora](https://zora.co/)unterstützen Lizenzgebühren für ihre Künstler.
 
-This is completely automatic so creators can just sit back and earn royalties as their work is sold from person to person. At the moment, figuring out royalties is very manual and lacks accuracy – a lot of creators don't get paid what they deserve. If your NFT has a royalty programmed into it, you'll never miss out.
+Dies läuft völlig automatisch, so dass sich die Ersteller einfach zurücklehnen können und Lizenzgebühren verdienen, während ihr Werk von Person zu Person weiterverkauft wird. Momentan ist die Ermittlung von Lizenzgebühren noch sehr manuell und mangelt an Genauigkeit – viele Urheber bekommen nicht das bezahlt, was sie verdienen. Wenn du eine Lizenzgebühr in dein NFT programmiert hat, wirst du nie zu kurz kommen.
 
-## What are NFTs used for? {#nft-use-cases}
+## Wofür werden NFTs verwendet? {#nft-use-cases}
 
-Here's more information of some of the better developed use-cases and visions for NFTs on Ethereum.
+Hier sind mehr Informationen über einige der besser entwickelten Anwendungsfälle und Visionen für NFTs auf Ethereum.
 
-- [Digital content](#nfts-for-creators)
-- [Gaming items](#nft-gaming)
-- [Domain names](#nft-domains)
-- [Physical items](#nft-physical-items)
-- [Investments and collateral](#nfts-and-defi)
+- [Digitale Inhalte](#nfts-for-creators)
+- [Spielartikel](#nft-gaming)
+- [Domainnamen](#nft-domains)
+- [Physische Gegenstände](#nft-physical-items)
+- [Investitionen und Sicherheiten](#nfts-and-defi)
 
 <Divider />
 
-### Maximising earnings for creators {#nfts-for-creators}
+### Maximierung der Einnahmen für die Urheber {#nfts-for-creators}
 
-The biggest use of NFTs today is in the digital content realm. That's because that industry today is broken. Content creators see their profits and earning potential swallowed by platforms.
+Der größte Einsatz von NFTs findet heute im Bereich digitaler Inhalte statt. Das liegt daran, dass diese Branche heutzutage beschädigt ist. Content creator sehen ihre Gewinne und Verdienstpotenzial von den Plattformen verschlungen.
 
-An artist publishing work on a social network makes money for the platform who sell ads to the artists followers. They get exposure in return, but exposure doesn't pay the bills.
+Ein Künstler, der Werke auf einem sozialen Netzwerk publiziert, verdient Geld für die Plattform, die Werbung an die Follower des Künstlers verkauft. Sie bekommen Reichweite im Gegenzug, aber Reichweite zahlt keine Rechnungen.
 
-NFTs power a new creator economy where creators don't hand ownership of their content over to the platforms they use to publicise it. Ownership is baked into the content itself.
+NFTs treiben eine neue Urheberökonomie an, in der die Urheber die Eigentumsrechte ihre Inhalte nicht den Plattformen übergeben, die sie verwenden um sie zu veröffentlichen. Das Eigentumsrecht wird den Inhalt selbst eingebrannt.
 
-When they sell their content, funds go directly to them. If the new owner then sells the NFT, the original creator can even automatically receive royalties. This is guaranteed every time it's sold because the creator's address is part of the token's metadata – metadata which can't be modified.
+Wenn sie ihre Inhalte verkaufen, gehen die Gelder direkt an sie. Wenn der neue Besitzer dann das NFT verkauft, kann der ursprüngliche Urheber sogar automatisch Lizenzgebühren erhalten. Dies wird bei jedem Verkauf garantiert, da die Adresse des Erstellers Teil der Metadaten des Token ist – Metadaten, die nicht verändert werden können.
 
 <InfoBanner shouldSpaceBetween emoji=":eyes:">
-  <div>Explore, buy or create your own NFT art/collectibles...</div>
-  <ButtonLink to="/dapps/?category=collectibles">Explore NFT art</ButtonLink>
+  <div>Entdecke, kaufe oder erstelle deine eigenen NFT Kunst/Sammlerstücke...</div>
+  <ButtonLink to="/dapps/?category=collectibles">Entdecke NFT-Kunst</ButtonLink>
 </InfoBanner>
 
-#### The copy/paste problem {#nfts-copy-paste}
+#### Das Copy/Paste Problem {#nfts-copy-paste}
 
-Naysayers often bring up the fact that NFTs "are dumb" usually alongside a picture of them screenshotting an NFT artwork. "Look, now I have that image for free!" they say smugly.
+Nörgler behaupten oft das NFTs "dumm" seien während sie ein Bild posten in dem sie ein Bildschirmfoto von einem NFT Kunstwerk machen. "Schau, jetzt habe ich dieses Bild gratis!", sagen sie süffisant.
 
-Well, yes. But does googling an image of Picasso's Guernica make you the proud new owner of a multi-million dollar piece of art history?
+Nun, ja. Aber macht Sie eine Google Suche nach dem Bild von Picassos Guernica zum stolzen neuen Besitzer eines Multimillionen Dollar Kunstwerks der Kunstgeschichte?
 
-Ultimately owning the real thing is as valuable as the market makes it. The more a piece of content is screen-grabbed, shared, and generally used the more value it gains.
+Letzten Endes ist der Besitz des realen Dings so wertvoll, wie es der Markt entscheidet. Je mehr ein Inhalt "screen-grabbed", geteilt und allgemein genutzt wird, desto mehr Wert gewinnt es.
 
-Owning the verifiably real thing will always have more value than not.
+Der nachweisliche Besitz des realen Ding wird immer mehr Wert haben als es nicht zu besitzen.
 
 <Divider />
 
-### Boosting gaming potential {#nft-gaming}
+### Spielpotential erhöhen {#nft-gaming}
 
-NFTs have seen a lot of interest from game developers. NFTs can provide records of ownership for in-game items, fuel in-game economies, and bring a host of benefits to the players.
+NFTs haben von Spieleentwicklern viel Interesse erfahren. NFTs können Aufzeichnungen über Eigentumsrechte für In-Game-Items liefern, die Wirtschaft im Spiel ankurbeln und den Spielern eine Menge Vorteile bringen.
 
-In a lot of regular games you can buy items for you to use in your game. But if that item was an NFT you could recoup your money by selling it on when you're done with the game. You might even make a profit if that item becomes more desirable.
+In vielen regulären Spielen kannst du Gegenstände kaufen, die du in deinem Spiel benutzen kannst. Aber wenn es sich um eine NFT handelte, kannst du dir dein Geld zurückholen, indem du es verkaufst, wenn du mit dem Spiel fertig bist. Du kannst sogar Gewinne erzielen, wenn dieser Artikel begehrenswerter wird.
 
-For game developers – as issuers of the NFT – they could earn a royalty every time an item is re-sold in the open marketplace. This creates a more mutually-beneficial business model where both players and developers earn from the secondary NFT market.
+Spieleentwickler – als Emittenten der NFT – könnten jedes Mal, wenn ein Artikel auf dem offenen Markt wiederverkauft wird, eine Lizenzgebühr verdienen. Dies schafft ein für beide Seiten günstigeres Geschäftsmodell, bei dem sowohl Spieler als auch Entwickler vom NFT Sekundärmarkt profitieren.
 
-This also means that if a game is no longer maintained by the developers, the items you've collected remain yours.
+Das bedeutet auch, dass, wenn ein Spiel von den Entwicklern nicht mehr betreut wird, die Artikel, die du gesammelt hast, deine bleiben.
 
-Ultimately the items you grind for in-game can outlive the games themselves. Even if a game is no longer maintained, your items will always be under your control. This means in-game items become digital memorabilia and have a value outside of the game.
+Letztlich können die Gegenstände die du in-game erspielst, das Spiel selbst überleben. Selbst wenn ein Spiel nicht mehr weitergeführt wird, bleiben deine Gegenstände immer unter deiner Kontrolle. Das bedeutet, dass Gegenstände eines Spiels zu digitalen Erinnerungen werden und auch einen Wert außerhalb des Spiels haben.
 
-Decentraland, a virtual reality game, even lets you buy NFTs representing virtual parcels of land that you can use as you see fit.
+Decentraland, ein virtuelles Reality-Spiel, lässt dich sogar NFTs kaufen, die virtuelle Grundstücke repräsentieren, die du verwenden kannst, wie du es für richtig hälst.
 
 <InfoBanner shouldSpaceBetween emoji=":eyes:">
-  <div>Check out Ethereum games, powered by NFTs...</div>
-  <ButtonLink to="/dapps/?category=gaming">Explore NFT games</ButtonLink>
+  <div>Entdecke Ethereum Spiele, die durch NFTs gestützt werden...</div>
+  <ButtonLink to="/dapps/?category=gaming">Entdecke NFT-Spiele</ButtonLink>
 </InfoBanner>
 
 <Divider />
 
-### Making Ethereum addresses more memorable {#nft-domains}
+### Ethereum Adressen einprägsamer machen {#nft-domains}
 
-The Ethereum Name Service uses NFTs to provide your Ethereum address with an easier-to-remember name like `mywallet.eth`. This means you could ask someone to send you ETH via `mywallet.eth` rather than `0x123456789.....`.
+Der Ethereum Name Service verwendet NFTs, um deine Ethereum Adresse mit einem Namen wie `mywallet.eth` einprägsamer zu machen. Das bedeutet, dass du jemanden bitten kannst, dir ETH über `mywallet.eth` statt über `0x123456789.....` zu schicken.
 
-This works in a similar way to a website domain name which makes an IP address more memorable. And like domains, ENS names have value, usually based on length and relevance. With ENS you don't need a domain registry to facilitate the transfer of ownership. Instead, you can trade your ENS names on an NFT marketplace.
+Dies funktioniert ähnlich wie bei einem Website-Domain-Namen, der eine IP-Adresse einprägsamer macht. Und wie Domains haben auch ENS-Namen Wert, in der REgel basierend auf der Länge und der Relevanz. Mit ENS brauchst du keine Domain-Registrierung, um die Übertragung von Eigentum zu ermöglichen. Stattdessen kannst du deinen ENS Namen auf einem NFT Marktplatz handeln.
 
-Your ENS name can:
+Dein ENS Name kann:
 
-- Receive cryptocurrency and other NFTs.
-- Point to a decentralized website, like [ethereum.eth](https://ethereum.eth.link). [More on decentralizing your website](https://docs.ipfs.io/how-to/websites-on-ipfs/link-a-domain/#domain-name-service-dns)
-- Store any arbitrary information, including profile information like email addresses and Twitter handles.
-
-<Divider />
-
-### Physical items {#nft-physical-items}
-
-The tokenisation of physical items isn't yet as developed as their digital counterparts. But there are plenty of projects exploring the tokenisation of real estate, one-of-a-kind fashion items, and more.
-
-As NFTs are essentially deeds, one day you could buy a car or home using ETH and receive the deed as an NFT in return (in the same transaction). As things become increasingly high-tech, it's not hard to imagine a world where your Ethereum wallet becomes the key to your car or home – your door being unlocked by the cryptographic proof of ownership.
-
-With valuable assets like cars and property representable on Ethereum, you can use NFTs as collateral in decentralized loans. This is particularly helpful if you're not cash or crypto-rich but own physical items of value. [More on DeFi](/defi/)
+- Kryptowährung und andere NFTs erhalten.
+- Auf eine dezentrale Website, wie [ethereum.eth](https://ethereum.eth.link) verweisen. [Weitere Informationen zur Dezentralisierung deiner Webseite](https://docs.ipfs.io/how-to/websites-on-ipfs/link-a-domain/#domain-name-service-dns)
+- Beliebige Informationen, einschließlich Profilinformationen wie E-Mail-Adressen und Twitter-Handles speichern.
 
 <Divider />
 
-### NFTs and DeFi {#nfts-and-defi}
+### Physische Gegenstände {#nft-physical-items}
 
-The NFT world and the [decentralized finance (DeFi)](/defi/) world are starting to work together in a number of interesting ways.
+Die Tokenisierung physikalischer Gegenstände ist noch nicht so entwickelt wie ihre digitalen Entsprechungen. Aber es gibt viele Projekte, die die Tokenisierung von Immobilien, einmaligen Modeartikeln und vieles mehr erforschen.
 
-#### NFT-backed loans {#nft-backed-loans}
+Da NFTs im Wesentlichen Urkunden sind, wird man eines Tages ein Auto oder Haus mit ETH kaufen können und die Urkunde als NFT im Gegenzug erhalten (in ein und der gleichen Transaktion). In dem Maße, in dem die Dinge zunehmend High-Tech werden, ist es nicht schwer, sich eine Welt vorzustellen, in der Ihre Ethereum Wallet der Schlüssel zu deinem Auto oder zu Hause wird – deine Tür wird durch den kryptographischen Nachweis des Eigentums freigeschaltet.
 
-There are DeFi applications that let you borrow money by using collateral. For example you collateralise 10 ETH so you can borrow 5000 DAI ([a stablecoin](/stablecoins/)). This guarantees that the lender gets paid back – if the borrower doesn't pay back the DAI, the collateral is sent to the lender. However not everyone has enough crypto to use as collateral.
+Mit wertvollen Vermögenswerten wie Autos und Immobilien, die auf Ethereum repräsentiert werden können, kann man NFTs als Sicherheiten für dezentralen Darlehen verwenden. Dies ist besonders hilfreich, wenn du keine Reichtümer in Bargeld oder Krypto hast, sondern physische Gegenstände von Wert besitzt. [Weitere Informationen über DeFi](/defi/)
 
-Projects are beginning to explore using NFTs as collateral instead. Imagine you bought a rare CryptoPunk NFT back in the day – they can fetch $1000s at today's prices. By putting this up as collateral, you can access a loan with the same rule set. If you don't pay back the DAI, your CryptoPunk will be sent to the lender as collateral. This could eventually work with anything you tokenise as an NFT.
+<Divider />
 
-And this isn't hard on Ethereum, because both worlds (NFT and DeFi) share the same infrastructure.
+### NFTs und DeFi {#nfts-and-defi}
 
-#### Fractional ownership {#fractional-ownership}
+Die NFT-Welt und die [dezentralisierte Finanzwelt (DeFi)](/defi/) beginnen auf verschiedene interessante Weisen zusammenzuarbeiten.
 
-NFT creators can also create "shares" for their NFT. This gives investors and fans the opportunity to own a part of an NFT without having to buy the whole thing. This adds even more opportunities for NFT minters and collectors alike.
+#### NFT-gesicherte Darlehen {#nft-backed-loans}
 
-- Fractionalised NFTs can be traded on [DEXs](/defi/#dex) like Uniswap, not just [NFT marketplaces](/dapps?category=collectibles). That means more buyers and sellers.
-- An NFT's overall price can be defined by the price of its fractions.
-- You have more of an opportunity to own and profit from items you care about. It's harder to be priced out of owning NFTs.
+Es gibt DeFi-Anwendungen, mit denen Sie Geld mit Hilfe von Sicherheiten leihen können. So können Sie beispielsweise 10 ETH als Sicherheit hinterlegen, so dass Sie 5000 DAI ausleihen können ([ein Stablecoin](/stablecoins/)). Dies garantiert dem Kreditgeber eine Rückzahlung – wenn der Kreditnehmer den DAI nicht zurückzahlt, wird die Sicherheit an den Kreditgeber geschickt. Jedoch hat nicht jeder genug Krypto, um sie als Sicherheiten zu verwenden.
 
-This is still experimental but you can learn more about fractional NFT ownership at the following exchanges:
+Stattdessen beginnen Projekte die Nutzung von NFTs als Sicherheiten zu erforschen. Stelle dir vor, du hast damals einen seltenen CryptoPunk NFT gekauft– sie können über 1000$ zu aktuellen Preisen abrufen. Wenn du diesen als Sicherheiten hinterlegst, kannst du auf ein Darlehen mit der gleichen Regel zugreifen. Wenn du den DAI nicht zurückzahlst, wird dein CryptoPunk als Sicherheiten an den Kreditgeber geschickt. Dies könnte irgendwann mit allem, was man als NFT tokenisiert, funktionieren.
+
+Und das ist auf Ethereum nicht schwer, da beide Welten (NFT und DeFi) die gleiche Infrastruktur haben.
+
+#### Bruchteilseigentum {#fractional-ownership}
+
+NFT-Ersteller können auch "Shares" für ihre NFTs erstellen. Dies gibt Investoren und Fans die Möglichkeit, einen Teil einees NFTs zu besitzen, ohne das Ganze kaufen zu müssen. Dies bietet für NFT Minter und Sammler gleichermaßen noch mehr Möglichkeiten.
+
+- Fraktionalisierte NFTs können nicht nur auf [NFT-Marktplätzen](/dapps?category=collectibles), sondern auch auf auf [DEXs](/defi/#dex) wie Uniswap gehandelt werden. Das bedeutet mehr Käufer und Verkäufer.
+- Der Gesamtpreis eines NFT kann durch den Preis seiner Bruchteile definiert werden.
+- Du hast mehr Gelegenheit Gegenständen, die dir wichtig sind, zu besitzen und von ihnen zu profitieren. Es wird schwieriger, vom Besitz an NFTs wegen hoher Preise ausgeschlossen zu werden.
+
+Dies ist immer noch ein Experiment, aber du kannst mehr über NFT-Bruchteile bei den folgenden Exchanges erfahren:
 
 - [NIFTEX](https://landing.niftex.com/)
 - [NFTX](https://gallery.nftx.org/)
 
-In theory, this would unlock the possibility to do things like own a piece of a Picasso. You would become a shareholder in a Picasso NFT, meaning you would have a say in things like revenue sharing. It's very likely that one day soon owning a fraction of an NFT will enter you into a decentralised autonomous organisation (DAO) for managing that asset.
+Theoretisch würde dies ermöglichen, ein Stück von einem Picasso zu besitzen. Du würdest ein Anteilshalter an einem Picasso NFT werden, was bedeutet, dass du ein Mitspracherecht bei Sachen wie Gewinnbeteiligungen hättest. Es ist sehr wahrscheinlich, dass man eines Tages mit dem Besitz eines Bruchteils eines NFT in eine dezentrale autonome Organisation (DAO) eintritt, um dieses Vermögen zu verwalten.
 
-These are Ethereum-powered organisations that allow strangers, like global shareholders of an asset, to coordinate securely without necessarily having to trust the other people. That's because not a single penny can be spent without group approval.
+Dabei handelt es sich um Ethereum gestützte Organisationen, die es Fremden wie z. B. globalen Anteilshaltern eines Vermögens gestatten, sich sicher zu koordinieren, ohne die Notwendigkeit den anderen Menschen zu vertrauen. Das liegt daran, dass ohne Gruppengenehmigung kein einziger Cent ausgegeben werden kann.
 
-As we mentioned, this is an emerging space. NFTs, DAOs, fractionalised tokens are all developing at different paces. But all their infrastructure exists and can work together easily because they all speak the same language: Ethereum. So watch this space.
+Wie wir bereits erwähnt haben, ist dies alles in Entwicklung. NFTs, DAOs und fraktionalisierte Token entwickeln sich alle in unterschiedlichen Geschwindigkeiten. Aber ihre Infrastrukturen existiert bereits und können problemlos zusammenarbeiten, weil sie alle die gleiche Sprache sprechen: Ethereum. Beobachte weiter die Entwicklungen.
 
-[More on DAOs](/dao/)
+[Mehr über DAOs](/dao/)
 
 <Divider />
 
-## Ethereum and NFTs {#ethereum-and-nfts}
+## Ethereum und NFTs {#ethereum-and-nfts}
 
-Ethereum makes it possible for NFTs to work for a number of reasons:
+Es gibt eine Reihe von Gründe durch die Ethereum ermöglicht, dass NFTs funktionieren:
 
-- Transaction history and token metadata is publicly verifiable – it's simple to prove ownership history.
-- Once a transaction is confirmed, it's nearly impossible to manipulate that data to "steal" ownership.
-- Trading NFTs can happen peer-to-peer without needing platforms that can take large cuts as compensation.
-- All Ethereum products share the same "backend". Put another way, all Ethereum products can easily understand each other – this makes NFTs portable across products. You can buy an NFT on one product and sell it on another easily. As a creator you can list your NFTs on multiple products at the same time – every product will have the most up-to-date ownership information.
-- Ethereum never goes down, meaning your tokens will always be available to sell.
+- Der Transaktionsverlauf und die Metadaten der Token sind öffentlich überprüfbar – es ist einfach, die Eigentümergeschichte nachzuweisen.
+- Sobald eine Transaktion bestätigt ist, ist es fast unmöglich, diese Daten zu manipulieren, um das Eigentum zu "stehlen".
+- Der Handel mit NFTs kann Peer-to-Peer geschehen, ohne dass Plattformen benötigt werden, die große Anteile als Kompensation verlangen können.
+- Alle Produkte von Ethereum teilen sich das gleiche "Backend". Anders ausgedrückt: Alle Produkte von Ethereum sprechen die gleiche Sprache – das macht NFTs über Produkte hinweg transportierbar. Sie können ein NFT auf einem Produkt kaufen und es auf einem anderen einfach verkaufen. Als Ersteller man die NFTs auf mehreren Produkten gleichzeitig auflisten – jedes Produkt wird über die aktuellsten Eigentumsinformationen verfügen.
+- Ethereum wird nie heruntergefahren, was bedeutet, dass die Token immer zum Verkauf verfügbar sein werden.
 
-## The environmental impact of NFTs {#environmental-impact-nfts}
+## Die Umweltauswirkungen von NFTs {#environmental-impact-nfts}
 
-NFTs are growing in popularity which means they're also coming under increased scrutiny – especially over their carbon footprint.
+NFTs werden immer populärer, was bedeutet, dass sie auch vermehrt unter die Lupe genommen werden – vor allem was ihren CO2-Fußabdruck angeht.
 
-To clarify a few things:
+Zur Klärung einiger Dinge:
 
-- NFTs aren't directly increasing the carbon footprint of Ethereum.
-- The way Ethereum keeps your funds and assets secure is currently energy-intensive but it's about to improve.
-- Once improved, Ethereum's carbon footprint will be 99.95% better, making it more energy efficient than many existing industries.
+- NFTs erhöhen nicht direkt den CO2-Fußabdruck von Ethereum.
+- Die Art und Weise, wie Ethereum deine Kapital und deine Assets sichert, ist derzeit energieintensiv, aber es wird sich verbessern.
+- Sobald Ethereums Co2-Fußabdruck optimiert ist, wird es eine Verbesserung von 99,95 % geben, wodurch es energieeffizienter als viele bestehende Industrien wird.
 
-To explain further we're going to have to get a little more technical so bear with us...
+Um dies weiter zu erklären, müssen wir ein wenig technischer werden, also bleib dran...
 
-### Don't blame it on the NFTs {#nft-qualities}
+### Schiebt die Schuld nicht auf die NFTs {#nft-qualities}
 
-The whole NFT ecosystem works because Ethereum is decentralized and secure.
+Das gesamte NFT-Ökosystem funktioniert, weil Ethereum dezentral und sicher ist.
 
-Decentralized meaning you and everyone else can verify you own something. All without trusting or granting custody to a third party who can impose their own rules at will. It also means your NFT is portable across many different products and markets.
+Dezentralisiert bedeutet, dass du und alle anderen verifizieren können, dass du etwas besitzt. Alles ohne Vertrauen oder die Verwahrung an Mittelsmännern abzugeben, die dir nach Belieben ihre eigenen Regeln aufzwingen können. Das bedeutet auch, dass die NFTs über viele verschiedene Produkte und Märkte bewegt werden können.
 
-Secure meaning no one can copy/paste your NFT or steal it.
+Sicher bedeutet, dass niemand dein NFT per copy/paste kopieren oder stehlen kann.
 
-These qualities of Ethereum makes digitally owning unique items and getting a fair price for your content possible. But it comes at a cost. Blockchains like Bitcoin and Ethereum are energy intensive right now because it takes a lot of energy to preserve these qualities. If it was easy to rewrite Ethereum's history to steal NFTs or cryptocurrency, the system collapses.
+Diese Eigenschaften von Ethereum ermöglichen den digitalen Besitz von Einzelstücken und das du den fairen Preis für deine Inhalte bekommst. Aber es kostet einen Preis. Blockchains wie Bitcoin und Ethereum sind derzeit energieintensiv, da es viel Energie benötigt, diese Eigenschaften zu bewahren. Wenn es einfach wäre, Ethereums Geschichte umzuschreiben, um NFTs oder Kryptowährungen zu stehlen, bräche das System zusammen.
 
-#### The work in minting your NFT {#minting-nfts}
+#### Die Arbeit der NFT Prägung (Minting) {#minting-nfts}
 
-When you mint an NFT, a few things have to happen:
+Wenn du einen NFT prägst, müssen einige Dinge passieren:
 
-- It needs to be confirmed as an asset on the blockchain.
-- The owner's account balance must be updated to include that asset. This makes it possible for it to then be traded or verifiably "owned".
-- The transactions that confirm the above need to be added to a block and "immortalised" on the chain.
-- The block needs to be confirmed by everyone in the network as "correct". This consensus removes the need for intermediaries because the network agrees that your NFT exists and belongs to you. And it's on chain so anyone can check it. This is one of the ways Ethereum helps NFT creators to maximise their earnings.
+- Es muss als Asset in der Blockchain bestätigt werden.
+- Der Kontostand des Eigentümers muss aktualisiert werden, um dieses Asset einzubinden. Dadurch wird es möglich es zu handeln oder es nachweislich zu "besitzen".
+- Die Transaktionen, die das oben genannte bestätigen, müssen zu einem Block hinzugefügt und auf der Chain "verewigt" werden.
+- Der Block muss von allen im Netzwerk als "korrekt" bestätigt werden. Dieser Konsens erübrigt die Notwendigkeit von Zwischenhändlern, da das Netzwerk übereinstimmt, dass dein NFT existiert und zu dir gehört. Und es ist auf der Chain, so dass es jeder überprüfen kann. Dies ist eine Möglichkeit, wie Ethereum NFT-Erstellern dabei hilft, ihre Einnahmen zu maximieren.
 
-All these tasks are done by miners. And they let the rest of the network know about your NFT and who owns it. This means mining needs to be sufficiently difficult, otherwise anyone could just claim that they own the NFT you just minted and fraudulently transfer ownership. There are lots of incentives in place to make sure miners are acting honestly.
+Alle diese Aufgaben werden von Minern erledigt. Und sie hinterlegen die Information über das NFT und dessen Besitzer für den Rest des Netzwerks. Das bedeutet, dass das Mining schwierig genug sein muss, sonst könnte irgend jemand einfach behaupten, dass er die NFT besitzt, die du gerade geprägt hast und das Eigentumsrecht in betrügerischer Absicht übertragen. Es gibt viele Anreize, um sicherzustellen, dass die Miner ehrlich handeln.
 
 [Mehr zum Mining](/developers/docs/consensus-mechanisms/pow/)
 
-#### Securing your NFT with mining {#securing-nfts}
+#### Dein NFT mit Mining sichern {#securing-nfts}
 
-Mining difficulty comes from the fact that it takes a lot of computing power to create new blocks in the chain. Importantly, blocks are created consistently, not just when they're needed. They're created every 12 seconds or so.
+Die Schwierigkeit des Mining beruht auf der Tatsache, dass es viel Rechenleistung braucht, um neue Blöcke in der Kette zu erstellen. Wichtig ist, dass Blöcke konsistent erstellt werden, nicht nur, wenn sie benötigt werden. Sie werden ungefähr alle 12 Sekunden erstellt.
 
-This is important for making Ethereum tamper-proof, one of the qualities that makes NFTs possible. The more blocks the more secure the chain. If your NFT was created in block #600 and a hacker were to try and steal your NFT by modifying its data, the digital fingerprint of all subsequent blocks would change. That means anyone running Ethereum software would immediately be able to detect and prevent it from happening.
+Dies ist wichtig, um Ethereum fälschungssicher zu machen, eine der Eigenschaften, die NFTs möglich machen. Je mehr Blöcke, desto sicherer die Kette. Wenn deine NFT im Block #600 erstellt wurde und ein Hacker versuchen sollte, deine NFT zu stehlen, indem er dessen Daten ändert, würde sich sich der digitale Fingerabdruck aller nachfolgenden Blöcke ändern. Das bedeutet, dass jeder, der die Ethereum Software betreibt, sofort in der Lage wäre, dies zu erkennen und zu verhindern.
 
-However this means that computing power needs to be used constantly. It also means that a block that contains 0 NFT transactions will still have roughly the same carbon footprint, because computing power will still be consumed to create it. Other non-NFT transactions will fill the blocks.
+Das bedeutet jedoch, dass Rechenleistung ständig genutzt werden muss. Es bedeutet auch, dass ein Block, der 0 NFT-Transaktionen enthält, immer noch ungefähr den gleichen CO2-Fußabdruck haben wird weil die Rechenleistung immer noch verbraucht wird, um ihn zu erzeugen. Andere, nicht NFT relevante, Transaktionen werden die Blöcke füllen.
 
-#### Blockchains are energy intensive, right now {#blockchains-intensive}
+#### Blockchains sind derzeit energieintensiv {#blockchains-intensive}
 
-So yes, there is a carbon footprint associated with creating blocks by mining – and this is a problem for chains like Bitcoin too – but it's not directly the fault of NFTs.
+Es stimmt also, es gibt einen CO2-Fußabdruck, der mit der Erstellung von Blöcken durch das Mining verbunden ist – und das ist auch ein Problem für Blockchains wie Bitcoin, – aber es ist nicht direkt die Schuld von NFTs.
 
-A lot of mining uses renewable energy sources or untapped energy in remote locations. And there is the argument that the industries that NFTs and cryptocurrencies are disrupting have huge carbon footprints too. But just because existing industries are bad, doesn't mean we shouldn't strive to be better.
+Viele Miningunternehmen nutzen erneuerbare Energiequellen oder ungenutzte Energie in entlegenen Gebieten. Und da gibt es das Argument, dass auch die Industrien, die durch NFTs und Kryptowährungen disruptiert werden, einen enormen CO2-Fußabdruck haben. Aber nur weil die bestehenden Industrien schlecht sind, heißt das nicht, dass wir nicht versuchen sollten, besser zu sein.
 
-And we are. Ethereum is evolving to make using Ethereum (and by virtue, NFTs) more energy efficient. And that's always been the plan.
+Und das sind wir. Ethereum entwickelt sich weiter, um die Verwendung von Ethereum (und dadurch auch NFTs) energieeffizienter zu machen. Und das war schon immer der Plan.
 
-We're not here to defend the environmental footprint of mining, instead we want to explain how things are changing for the better.
+Wir sind nicht hier, um den ökologischen Fußabdruck des Minings zu verteidigen, sondern wir wollen erklären, wie sich die Dinge zum Besseren verändern.
 
-### A greener future... {#a-greener-future}
+### Eine grünere Zukunft... {#a-greener-future}
 
-For as long as Ethereum has been around, the energy-consumption of mining has been a huge focus area for developers and researchers. And the vision has always been to replace it as soon as possible. [More on Ethereum's vision](/eth2/vision/)
+Der Energieverbrauch beim Mining ist für Entwickler und Forscher seit den Anfängen von Ethereum ein enormer Schwerpunkt gewesen. Und die Vision war immer, es so schnell wie möglich zu ersetzen. [Mehr über Ethereums Vision](/eth2/vision/)
 
-This vision is being delivered right now.
+Diese Vision wird gerade umgesetzt.
 
-#### A greener Ethereum: Eth2 {#eth2}
+#### Ein grüneres Etherum: Eth2 {#eth2}
 
-Ethereum is currently going through a series of upgrades, known as Eth2, that will replace mining with [staking](/eth2/staking/). This will remove computing power as a security mechanism, and reduce Ethereum's carbon footprint by ~99.95%<sup>[^1]</sup>. In this world, stakers commit funds instead of computing power to secure the network.
+Ethereum durchläuft derzeit eine Reihe von Upgrades, bekannt als Eth2, die das Mining durch [Staking](/eth2/staking/) ersetzen werden. Dadurch wird die Rechenleistung als Sicherheitsmechanismus entfernt und Ethereums CO2-Fußabdruck um ~99,95%<sup>[^1]</sup> verringert. In dieser Welt binden Staker Geld anstatt Rechenleistung zur Sicherung des Netzwerkes.
 
-The energy-cost of Ethereum will become the cost of running a home computer multiplied by the number of nodes in the network. If there are 10,000 nodes in the network and the cost of running a home computer is roughly 525kWh per year. That's 5,250,000kWh<sup>[^1]</sup> per year for the entire network.
+Die Energiekosten von Ethereum werden die Kosten für den Betrieb eines Heimrechners multipliziert mit der Anzahl der Knoten im Netzwerk sein. Wenn es 10.000 Knoten im Netzwerk gibt und sich die Kosten für den Betrieb eines Heimcomputer auf etwa 525kWh pro Jahr belaufen. Sind das 5.250.000kWh<sup>[^1]</sup> pro Jahr für das gesamte Netzwerk.
 
-We can use this to compare Eth2 to a global service like Visa. 100,000 Visa transactions uses 149kWh of energy<sup>[^2]</sup>. In Eth2, that same number of transactions would cost 17.4kWh of energy or ~11% of the total energy<sup>[^3]</sup>. That's without considering the many optimisations being worked on in parallel to Eth2, like [rollups](/glossary/#rollups). It could be as little as 0.1666666667kWh of energy for 100,000 transactions.
+Wir können dies nutzen, um Eth2 mit einem globalen Service wie Visa zu vergleichen. 100.000 Visa-Transaktionen verbrauchen 149 kWh an Energie<sup>[^2]</sup>. In Eth2 würde dieselbe Anzahl von Transaktionen 17,4kWh Energie kosten oder ~11% der Gesamtenergie<sup>[^3]</sup>. Ohne die vielen Optimierungen zu berücksichtigen, an denen parallel zu Eth2 gearbeitet wird, wie [Rollups](/glossary/#rollups). Für 100.000 Transaktionen könnte es 0,1666666667kWh an Energie werden.
 
-Importantly this improves the energy efficiency while preserving Ethereum's decentralization and security. Many other blockchains out there might already use some form of staking, but they're secured by a select few stakers, not the thousands that Ethereum will have. The more decentralization, the more secure the system.
+Wichtig ist, dass dadurch die Energieeffizienz verbessert und gleichzeitig die Dezentralisierung und Sicherheit von Ethereum bewahrt bleibt. Viele andere Blockchains dort draußen könnten bereits eine Art Staking betreiben, aber sie sind nur durch ein paar ausgewählte Staker gesichert, nicht von Tausenden, wie sie Ethereum haben wird. Je stärker die Dezentralisierung, desto sicherer ist das System.
 
-[More on energy estimates](#footnotes-and-sources)
+[Mehr zu den Energieschätzungen](#footnotes-and-sources)
 
-_We’ve provided the basic comparison to Visa to baseline your understanding of Eth2 energy consumption against a familiar name. However, in practice, it’s not really correct to compare based on number of transactions. Ethereum’s energy output is time-based. If Ethereum did more or less transactions from one minute to the next, the energy output would stay the same._
+_Wir haben den Vergleich mit Visa angestellt um unser Verständnis vom Energieverbrauch von Eth2 im Vergleich zu einem bekannten Namen zu ziehen. In der Praxis ist es jedoch nicht wirklich richtig, anhand der Anzahl der Transaktionen zu vergleichen. Die Energieerzeugung von Ethereum ist zeitbasiert. Ob Ethereum mehr oder weniger Transaktionen von einer Minute zur nächsten tätigt, die Energieerzeugung bleibt gleich._
 
-_It’s also important to remember that Ethereum does more than just financial transactions, it’s a platform for applications, so a fairer comparison might be to many companies/industries including Visa, AWS and more!_
+_Es ist auch wichtig zu bedenken, dass Ethereum mehr als nur Finanztransaktionen durchführt, es ist eine Plattform für Anwendungen, so dass ein fairerer Vergleich vielen Unternehmen / Branchen einschließlich Visa, AWS und mehr einschließen müsste!_
 
-#### Timelines {#timelines}
+#### Zeitpläne {#timelines}
 
-The process has already started. [The Beacon Chain](/eth2/beacon-chain/), the first upgrade, shipped in December 2020. This provides the foundation for staking by allowing stakers to join the system. The next step relevant to energy efficiency is to merge the current chain, the one secured by miners, into the Beacon Chain where mining isn't needed. Timelines can't be exact at this stage, but it's estimated that this will happen sometime in 2021/2022. This process is known as the merge (formerly referred to as the docking). [More on the merge](/eth2/merge/).
+Der Prozess hat bereits begonnen. [Die Beacon Chain](/eth2/beacon-chain/), das erste Upgrade, wurde im Dezember 2020 durchgeführt. Dies ist die Grundlage für das Staking, indem Stakern die Möglichkeit gegeben wird dem System beizutreten. Der nächste für die Energieeffizienz relevante Schritt ist die Verschmelzung der aktuellen Chain, die von den Minern gesichert ist, in die Beacon Chain, in der kein Mining nötig ist. Timelines can't be exact at this stage, but it's estimated that this will happen sometime in 2021/2022. Dieser Prozess wird als Zusammenführung bezeichnet (vormals Docking). [Mehr über die Zusammenführung](/eth2/merge/).
 
-<ButtonLink to="/eth2/">More on Eth2</ButtonLink>
+<ButtonLink to="/eth2/">Mehr über Eth2</ButtonLink>
 
 <!-- #### Rollups in the meantime...
 
@@ -384,82 +384,82 @@ Want to turn your content into a NFT?
 - Foundation
 - Other platforms... -->
 
-## Build with NFTs {#build-with-nfts}
+## Baue mit NFTs {#build-with-nfts}
 
-Most NFTs are built using a consistent standard known as [ERC-721](/developers/docs/standards/tokens/erc-721/). However there are other standards that you might want to look into. The [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) standard allows for semi-fungible tokens which is particularly useful in the realm of gaming. And more recently, [EIP-2309](https://eips.ethereum.org/EIPS/eip-2309) has been proposed to make minting NFTs a lot more efficient. This standard lets you mint as many as you like in one transaction!
+Die meisten NFTs werden mit einem einheitlichen Standard namens [ERC-721](/developers/docs/standards/tokens/erc-721/) gebaut. Es gibt jedoch noch andere Standards, die man sich anschauen sollt. Der [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) Standard erlaubt halbfungible Token, die besonders im Gamingbereich nützlich sind. In jüngster Zeit wurde [EIP-2309](https://eips.ethereum.org/EIPS/eip-2309) vorgeschlagen, um NFTs wesentlich effizienter zu machen. Mit diesem Standard können Sie beliebig viele Stücke in einer Transaktionen prägen!
 
 ## Weiterführende Informationen {#further-reading}
 
-- [Crypto art data](https://cryptoart.io/data) – Richard Chen, updated automatically
-- [OpenSea: the NFT Bible](https://opensea.io/blog/guides/non-fungible-tokens/) – _Devin Fizner, January 10 2020_
-- [A beginner's guide to NFTs](https://linda.mirror.xyz/df649d61efb92c910464a4e74ae213c4cab150b9cbcc4b7fb6090fc77881a95d) – _Linda Xie, January 2020_
+- [Crypto art data](https://cryptoart.io/data) – Richard Chen, automatisch aktualisiert
+- [OpenSea: OpenSea: the NFT Bible](https://opensea.io/blog/guides/non-fungible-tokens/) – _Devin Fizner, 10. Januar 2020_
+- [A beginner's guide to NFTs](https://linda.mirror.xyz/df649d61efb92c910464a4e74ae213c4cab150b9cbcc4b7fb6090fc77881a95d) – _Linda Xie, Januar 2020_
 - [Everything you need to know about the metaverse](https://foundation.app/blog/enter-the-metaverse) – _Foundation team, foundation.app_
 - [No, CryptoArtists Aren’t Harming the Planet](https://medium.com/superrare/no-cryptoartists-arent-harming-the-planet-43182f72fc61)
-- [A country's worth of power, no more](https://blog.ethereum.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, May 18 2021_
+- [A country's worth of power, no more](https://blog.ethereum.org/2021/05/18/country-power-no-more/) – _Carl Beekhuizen, 18 Mai 2021_
 
 <Divider />
 
-### Footnotes and sources {#footnotes-and-sources}
+### Fußnoten und Quellen {#footnotes-and-sources}
 
 <!-- TODO: after shipping this can form the basis of an energy efficiency page. I suspect this could also live under learn and just do some general myth-busting and supply stats about eth2 energy usage-->
 
-This explains how we arrived at our energy estimates above. These estimates apply to the network as a whole and are not just reserved for the process of creating, buying, or selling NFTs.
+Dies erklärt, wie wir zu unseren oben genannten Energieschätzungen gekommen sind. Diese Schätzungen gelten für das gesamte Netz und beziehen sich nicht nur auf den Prozess der Erstellung, des Kaufs oder des Verkaufs von NFTs.
 
-#### 1. 99.95% energy reduction from mining {#fn-1}
+#### 1. 99,95 % Energieeinsparung gegenüber dem Mining {#fn-1}
 
-The 99.95% reduction in energy consumption from a system secured by mining to a system secured by staking is calculated using the following data sources:
+Die Senkung des Energieverbrauchs um 99,95 % von einem durch Mining gesichertes System auf ein durch Staking gesichertes, wird anhand der folgenden Datenquellen berechnet:
 
-- 44.49 TWh of annualized electrical energy is consumed by mining Ethereum - [Digiconomist](https://digiconomist.net/ethereum-energy-consumption)
+- 44,49 TWh elektrischer Energie wird jährlicher durch das Mining von Ethereum verbraucht - [Digiconomist](https://digiconomist.net/ethereum-energy-consumption)
 
-- The average desktop computer, all that's needed to run Proof of Stake, uses 0.06kWh of energy per hour – [Silicon Valley power chart](https://www.siliconvalleypower.com/residents/save-energy/appliance-energy-use-chart) (Some estimates are a little higher at 0.15kWh)
+- Der durchschnittliche Desktop-Computer, – alles, was man braucht, um Proof of Stake auszuführen, verbraucht 0. 6kWh Energie pro Stunde – [Silicon Valley power char](https://www.siliconvalleypower.com/residents/save-energy/appliance-energy-use-chart) (einige Schätzungen liegen etwas höher bei 0,15 kWh)
 
-At the time of writing, there are 140 592 validators from 16 405 unique addresses. Of those, 87 897 validators are assumed to be staking from home.
+Zum jetzigen Zeitpunkt gibt es 140 592 Validatoren von 16 405 eindeutige Adressen. Von all diesen staken vermutlich 87 897 Validatoren von zu Hause.
 
-It is assumed the average person staking from home uses a 100 watt desktop personal computer setup to run an average of 5.4 validator clients.
+Es wird davon ausgegangen, dass der Durchschnittsverbraucher, der von zu Hause staked, eine 100 Watt Desktop Personal Computer Setup verwendet, um durchschnittlich 5,4 Validator-Clients laufen zu lassen.
 
-The 87 897 validators running from home gives us 16 300 users consuming ~1.64 megawatt of energy.
+Die 87 897 Validatoren, die von zu Hause aus operieren, bringen uns 16 300 Benutzer mit ~1,64 Megawatt an Energie.
 
-The rest of the validators are run by custodial stakers such as exchanges and staking services. It can be assumed that they use 100w per 5.5 validators. This is a gross overestimation to be on the safe side.
+Der Rest der Validatoren wird von vormundschaftlichen Stakern, wie Börsen und Staking Services betrieben. Es kann davon ausgegangen werden, dass sie 100W pro 5.5 Validatoren verwenden. Das ist sehr großzügig geschätzt, um sicher zu sein.
 
-In total, Ethereum on proof-of-stake therefore consumes something on the order of 2.62 megawatt, which is about the same as a small American town.
+Insgesamt verbraucht Ethereum also durch Proof-of-Stake etwas in der Größenordnung von 2,62 Megawatt, was ungefähr einer kleinen amerikanischen Stadt entspricht.
 
-This is a reduction of at least 99.95% in total energy usage from the Digiconomist estimate of 44.94 TWh per year that the Ethereum miners currently consume.
+Dies ist, nach der Schätzung des Digiconomist, eine Reduktion um mindestens 99,95 % des Gesamtenergieverbrauchs von 44.94 TWh, die die Ethereum Miner derzeit pro Jahr verbrauchen.
 
-#### 2. Visa energy consumption {#fn-2}
+#### 2. Energieverbrauch von Visa {#fn-2}
 
-The cost of 100,000 Visa transactions is 149 kwH - [Bitcoin network average energy consumption per transaction compared to VISA network as of 2020, Statista](https://www.statista.com/statistics/881541/bitcoin-energy-consumption-transaction-comparison-visa/)
+Die Kosten von 100, 00 Visa-Transaktionen sind 149 kwH - [Bitcoin network average energy consumption per transaction compared to VISA network as of 2020, Statista](https://www.statista.com/statistics/881541/bitcoin-energy-consumption-transaction-comparison-visa/)
 
-Year-ending September 2020 they processed 140,839,000,000 transactions – [Visa financials report Q4 2020](https://s1.q4cdn.com/050606653/files/doc_financials/2020/q4/Visa-Inc.-Q4-2020-Operational-Performance-Data.pdf)
+Am Jahresende im September 2020 wurden 140,839,000.000 Transaktionen bearbeitet – [Visa financials report Q4 2020](https://s1.q4cdn.com/050606653/files/doc_financials/2020/q4/Visa-Inc.-Q4-2020-Operational-Performance-Data.pdf)
 
-#### 3. Eth2 energy usage for 100,000 transactions {#fn-3}
+#### 3. Eth2-Energieverbrauch für 100.000 Transaktionen {#fn-3}
 
-It's estimated that Eth2 will allow the network to process between 25,000 and 100,000 transactions per second, with [100,000 as the theoretical maximum right now](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698).
+Es wird geschätzt, dass Eth2 dem Netzwerk ermöglichen wird zwischen 25.000 und 100.000 Transaktionen pro Sekunde zu verarbeiten, mit [im Moment dem theoretischem Maximum von 100.000](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698).
 
-[Vitalik Buterin on transactions per second potential on Eth2](https://twitter.com/VitalikButerin/status/1312905884549300224?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1312905886327664640%7Ctwgr%5E%7Ctwcon%5Es2_&ref_url=https%3A%2F%2Fwww.coinspeaker.com%2Fvitalik-buterin-ethereum-layer-2%2F)
+[Vitalik Buterin über Transaktionen pro Sekunde auf Eth2](https://twitter.com/VitalikButerin/status/1312905884549300224?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1312905886327664640%7Ctwgr%5E%7Ctwcon%5Es2_&ref_url=https%3A%2F%2Fwww.coinspeaker.com%2Fvitalik-buterin-ethereum-layer-2%2F)
 
-At the bare minimum, Eth2 will allow 64 times the amount of transactions as today which sits at around 15 transactions. That's the amount of shard chains (extra data and capacity) being introduced. [More on shard chains](/eth2/shard-chains/)
+Als absolutes Minimum wird Eth2 das 64-fache der Transaktionen ermöglichen, die heute bei etwa 15 Transaktionen liegen. Das ist die Menge der Shard Chains (zusätzliche Daten und Kapazität) die eingeführt werden. [Mehr über Shard Chains](/eth2/shard-chains/)
 
-That means we can estimate how long it will take to process 100,000 transactions so we can compare it to the Visa example above.
+Das bedeutet, dass wir abschätzen können, wie lange es dauert, bis 100.000 Transaktionen verarbeitet werden, damit wir es mit dem oben genannten Visa-Beispiel vergleichen können.
 
-- `15 * 64 = 960` transactions per second.
-- `100,000 / 960 = 104.2` seconds to process 100,000 transactions.
+- `15 * 64 = 960` Transaktionen pro Sekunde.
+- `100.000 / 960 = 104,2` Sekunden, um 100.000 Transaktionen zu verarbeiten.
 
-In 104.2 seconds, the Ethereum network will use the following amount of energy:
+In 104,2 Sekunden wird das Ethereum-Netzwerk folgende Menge an Energie verbrauchen:
 
-`1.44kWh daily usage * 10,000 network nodes = 14,400kWh` per day.
+`1.44kWh tägliche Nutzung * 10.000 Netzwerkknoten = 14.400kWh` pro Tag.
 
-There are 86,400 seconds in a day, so `14,400 / 86,400 = 0.1666666667kWh` per second.
+Es gibt 86.400 Sekunden an einem Tag, also `14,400 / 86,400 = 0.1666666667kWh` pro Sekunde.
 
 If we multiply that by the amount of time it takes to process 100,000 transaction: `0.1666666667 * 104.2 = 17.3666666701 kWh`.
 
-That is **11.6554809866%** of the energy consumed by the same amount of transactions on Visa.
+Das ist **11.6554809866%** der Energie, die für die gleichen Menge an Transaktionen auf Visa verbraucht wird.
 
-And remember, this is based on the minimum amount of transactions that Eth2 will be able to handle per second. If Eth2 reaches its potential of 100,000 transactions per second, 100,000 transactions would consume 0.1666666667kWh.
+Und denke daran, dass dies auf dem Minimum an Transaktionen basiert, die Eth2 pro Sekunde bearbeiten kann. Wenn Eth2 sein Potenzial von 100.000 Transaktionen pro Sekunde erreicht, würden 100.000 Transaktionen 0,16666667kWh verbrauchen.
 
-To put it another way, if Visa handled 140,839,000,000 transactions at a cost of 149 kWh per 100,000 transactions that's 209,850,110 kWh energy consumed for the year.
+Anders ausgedrückt: Wenn Visa 140.839.000.000 Transaktionen zu Kosten von 149 kWh pro 100.000 Transaktionen, abwickelt, sind das 209.850.110 kWh Energieverbrauch für das Jahr.
 
-Eth2 in a single year stands to consume 5,256,000 kWh. With a potential of 788,940,000,000 - 3,153,600,000,000 transactions processed in that time.
+Eth2 verbraucht in einem einzigen Jahr 5.256.000 kWh. Mit potenziell 788.940.000.000 - 3.153.600.000.000 in dieser Zeit abgewickelten Transaktionen.
 
 <InfoBanner emoji=":evergreen_tree:">
-  If you think these stats are incorrect or can be made more accurate, please raise an issue or PR. These are estimates by the ethereum.org team made using publicly accessible information and the current Eth2 design. This doesn't represent an official promise from the Ethereum Foundation. 
+  Wenn du denkst, dass diese Statistiken falsch sind oder genauer gemacht werden können, melde bitte einen Fall oder PR an. Dies sind Schätzungen des ethereum.org-Teams, das unter Verwendung öffentlich zugänglicher Informationen und dem aktuellen Eth2-Design erstellt wurde. Dies stellt kein offizielles Versprechen der Ethereum Foundation dar. 
 </InfoBanner>
