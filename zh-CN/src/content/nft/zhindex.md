@@ -1,349 +1,349 @@
 ---
-title: Non-fungible tokens (NFT)
-description: An overview of NFTs on Ethereum
-lang: en
-template: use-cases
+title: 非同质化代币（NFT）
+description: 以太坊上的 NFT 简介
+lang: 英语
+template: 使用场景
 emoji: ":frame_with_picture:"
-sidebar: true
+sidebar: 是
 sidebarDepth: 2
 image: ../../assets/infrastructure_transparent.png
-alt: "An Eth logo being displayed via hologram."
-summaryPoints: '[ "A way to represent anything unique as an Ethereum-based asset.", "NFTs are giving more power to content creators than ever before.", "Powered by smart contracts on the Ethereum blockchain.", ] ---'
+alt: "正在通过全息图显示的Eth 徽标。"
+summaryPoints: '["一种将任何独特的东西表现为基于以太坊的资产的方式。", "NFT给了内容创作者比以往更多的权力。", "由以太坊区块链上的智能合约驱动。", ]'
 ---
 
-NFTs are currently taking the digital art and collectibles world by storm. Digital artists are seeing their lives change thanks to huge sales to a new crypto-audience. And celebrities are joining in as they spot a new opportunity to connect with fans. But digital art is only one way to use NFTs. Really they can be used to represent ownership of any unique asset, like a deed for an item in the digital or physical realm.
+NFT目前正在数字艺术和收藏品世界中掀起风暴。 由于对新的加密货币受众的巨大销售，数字艺术家的生活正在发生变化。 一些名人正在加入，因为他们发现了一个与粉丝们联系的新机会。 但数字艺术只是使用NFT的一种方式。 实际上，它们可以用来代表任何独特资产的所有权，就像数字或物理领域的物品的契约。
 
-If Andy Warhol had been born in the late 90s, he probably would have minted Campbell's Soup as an NFT. It's only a matter of time before Kanye puts a run of Yeezys on Ethereum. And one day owning your car might be proved with an NFT.
+如果安迪-沃霍尔出生在90年代后期，他很可能会将的坎贝尔灵魂视为一个NFT。 坎耶在以太坊上运行Yeezys只是一个时间问题。 某一天你可以用NFT来证明对汽车的拥有权。
 
-## What's an NFT? {#what-are-nfts}
+## 什么是NFT？ {#what-are-nfts}
 
-NFTs are tokens that we can use to represent ownership of unique items. They let us tokenise things like art, collectibles, even real estate. They can only have one official owner at a time and they're secured by the Ethereum blockchain – no one can modify the record of ownership or copy/paste a new NFT into existence.
+NFT是我们用以代表独特物品所有权的代币。 他们让我们把诸如艺术品、收藏品、甚至房地产等东西通证化。 他们一次只能拥有一个官方所有者，他们被以太坊 区块链保护——没有人可以修改所有权记录或复制/粘贴一个新的 NFT 存在。
 
-NFT stands for non-fungible token. Non-fungible is an economic term that you could use to describe things like your furniture, a song file, or your computer. These things are not interchangeable for other items because they have unique properties.
+NFT 代表非同质化代币。 非同质化是一个经济术语，你可以用它来描述你的家具、歌曲文件或你的电脑等东西。 这些东西不能与其他物品互换，因为它们有独特的属性。
 
-Fungible items, on the other hand, can be exchanged because their value defines them rather than their unique properties. For example, ETH or dollars are fungible because 1 ETH / $1 USD is exchangeable for another 1 ETH / $1 USD. <iframe width="100%" height="315" src="https://www.youtube.com/embed/Xdkkux6OxfM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+另一方面，同质化的物品，因为它们的价值决定了它们，而不是它们的独特属性。 这样 ，改成以太坊或美元是同质化的，因为 1 ETH/ 1 USD 可以兑换成另外 1 ETH/ 1 USD。 <iframe width="100%" height="315" src="https://www.youtube.com/embed/Xdkkux6OxfM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
 
-## The internet of assets {#internet-of-assets}
+## 资产网络 {#internet-of-assets}
 
-NFTs and Ethereum solve some of the problems that exist in the internet today. As everything becomes more digital, there's a need to replicate the properties of physical items like scarcity, uniqueness, and proof of ownership. Not to mention that digital items often only work in the context of their product. For example you can't re-sell an iTunes mp3 you've purchased, or you can't exchange one company's loyalty points for another platform's credit even if there's a market for it.
+NFT和以太坊解决了当前互联网上存在的一些问题。 随着一切都变得更加数字化，有必要复制实体物品的属性，如稀缺性、独特性和所有权证明。 更不用说数字物品常常只是在其产品范围内发挥作用。 例如，您不能再出售您已购买的 iTunes mp3 或者您不能将一个公司的忠诚点换成另一个平台的信用，即使它有市场。
 
-Here's how an internet of NFTs compared to the internet most of us use today looks...
+下面是NFT的互联网与我们今天大多数人使用的互联网相比的情况。
 
-### A comparison {#nft-comparison}
+### 对比 {#nft-comparison}
 
-| An NFT internet                                                                                                                                                                                             | The internet today                                                                                                                                                         |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| NFTs are digitally unique, no two NFTs are the same.                                                                                                                                                        | A copy of a file, like an .mp3 or .jpg, is the same as the original.                                                                                                       |
-| Every NFT must have an owner and this is of public record and easy for anyone to verify.                                                                                                                    | Ownership records of digital items are stored on servers controlled by institutions – you must take their word for it.                                                     |
-| NFTs are compatible with anything built using Ethereum. An NFT ticket for an event can be traded on every Ethereum marketplace, for an entirely different NFT. You could trade a piece of art for a ticket! | Companies with digital items must build their own infrastructure. For example an app that issues digital tickets for events would have to build their own ticket exchange. |
-| Content creators can sell their work anywhere and can access a global market.                                                                                                                               | Creators rely on the infrastructure and distribution of the platforms they use. These are often subject to terms of use and geographical restrictions.                     |
-| Creators can retain ownership rights over their own work, and claim resale royalties directly.                                                                                                              | Platforms, such as music streaming services, retain the majority of profits from sales.                                                                                    |
-| Items can be used in surprising ways. For example, you can use digital artwork as collateral in a decentralised loan.                                                                                       |                                                                                                                                                                            |
+| NFT 互联网                                                                       | 当今互联网                                                    |
+| ----------------------------------------------------------------------------- | -------------------------------------------------------- |
+| NFT在数字上是独一无二的，没有两个NFT是相同的。                                                    | 文件副本，如.mp3或.jpg，与原始文件相同。                                 |
+| 每个NFT必须拥有一个所有者，这是一个公开的记录，任何人都可以轻松核实。                                          | 数字物品的所有权记录存储在由机构控制的服务器上--你必须相信他们的话。                      |
+| NFT与任何使用以太坊构建的东西都是兼容的。 一张活动的NFT门票可以在每个以太坊市场上进行交易，换取完全不同的NFT。 你可以用一件艺术品换取一张门票! | 拥有数字设备的公司必须建立自己的基础设施。 例如，一个为活动发行数字门票的应用程序将不得不建立自己的门票交易所。 |
+| 内容创建者可以在任何地方出售他们的作品，并可以进入全球市场。                                                | 创建者依靠他们所使用的平台的基础设施和分布。 这些通常受到使用条款和地理限制的制约。               |
+| 创作者可以保留对自己作品的所有权，并直接要求转售版税。                                                   | 平台，如音乐媒体服务，保留了大部分销售利润。                                   |
+| 物品可以以令人惊讶的方式使用。 例如，您可以使用数字艺术作品作为分散贷款的抵押品。                                     |                                                          |
 
-### NFT examples {#nft-examples}
+### NFT 示例 {#nft-examples}
 
-The NFT world is relatively new. In theory, the scope for NFTs is anything that is unique that needs provable ownership. Here are some examples of NFTs that exist today, to help you get the idea:
+NFT世界相对较新。 理论上，NFT的范围是任何需要证明所有权的独特事物。 以下是今天存在的一些NFT的例子，以帮助你了解情况。
 
-- [A unique digital artwork](https://foundation.app/artworks)
-- [A unique sneaker in a limited-run fashion line](https://www.metagrail.co/auctions/91cf83fb-3477-4155-aae8-6dcb9b853397)
-- [An in-game item](https://market.decentraland.org/)
-- [An essay](https://zora.co/0x517bab7661C315C63C6465EEd1b4248e6f7FE183/145)
-- [A digital collectible](https://www.larvalabs.com/cryptopunks/details/1)
-- [A domain name](https://app.ens.domains/name/ethereum.eth)
-- [A ticket that gives you access to an event or a coupon](https://www.yellowheart.io/)
+- [独特的数字艺术品](https://foundation.app/artworks)
+- [在有限时段里独特的潜行器](https://www.metagrail.co/auctions/91cf83fb-3477-4155-aae8-6dcb9b853397)
+- [游戏内的物品](https://market.decentraland.org/)
+- [一篇文章](https://zora.co/0x517bab7661C315C63C6465EEd1b4248e6f7FE183/145)
+- [一个数字收藏品](https://www.larvalabs.com/cryptopunks/details/1)
+- [域名](https://app.ens.domains/name/ethereum.eth)
+- [一张能让你参加某项活动的门票或优惠券](https://www.yellowheart.io/)
 
-### ethereum.org examples {#ethereum-org-examples}
+### ethereum.org的例子 {#ethereum-org-examples}
 
-We use NFTs to give back to our contributors and we've even got our own NFT domain name.
+我们用NFT来回馈我们的贡献者，我们甚至有自己的NFT域名。
 
-#### POAPs (Proof of attendance protocol) {#poaps}
+#### POAPs (证明参与的协议) {#poaps}
 
-If you contribute to ethereum.org, you can claim a POAP NFT. These are collectibles that prove you participated in an event. Some crypto meetups have used POAPs as a form of ticket to their events. [More on contributing](/en/contributing/#poap).
+如果你对etherum.org做了贡献，您可以认领POAP NFT。 这些是证明你参加了一个活动的收藏品。 一些加密货币聚会使用POAPs作为其活动门票的一种形式。 [更多关于贡献的信息](/en/contributing/#poap)。
 
 ![ethereum.org POAP](../../assets/use-cases/poap.png)
 
 #### ethereum.eth {#ethereum-dot-eth}
 
-This website has an alternative domain name powered by NFTs, **ethereum.eth**. Our `.org` address is centrally managed by a domain name system (DNS) provider, whereas ethereum`.eth` is registered on Ethereum via the Ethereum Name Service (ENS). And its owned and managed by us. [Check our ENS record](https://app.ens.domains/name/ethereum.eth)
+这个网站有一个由NFT驱动的替代域名，**ethereum.eth**。 我们的`.org`地址由域名系统（DNS）提供商集中管理，而ethereum`.eth`则通过以太坊名称服务（ENS）在以太坊上注册。 并由我们拥有和管理。 [查看我们的 ENS 记录](https://app.ens.domains/name/ethereum.eth)
 
-[More on ENS](https://app.ens.domains)
+[ENS的更多信息](https://app.ens.domains)
 
-## How do NFTs work? {#how-nfts-work}
+## 非同质化代币的运作机制 {#how-nfts-work}
 
-NFTs are different from ERC-20 tokens, such as DAI or LINK, in that each individual token is completely unique and is not divisible. NFTs give the ability to assign or claim ownership of any unique piece of digital data, trackable by using Ethereum's blockchain as a public ledger. An NFT is minted from digital objects as a representation of digital or non-digital assets. For example, an NFT could represent:
+NFT不同于ERC-20代币，例如DAI或LINK，因为每个代币都是完全独特、不可分割的。 NFT赋予任何独特数字数据分配或要求所有权的能力，可通过使用以太坊的区块链作为公共账簿进行追踪。 一个NFT是由数字对象铸成的，作为数字或非数字资产的代表。 例如，一个NFT可以代表：
 
-- Digital Art:
-  - GIFs
-  - Collectibles
-  - Music
-  - Videos
-- Real World Items:
-  - Deeds to a car
-  - Tickets to a real world event
-  - Tokenized invoices
-  - Legal documents
-  - Signatures
-- Lots and lots more options to get creative with!
+- 数字艺术：
+  - 动图
+  - 收藏品
+  - 音乐
+  - 视频
+- 现实世界物品：
+  - 车上的饰物
+  - 现实世界活动的门票
+  - 通证化发票
+  - 法律文档
+  - 签名
+- 有很多很多的选择，可以发挥创意。
 
-An NFT can only have one owner at a time. Ownership is managed through the uniqueID and metadata that no other token can replicate. NFTs are minted through smart contracts that assign ownership and manage the transferability of the NFT's. When someone creates or mints an NFT, they execute code stored in smart contracts that conform to different standards, such as ERC-721. This information is added to the blockchain where the NFT is being managed. The minting process, from a high level, has the following steps that it goes through:
+NFT 一次只能有一个拥有者。 所有权是通过唯一的ID和元数据管理的，其他通证无法复制。 NFT是通过智能合约来铸造的，智能合约分配所有权并管理它们的可转让性。 当有人创建或铸造NFT时，他们执行存储在符合不同标准的智能合约中的代码，如ERC-721。 此信息被添加到正在管理NFT的区块链中。 铸造过程，从高纬度来看，经历了以下步骤：
 
-- Creating a new block
-- Validating information
-- Recording information into the blockchain
+- 创建一个新的区块
+- 验证信息
+- 将信息录入区块链
 
-NFT's have some special properties:
+NFT有一些特殊属性：
 
-- Each token minted has a unique identifier that is directly linked to one Ethereum address.
-- They're not directly interchangeable with other tokens 1:1. For example 1 ETH is exactly the same as another ETH. This isn't the case with NFTs.
-- Each token has an owner and this information is easily verifiable.
-- They live on Ethereum and can be bought and sold on any Ethereum-based NFT market.
+- 铸造的每个代币都有一个独特的标识符，直接与一个以太坊地址相连。
+- 他们不能直接与其通证1:1互换。 例如，1以太坊与另一个以太坊完全相同。 NFT的情况并非如此。
+- 每个通证都有一个所有者，这个信息很容易验证。
+- 他们存在于在以太坊上，可以在任何基于以太坊的NFT市场上买卖。
 
-In other words, if you _own_ an NFT:
+换句话说，如果你_拥有_一个NFT。
 
-- You can easily prove you own it.
-  - Proving you own an NFT is very similar to proving you have ETH in your account.
-  - For example, let's say you purchase an NFT, and the ownership of the unique token is transferred to your wallet via your public address.
-  - The token proves that your copy of the digital file is the original.
-  - Your private key is proof-of-ownership of the original.
-  - The content creator's public key serves as a certificate of authenticity for that particular digital artefact.
-    - The creators public key is essentially a permanent part of the token's history. The creator's public key can demonstrate that the token you hold was created by a particular individual, thus contributing to its market value (vs a counterfeit).
-  - Another way to think about proving you own the NFT is by signing messages to prove you own the private key behind the address.
-    - As mentioned above, your private key is proof-of-ownership of the original. This tells us that the private keys behind that address control the NFT.
-    - A signed message can be used as proof that you own your private keys without revealing them to anybody and thus proving you own the NFT as well!
-- No one can manipulate it in any way.
-- You can sell it, and in some cases this will earn the original creator resale royalties.
-- Or, you can hold it forever, resting comfortably knowing your asset is secured by your wallet on Ethereum.
+- 你可以轻松地证明你拥有它。
+  - 证明你拥有一个 NFT 和证明你的帐户中有以太坊非常相似。
+  - 例如，假设你购买了一个NFT，此唯一通证的所有权通过你的公共地址转移到你的钱包里。
+  - 该通证证明你的数字文件的副本是原件。
+  - 你的私钥是原始的所有权证明。
+  - 内容创建者的公钥作为该特定数字艺术品的真实性证书。
+    - 创作者的公钥基本上是通证历史的永久组成部分。 创造者的公钥可以证明你持有的代币是由一个特定的人创造的，从而促进其市场价值（与假货相比）。
+  - 证明你拥有NFT的另一种方式是通过签署信息来证明你拥有地址背后的私钥。
+    - 如上所述，你的私钥是原始所有权证明。 这告诉我们，地址背后的私钥掌控着NFT。
+    - 签名的消息可以用来证明你拥有私钥而不向任何人透露私钥，从而也证明你拥有NFT！
+- 没有人能够以任何方式操纵它。
+- 你可以出售它，在某些情况下，这将赚取原创作者转售版权。
+- 或者，你可以永远持有它，知道你的资产由你在以太坊上的钱包担保，就可以舒服地休息了。
 
-And if you _create_ an NFT:
+如果你 _创建一个 NFT:_
 
-- You can easily prove you're the creator.
-- You determine the scarcity.
-- You can earn royalties every time it's sold.
-- You can sell it on any NFT market or peer-to-peer. You're not locked in to any platform and you don't need anyone to intermediate.
+- 你可以轻松地证明自己是创作者。
+- 你确定稀有性。
+- 每次出售您都可以赚取版税。
+- 你可以在任何 NFT 市场或点对点出售。 你没有被锁定在任何平台上，你不需要任何中介。
 
-### Scarcity {#scarcity}
+### 稀缺性 {#scarcity}
 
-The creator of an NFT gets to decide the scarcity of their asset.
+NFT的创建者决定其资产的稀缺性。
 
-For example, consider a ticket to a sporting event. Just as an organizer of an event can choose how many tickets to sell, the creator of an NFT can decide how many replicas exist. Sometimes these are exact replicas, such as 5000 General Admission tickets. Sometimes several are minted that are very similar, but each slightly different, such as a ticket with an assigned seat. In another case, the creator may want to create an NFT where only one is minted as a special rare collectible.
+例如，考虑体育活动的门票。 就像一个活动的组织者可以选择出售多少门票一样，NFT的创造者可以决定有多少复制品存在。 有时这些是完全的复制品，如5000张普通门票。 有时会铸造几张非常相似的票，但每张都略有不同，如一张有指定座位的票。 在另一种情况下，创造者可能想创造一种NFT，只铸造一个作为特殊的稀有收藏品。
 
-In these cases, each NFT would still have a unique identifier (like a bar code on a traditional "ticket"), with only one owner. The intended scarcity of the NFT matters, and is up to the creator. A creator may intend to make each NFT completely unique to create scarcity, or have reasons to produce several thousand replicas. Remember, this information is all public.
+在这些情况下，每个NFT仍将有一个独特的标识符（像传统 "票据 "上的条形码），只有一个所有者。 NFT的预期稀缺性很重要，这取决于创作者。 创造者可能打算使每个NFT完全独特以创造稀缺性，或者有理由生产几千个复制品。 记住，这些信息都是公开的。
 
-### Royalties {#royalties}
+### 版税 {#royalties}
 
-Some NFTs will automatically pay out royalties to their creators when they're sold. This is still a developing concept but it's one of the most powerful. Original owners of [EulerBeats Originals](https://eulerbeats.com/) earn an 8% royalty every time the NFT is sold on. And some platforms, like [Foundation](https://foundation.app) and [Zora](https://zora.co/), support royalties for their artists.
+某些NFT会自动向其创作者支付版税。 这仍然是一个发展中的概念，但是它是最强大的概念之一。 [EulerBeats 原始所有者](https://eulerbeats.com/) 在NFT每次被出售时都会获得8%的版权。 而一些平台，如[基金会](https://foundation.app)和[Zora](https://zora.co/)，支持为其艺术家提供版税。
 
-This is completely automatic so creators can just sit back and earn royalties as their work is sold from person to person. At the moment, figuring out royalties is very manual and lacks accuracy – a lot of creators don't get paid what they deserve. If your NFT has a royalty programmed into it, you'll never miss out.
+这完全是自动的，所以创作者可以随着他们的作品从个人到个人的销售而坐赚版税。 目前，计算版税是非常手动的，缺乏准确性--很多创作者没有得到他们应得的报酬。 如果你的NFT有编入版税，你就不会错过。
 
-## What are NFTs used for? {#nft-use-cases}
+## 非同质化代币的应用前景 {#nft-use-cases}
 
-Here's more information of some of the better developed use-cases and visions for NFTs on Ethereum.
+这里有更多关于以太坊上NFTs的一些发展较好的用例和愿景的信息。
 
-- [Digital content](#nfts-for-creators)
-- [Gaming items](#nft-gaming)
-- [Domain names](#nft-domains)
-- [Physical items](#nft-physical-items)
-- [Investments and collateral](#nfts-and-defi)
+- [数字内容](#nfts-for-creators)
+- [游戏项目](#nft-gaming)
+- [域名](#nft-domains)
+- [有形物品](#nft-physical-items)
+- [投资和担保](#nfts-and-defi)
 
 <Divider />
 
-### Maximising earnings for creators {#nfts-for-creators}
+### 创作者收入最大化 {#nfts-for-creators}
 
-The biggest use of NFTs today is in the digital content realm. That's because that industry today is broken. Content creators see their profits and earning potential swallowed by platforms.
+目前使用的NFT最多的是数字内容领域。 这是因为今天的工业已经被打破。 内容创作者看到他们的利润和潜在收入被平台吞噬。
 
-An artist publishing work on a social network makes money for the platform who sell ads to the artists followers. They get exposure in return, but exposure doesn't pay the bills.
+艺术家在社交网络上发表作品，为平台赚钱，而平台向艺术家的粉丝出售广告。 他们得到曝光度的回报，但曝光度并不能支付账单。
 
-NFTs power a new creator economy where creators don't hand ownership of their content over to the platforms they use to publicise it. Ownership is baked into the content itself.
+NFT为新的创作者经济提供动力，创作者不会将其内容的所有权交给他们用来宣传的平台。 所有权被填充到内容本身。
 
-When they sell their content, funds go directly to them. If the new owner then sells the NFT, the original creator can even automatically receive royalties. This is guaranteed every time it's sold because the creator's address is part of the token's metadata – metadata which can't be modified.
+当他们出售其内容时，资金直接转给他们。 如果新所有者随后出售NFT，原创作者甚至可以自动收到版税。 这在每次出售时都是有保证的，因为创建者的地址是代币元数据的一部分--元数据是不能修改的。
 
 <InfoBanner shouldSpaceBetween emoji=":eyes:">
-  <div>Explore, buy or create your own NFT art/collectibles...</div>
-  <ButtonLink to="/dapps/?category=collectibles">Explore NFT art</ButtonLink>
+  <div>探索、购买或创建您自己的 NFT 艺术/收藏品...</div>
+  <ButtonLink to="/dapps/?category=collectibles">探索NFT艺术</ButtonLink>
 </InfoBanner>
 
-#### The copy/paste problem {#nfts-copy-paste}
+#### 复制/粘贴问题 {#nfts-copy-paste}
 
-Naysayers often bring up the fact that NFTs "are dumb" usually alongside a picture of them screenshotting an NFT artwork. "Look, now I have that image for free!" they say smugly.
+反对者经常提出NFTs"很蠢 "的事实，通常是伴随着他们截图NFT作品的照片。 "看，现在我免费拥有这个图像！"他们得意地说。
 
-Well, yes. But does googling an image of Picasso's Guernica make you the proud new owner of a multi-million dollar piece of art history?
+嗯，是的。 但是，在谷歌上搜索毕加索的格尔尼卡图片，是否会让你成为价值数百万美元的艺术史的骄傲新主人？
 
-Ultimately owning the real thing is as valuable as the market makes it. The more a piece of content is screen-grabbed, shared, and generally used the more value it gains.
+归根结底，拥有真正的东西，其价值是由市场决定的。 一个内容被屏幕抓取、分享和普遍使用的次数越多，它的价值就越大。
 
-Owning the verifiably real thing will always have more value than not.
+拥有可核实的真实的东西永远比不拥有更有价值。
 
 <Divider />
 
-### Boosting gaming potential {#nft-gaming}
+### 提升游戏的可能性 {#nft-gaming}
 
-NFTs have seen a lot of interest from game developers. NFTs can provide records of ownership for in-game items, fuel in-game economies, and bring a host of benefits to the players.
+NFT已经看到了来自游戏开发者的大量兴趣。 NFT可以为游戏中的物品提供所有权记录，为游戏中的经济提供动力，并为玩家带来一系列的好处。
 
-In a lot of regular games you can buy items for you to use in your game. But if that item was an NFT you could recoup your money by selling it on when you're done with the game. You might even make a profit if that item becomes more desirable.
+在许多常规游戏中，您可以购买物品供您在游戏中使用。 但如果该物品是一个 NFT ，你可以在游戏完成后通过出售它来收回你的钱。 如果该物品变得更受欢迎，你甚至可能赚到钱。
 
-For game developers – as issuers of the NFT – they could earn a royalty every time an item is re-sold in the open marketplace. This creates a more mutually-beneficial business model where both players and developers earn from the secondary NFT market.
+对于游戏开发者来说——作为NFT的发行者——每当商品在开放市场上重新销售时，他们都可以赚取版税。 这就创造了一个更加互惠的商业模式，玩家和开发人员都可以从二级NFT市场赚钱。
 
-This also means that if a game is no longer maintained by the developers, the items you've collected remain yours.
+这也意味着，如果游戏不再由开发者维护，您收集的东西仍然是您的。
 
-Ultimately the items you grind for in-game can outlive the games themselves. Even if a game is no longer maintained, your items will always be under your control. This means in-game items become digital memorabilia and have a value outside of the game.
+最终，你在游戏磨练中获得的物品可以超过游戏本身。 即使游戏不再维护，物品将始终在你的控制之下。 这意味着游戏内物品变成数字记忆力并具有游戏外的价值。
 
-Decentraland, a virtual reality game, even lets you buy NFTs representing virtual parcels of land that you can use as you see fit.
+Decentraland是一个虚拟的现实游戏，甚至可以让您购买代表虚拟的地块的NFT，你可以在你看来合适时使用。
 
 <InfoBanner shouldSpaceBetween emoji=":eyes:">
-  <div>Check out Ethereum games, powered by NFTs...</div>
-  <ButtonLink to="/dapps/?category=gaming">Explore NFT games</ButtonLink>
+  <div>查看以太坊游戏，由NFT驱动</div>
+  <ButtonLink to="/dapps/?category=gaming">探索NFT游戏</ButtonLink>
 </InfoBanner>
 
 <Divider />
 
-### Making Ethereum addresses more memorable {#nft-domains}
+### 让以太坊地址更容易被记住 {#nft-domains}
 
-The Ethereum Name Service uses NFTs to provide your Ethereum address with an easier-to-remember name like `mywallet.eth`. This means you could ask someone to send you ETH via `mywallet.eth` rather than `0x123456789.....`.
+以太坊名称服务使用NFT来为你的以太坊地址提供一个更容易记住的名字，如`mywallet.eth`。 这意味着您可以通过 `mywallet.eth` 而不是 `0x123456789........` 来让某人向您发送ETH。
 
-This works in a similar way to a website domain name which makes an IP address more memorable. And like domains, ENS names have value, usually based on length and relevance. With ENS you don't need a domain registry to facilitate the transfer of ownership. Instead, you can trade your ENS names on an NFT marketplace.
+这与网站域名相似，使得IP地址更容易记忆。 同域名一样，ENS名称有价值，通常取决于长度和相关性。 有了ENS，你不需要一个域名注册机构来促进所有权的转移。 相反，你可以在 NFT 市场上交易你的 ENS 名称。
 
-Your ENS name can:
+你的 ENS 名称可以：
 
-- Receive cryptocurrency and other NFTs.
-- Point to a decentralized website, like [ethereum.eth](https://ethereum.eth.link). [More on decentralizing your website](https://docs.ipfs.io/how-to/websites-on-ipfs/link-a-domain/#domain-name-service-dns)
-- Store any arbitrary information, including profile information like email addresses and Twitter handles.
-
-<Divider />
-
-### Physical items {#nft-physical-items}
-
-The tokenisation of physical items isn't yet as developed as their digital counterparts. But there are plenty of projects exploring the tokenisation of real estate, one-of-a-kind fashion items, and more.
-
-As NFTs are essentially deeds, one day you could buy a car or home using ETH and receive the deed as an NFT in return (in the same transaction). As things become increasingly high-tech, it's not hard to imagine a world where your Ethereum wallet becomes the key to your car or home – your door being unlocked by the cryptographic proof of ownership.
-
-With valuable assets like cars and property representable on Ethereum, you can use NFTs as collateral in decentralized loans. This is particularly helpful if you're not cash or crypto-rich but own physical items of value. [More on DeFi](/defi/)
+- 接收加密货币和其他NFT。
+- 指向一个去中心化的网站，例如 [etherum.eth](https://ethereum.eth.link)。 [更多关于把你的网站去中心](https://docs.ipfs.io/how-to/websites-on-ipfs/link-a-domain/#domain-name-service-dns)
+- 存储任何任意信息，包括电子邮件地址和Twitter手册等个人资料信息。
 
 <Divider />
 
-### NFTs and DeFi {#nfts-and-defi}
+### 有形物品 {#nft-physical-items}
 
-The NFT world and the [decentralized finance (DeFi)](/defi/) world are starting to work together in a number of interesting ways.
+实物物品的通证化还没有像数字物品那样发达。 但也有很多项目在探索房地产的通证化、独一无二的时尚物品，以及更多。
 
-#### NFT-backed loans {#nft-backed-loans}
+由于NFT本质上是契约，有一天你可以用以太坊买车或买房，并收到作为NFT回报的契约（在同一交易中）。 随着事情变得越来越高科技，不难想象，在这个世界上，你的以太坊钱包成为你的汽车或家庭的钥匙--你的门被加密的所有权证明打开了。
 
-There are DeFi applications that let you borrow money by using collateral. For example you collateralise 10 ETH so you can borrow 5000 DAI ([a stablecoin](/stablecoins/)). This guarantees that the lender gets paid back – if the borrower doesn't pay back the DAI, the collateral is sent to the lender. However not everyone has enough crypto to use as collateral.
+由于汽车和财产等有价值的资产在以太坊上可代表化，你可以在去中心化贷款中使用NFT作为抵押品。 如果你没有现金或加密货币，但拥有有价值的实物物品，这尤其有帮助。 [更多关于Defi](/defi/)
 
-Projects are beginning to explore using NFTs as collateral instead. Imagine you bought a rare CryptoPunk NFT back in the day – they can fetch $1000s at today's prices. By putting this up as collateral, you can access a loan with the same rule set. If you don't pay back the DAI, your CryptoPunk will be sent to the lender as collateral. This could eventually work with anything you tokenise as an NFT.
+<Divider />
 
-And this isn't hard on Ethereum, because both worlds (NFT and DeFi) share the same infrastructure.
+### NFT 和 DeFi {#nfts-and-defi}
 
-#### Fractional ownership {#fractional-ownership}
+NFT世界和 [去中心化金融(DeFi)](/defi/) 世界正在以一些有趣的方式开始合作。
 
-NFT creators can also create "shares" for their NFT. This gives investors and fans the opportunity to own a part of an NFT without having to buy the whole thing. This adds even more opportunities for NFT minters and collectors alike.
+#### NFT担保贷款 {#nft-backed-loans}
 
-- Fractionalised NFTs can be traded on [DEXs](/defi/#dex) like Uniswap, not just [NFT marketplaces](/dapps?category=collectibles). That means more buyers and sellers.
-- An NFT's overall price can be defined by the price of its fractions.
-- You have more of an opportunity to own and profit from items you care about. It's harder to be priced out of owning NFTs.
+有一些Defi 应用程序允许通过使用抵押借款。 例如，你抵押了10个以太坊，所以你可以借到5000个DAI（[一个稳定币](/stablecoins/)）。 这保证了贷款人得到回报--如果借款人不偿还DAI，抵押品就会被送到贷款人那里。 然而，并非每个人都有足够的加密货币来作为担保。
 
-This is still experimental but you can learn more about fractional NFT ownership at the following exchanges:
+一些项目开始探索使用NFT作为抵押品。 想象一下，你在当年买了一个罕见的CryptoPunk NFT--以今天的价格，它们可以卖到1000美元。 通过将此作为抵押品，你可以以同样的规则获得贷款。 如果不退还DAI，你的 CryptoPunk 将作为担保品发送给贷款人。 这最终可以适用于任何NFT化的东西。
+
+而这在以太坊上并不难，因为两个世界（NFT和DeFi）共享相同的基础设施。
+
+#### 分割所有权 {#fractional-ownership}
+
+NFT 创建者也可以为他们的 NFT 创建“共享”。 这使投资者和粉丝们有机会拥有NFT的一部分，而不必购买全部。 这为NFT的铸造者和收藏家们增加了更多的机会。
+
+- 分解的 NFT 可以在 [DEX](/defi/#dex) 上进行交易，就像Uniswap一样，而不仅是 [NFT 市场](/dapps?category=collectibles)。 这意味着有更多的买方和卖方。
+- NFT的总价格可以根据其份数的价格来确定。
+- 你有更多的机会拥有你所关心的物品并从中获利。 拥有NFT的人更难被压价。
+
+这仍然是试验性的，但你可以在以下交易所了解更多关于分割NFT所有权的信息。
 
 - [NIFTEX](https://landing.niftex.com/)
 - [NFTX](https://gallery.nftx.org/)
 
-In theory, this would unlock the possibility to do things like own a piece of a Picasso. You would become a shareholder in a Picasso NFT, meaning you would have a say in things like revenue sharing. It's very likely that one day soon owning a fraction of an NFT will enter you into a decentralised autonomous organisation (DAO) for managing that asset.
+从理论上讲，这将释放出做一些事情的可能性，比如拥有一件毕加索的作品。 你将成为毕加索NFT的股东，这意味着你将在收入分享等方面有发言权。 很有可能在不久的某一天，拥有NFT的一小部分，你就会进入一个分散的自治组织（DAO）来管理该资产。
 
-These are Ethereum-powered organisations that allow strangers, like global shareholders of an asset, to coordinate securely without necessarily having to trust the other people. That's because not a single penny can be spent without group approval.
+这些是由以太坊驱动的组织，允许陌生人，如某一资产的全球股东，在不一定要信任其他人的情况下安全地协调。 这是因为未经团体批准就无法花费一分钱。
 
-As we mentioned, this is an emerging space. NFTs, DAOs, fractionalised tokens are all developing at different paces. But all their infrastructure exists and can work together easily because they all speak the same language: Ethereum. So watch this space.
+正如我们所提到的，这是一个新兴的空间。 NFT、DAO、分割的通证都是以不同的速度开发的。 但他们所有的基础设施都存在，并且可以很容易地一起工作，因为他们都说着同样的语言：以太坊。 所以注意这个空间。
 
-[More on DAOs](/dao/)
+[去DAO的更多信息](/dao/)
 
 <Divider />
 
-## Ethereum and NFTs {#ethereum-and-nfts}
+## 以太坊与NFT {#ethereum-and-nfts}
 
-Ethereum makes it possible for NFTs to work for a number of reasons:
+以太坊使NFT得以运行的原因如下：
 
-- Transaction history and token metadata is publicly verifiable – it's simple to prove ownership history.
-- Once a transaction is confirmed, it's nearly impossible to manipulate that data to "steal" ownership.
-- Trading NFTs can happen peer-to-peer without needing platforms that can take large cuts as compensation.
-- All Ethereum products share the same "backend". Put another way, all Ethereum products can easily understand each other – this makes NFTs portable across products. You can buy an NFT on one product and sell it on another easily. As a creator you can list your NFTs on multiple products at the same time – every product will have the most up-to-date ownership information.
-- Ethereum never goes down, meaning your tokens will always be available to sell.
+- 交易历史和通证元数据是可以公开核实的--证明所有权历史很简单。
+- 一旦交易被确认，几乎不可能操纵这些数据来 "窃取 "所有权。
+- NFT的交易可以在点对点的情况下进行，而不需要可以拿大笔资金作为补偿的平台。
+- 所有以太坊产品共享相同的“后端”。 换句话说，所有以太坊产品都可以很容易地相互理解 - 这使得NFT可以跨产品移植。 你可以在一个产品上购买NFT，然后在另一个产品上轻松出售。 作为创作者，你可以同时在多个产品上展示你的 NFT——每个产品都有最新的所有权信息。
+- 以太坊永远不会倒闭，这意味着你的通证将永远可以出售。
 
-## The environmental impact of NFTs {#environmental-impact-nfts}
+## NFT的环境影响 {#environmental-impact-nfts}
 
-NFTs are growing in popularity which means they're also coming under increased scrutiny – especially over their carbon footprint.
+NFT越来越受欢迎，这意味着它们也受到越来越多的监管——-特别是对其碳足迹。
 
-To clarify a few things:
+澄清以下几件事：
 
-- NFTs aren't directly increasing the carbon footprint of Ethereum.
-- The way Ethereum keeps your funds and assets secure is currently energy-intensive but it's about to improve.
-- Once improved, Ethereum's carbon footprint will be 99.95% better, making it more energy efficient than many existing industries.
+- NFT并没有直接增加以太坊的碳足迹。
+- 以太坊保证资金和资产安全的方式目前是耗能密集型的，但这一点将得到改进。
+- 一旦改进，以太坊的碳足迹将提高到99.95%，使其比许多现有行业更节能。
 
-To explain further we're going to have to get a little more technical so bear with us...
+为了进一步解释，我们将不得不采取更多的技术手段，所以请耐心等待...。
 
-### Don't blame it on the NFTs {#nft-qualities}
+### 不要将它归咎于 NFT {#nft-qualities}
 
-The whole NFT ecosystem works because Ethereum is decentralized and secure.
+整个NFT生态系统行之有效，因为以太坊是去中心化和安全的。
 
-Decentralized meaning you and everyone else can verify you own something. All without trusting or granting custody to a third party who can impose their own rules at will. It also means your NFT is portable across many different products and markets.
+去中心化意味着你和其他人都可以验证你拥有的东西。 所有这些都不需要信任或将监护权授予可以随意强加自己规则的第三方。 这也意味着你的 NFT 在许多不同的产品和市场上都是便携的。
 
-Secure meaning no one can copy/paste your NFT or steal it.
+安全意味着任何人都不能复制/ 粘贴你的 NFT 或偷窃它。
 
-These qualities of Ethereum makes digitally owning unique items and getting a fair price for your content possible. But it comes at a cost. Blockchains like Bitcoin and Ethereum are energy intensive right now because it takes a lot of energy to preserve these qualities. If it was easy to rewrite Ethereum's history to steal NFTs or cryptocurrency, the system collapses.
+以太坊的这些特性使得以数字方式拥有独特的物品并为你的内容获得公平的价格成为可能。 但这样做是要付出代价的。 像比特币和以太坊这样的区块链现在是能源密集型的，因为需要大量的能源来维护这些特性。 如果很容易改写以太坊的历史来窃取NFT或加密货币，那么系统就会崩溃。
 
-#### The work in minting your NFT {#minting-nfts}
+#### 铸造 NFT 所需要做的工作 {#minting-nfts}
 
-When you mint an NFT, a few things have to happen:
+当你铸造 NFT 时，有几件事将会发生：
 
-- It needs to be confirmed as an asset on the blockchain.
-- The owner's account balance must be updated to include that asset. This makes it possible for it to then be traded or verifiably "owned".
-- The transactions that confirm the above need to be added to a block and "immortalised" on the chain.
-- The block needs to be confirmed by everyone in the network as "correct". This consensus removes the need for intermediaries because the network agrees that your NFT exists and belongs to you. And it's on chain so anyone can check it. This is one of the ways Ethereum helps NFT creators to maximise their earnings.
+- 它需要被确认为区块链上的一项资产。
+- 账户所有者的账户余额必须更新，从而可以包括该资产。 这使得它有可能被交易或验证"拥有"。
+- 确认上述内容的交易需要被添加到一个区块中，并在链上 "永存"。
+- 该区块需要由网络中的所有人确认为 "正确"。 这种共识消除了对中间人的需求，因为网络同意你的NFT存在并属于你。 这是在链上的，任何人都可以检查它。 这是以太坊帮助NFT创造者最大限度地赚取收入的方法之一。
 
-All these tasks are done by miners. And they let the rest of the network know about your NFT and who owns it. This means mining needs to be sufficiently difficult, otherwise anyone could just claim that they own the NFT you just minted and fraudulently transfer ownership. There are lots of incentives in place to make sure miners are acting honestly.
+所有这些任务都是由矿工完成的。 而且他们让网络的其他部分知道你的NFT和谁拥有它。 这意味着采矿需要有足够的难度，否则任何人都可以声称他们拥有你刚刚铸造的NFT，并欺诈性地转移所有权。 有很多激励措施，以确保矿工的行为是诚实的。
 
-[More on mining](/developers/docs/consensus-mechanisms/pow/)
+[更多关于挖矿的信息](/developers/docs/consensus-mechanisms/pow/)
 
-#### Securing your NFT with mining {#securing-nfts}
+#### 通过挖矿来保护您的 NFT {#securing-nfts}
 
-Mining difficulty comes from the fact that it takes a lot of computing power to create new blocks in the chain. Importantly, blocks are created consistently, not just when they're needed. They're created every 12 seconds or so.
+挖矿的难度来自于需要大量的计算能力来创建链上的新区块这一事实。 重要的是，区块是连贯地创建的，而不仅仅是在需要时创建的。 他们是每12秒左右创建。
 
-This is important for making Ethereum tamper-proof, one of the qualities that makes NFTs possible. The more blocks the more secure the chain. If your NFT was created in block #600 and a hacker were to try and steal your NFT by modifying its data, the digital fingerprint of all subsequent blocks would change. That means anyone running Ethereum software would immediately be able to detect and prevent it from happening.
+这对于使以太坊防篡改很重要，这是使NFT成为可能的特性之一。 区块越多越安全。 如果你的NFT是在第600个区块中创建的，而黑客试图通过修改其数据来窃取你的NFT，那么所有后续区块的数字指纹将发生变化。 这意味着任何运行以太坊软件的人都能够立即发现并防止其发生。
 
-However this means that computing power needs to be used constantly. It also means that a block that contains 0 NFT transactions will still have roughly the same carbon footprint, because computing power will still be consumed to create it. Other non-NFT transactions will fill the blocks.
+然而，这意味着算力需要不断使用。 这也意味着，一个包含0个NFT交易的区块仍然会有大致相同的碳足迹，因为创建它仍然会消耗计算能力。 其他非NFT交易将填充块。
 
-#### Blockchains are energy intensive, right now {#blockchains-intensive}
+#### 区块链现在是能源密集度型的 {#blockchains-intensive}
 
-So yes, there is a carbon footprint associated with creating blocks by mining – and this is a problem for chains like Bitcoin too – but it's not directly the fault of NFTs.
+因此，是的，通过挖矿创造区块会产生碳足迹--这对比特币等链来说也是一个问题--但这并不是NFT的直接错误。
 
-A lot of mining uses renewable energy sources or untapped energy in remote locations. And there is the argument that the industries that NFTs and cryptocurrencies are disrupting have huge carbon footprints too. But just because existing industries are bad, doesn't mean we shouldn't strive to be better.
+大量挖矿使用可再生能源或边远地区未开发的能源。 还有一种说法是，NFT和加密货币所颠覆的行业也有巨大的碳足迹。 但仅仅因为现有的产业存不足好，并不意味着我们不应努力做得更好。
 
-And we are. Ethereum is evolving to make using Ethereum (and by virtue, NFTs) more energy efficient. And that's always been the plan.
+我们也是如此。 以太坊正在不断发展，使自身（及藉此的NFT）更加节能。 而这一直是我们的计划。
 
-We're not here to defend the environmental footprint of mining, instead we want to explain how things are changing for the better.
+我们在这里不是为采矿的环境足迹辩护，相反，我们想解释事情是如何向好的方向发展的。
 
-### A greener future... {#a-greener-future}
+### 更绿色的未来... {#a-greener-future}
 
-For as long as Ethereum has been around, the energy-consumption of mining has been a huge focus area for developers and researchers. And the vision has always been to replace it as soon as possible. [More on Ethereum's vision](/eth2/vision/)
+自从以太坊出现以来，挖矿的能源消耗一直是开发者和研究人员的一个巨大焦点领域。 而我们的愿景一直是尽快取代它。 [更多关于以太空的愿景](/eth2/vision/)
 
-This vision is being delivered right now.
+这一愿景现在正在实现。
 
-#### A greener Ethereum: Eth2 {#eth2}
+#### 更绿色的以太坊：Eth2 {#eth2}
 
-Ethereum is currently going through a series of upgrades, known as Eth2, that will replace mining with [staking](/eth2/staking/). This will remove computing power as a security mechanism, and reduce Ethereum's carbon footprint by ~99.95%<sup>[^1]</sup>. In this world, stakers commit funds instead of computing power to secure the network.
+以太坊目前正在经历一系列的升级，被称为Eth2，它将用[质押](/eth2/staking/)取代采矿。 这将移除作为安全机制的计算能力，并将以太坊的碳足迹减少~99.95%<sup>[^1]</sup>。 在这个世界上，质押者投入资金而不是计算能力来确保网络安全。
 
-The energy-cost of Ethereum will become the cost of running a home computer multiplied by the number of nodes in the network. If there are 10,000 nodes in the network and the cost of running a home computer is roughly 525kWh per year. That's 5,250,000kWh<sup>[^1]</sup> per year for the entire network.
+以太坊的能源消耗将变为一台家用电脑的运行成本乘以网络中的节点数量。 如果网络中有10 000个节点，家庭计算机的运行费用每年大约为525千瓦时。 整个网络中每年5,250,000千瓦h<sup>[^1]</sup>
 
-We can use this to compare Eth2 to a global service like Visa. 100,000 Visa transactions uses 149kWh of energy<sup>[^2]</sup>. In Eth2, that same number of transactions would cost 17.4kWh of energy or ~11% of the total energy<sup>[^3]</sup>. That's without considering the many optimisations being worked on in parallel to Eth2, like [rollups](/glossary/#rollups). It could be as little as 0.1666666667kWh of energy for 100,000 transactions.
+我们可以用这个来比较Eth2和Visa这样的全球服务。 100,000次Visa交易使用的能量为 149 千瓦时<sup>[^2]</sup>。 在Eth2中，相同数量的交易会消耗17.4千瓦时的能量，或约占总能量的11%<sup>[^3]</sup>。 这还没有考虑到与Eth2同时进行的许多优化工作，比如[rollups](/glossary/#rollups)。 100,000笔交易的能量可能只有0.16666667千瓦时。
 
-Importantly this improves the energy efficiency while preserving Ethereum's decentralization and security. Many other blockchains out there might already use some form of staking, but they're secured by a select few stakers, not the thousands that Ethereum will have. The more decentralization, the more secure the system.
+重要的是这提高了能源效率，同时保留了以太坊的去中心化和安全性。 其他许多区块链可能已经使用了某种形式的质押，但它们是由少数几个质押者保证的，而不是像以太坊那样有成千上万个。 越是去中心化，系统就越安全。
 
-[More on energy estimates](#footnotes-and-sources)
+[更多关于能源估算的内容](#footnotes-and-sources)
 
-_We’ve provided the basic comparison to Visa to baseline your understanding of Eth2 energy consumption against a familiar name. However, in practice, it’s not really correct to compare based on number of transactions. Ethereum’s energy output is time-based. If Ethereum did more or less transactions from one minute to the next, the energy output would stay the same._
+_我们提供了与Visa的基本比较，以使你对Eth2能源消耗与熟悉的名字形成基准的理解。 然而，实际上，基于交易数量进行比较是不正确的。 以太坊的能量输出是基于时间的。 如果以太坊在一分钟内进行多次交易，能源产出将保持不变。_
 
-_It’s also important to remember that Ethereum does more than just financial transactions, it’s a platform for applications, so a fairer comparison might be to many companies/industries including Visa, AWS and more!_
+_同样重要的是要记住，以太坊做的不仅仅是金融交易，它是一个应用平台，所以更公平的比较可能是与许多公司/行业的比较，包括Visa、AWS等等。_
 
-#### Timelines {#timelines}
+#### 时间轴 {#timelines}
 
-The process has already started. [The Beacon Chain](/eth2/beacon-chain/), the first upgrade, shipped in December 2020. This provides the foundation for staking by allowing stakers to join the system. The next step relevant to energy efficiency is to merge the current chain, the one secured by miners, into the Beacon Chain where mining isn't needed. Timelines can't be exact at this stage, but it's estimated that this will happen sometime in 2021/2022. This process is known as the merge (formerly referred to as the docking). [More on the merge](/eth2/merge/).
+这个过程已经开始了。 [信标链](/eth2/beacon-chain/)，在 2020 年 12 月第一次启动升级。 这允许质押者能够参与网络，为质押提供了基础。 与能源效率相关的下一步是将当前的链，即由矿工保护安全的链，合并到不需要挖矿的信标链中。 时间表在这个阶段还不能确认，但估计将在 2021/ 2022年 的某个时候发生。 这个过程被称为合并（以前被称为对接）。 [更多关于合并](/eth2/merge/)的内容。
 
-<ButtonLink to="/eth2/">More on Eth2</ButtonLink>
+<ButtonLink to="/eth2/">更多关于 Eth2 的内容</ButtonLink>
 
 <!-- #### Rollups in the meantime...
 
@@ -384,11 +384,11 @@ Want to turn your content into a NFT?
 - Foundation
 - Other platforms... -->
 
-## Build with NFTs {#build-with-nfts}
+## 开发 NFTs {#build-with-nfts}
 
-Most NFTs are built using a consistent standard known as [ERC-721](/developers/docs/standards/tokens/erc-721/). However there are other standards that you might want to look into. The [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) standard allows for semi-fungible tokens which is particularly useful in the realm of gaming. And more recently, [EIP-2309](https://eips.ethereum.org/EIPS/eip-2309) has been proposed to make minting NFTs a lot more efficient. This standard lets you mint as many as you like in one transaction!
+大多数 NFT 是使用同一个标准建立的，那就是 [ERC-721](/developers/docs/standards/tokens/erc-721/)。 然而，还有其他的标准，你可能想研究一下。 [ERC-1155](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) 标准允许半同质化代币，这对游戏领域特别有用。 最近还提出了 [EIP-2309](https://eips.ethereum.org/EIPS/eip-2309)，这使得制作 NFT 更高效。 这个标准让你在一次交易中尽情地铸币！
 
-## Further reading {#further-reading}
+## 延伸阅读 {#further-reading}
 
 - [Crypto art data](https://cryptoart.io/data) – Richard Chen, updated automatically
 - [OpenSea: the NFT Bible](https://opensea.io/blog/guides/non-fungible-tokens/) – _Devin Fizner, January 10 2020_
@@ -399,67 +399,73 @@ Most NFTs are built using a consistent standard known as [ERC-721](/developers/d
 
 <Divider />
 
-### Footnotes and sources {#footnotes-and-sources}
+### 脚注和来源 {#footnotes-and-sources}
 
 <!-- TODO: after shipping this can form the basis of an energy efficiency page. I suspect this could also live under learn and just do some general myth-busting and supply stats about eth2 energy usage-->
 
-This explains how we arrived at our energy estimates above. These estimates apply to the network as a whole and are not just reserved for the process of creating, buying, or selling NFTs.
+这解释了我们是如何得出上面的能源估计的。 这些估计适用于整个网络，而不仅仅是保留给创建、购买或出售NFT的过程。
 
-#### 1. 99.95% energy reduction from mining {#fn-1}
+#### 1. 99.95%的采矿能源减少 {#fn-1}
 
-The 99.95% reduction in energy consumption from a system secured by mining to a system secured by staking is calculated using the following data sources:
+从一个以采矿为保障的系统到一个以质押为保障的系统，能源消耗减少99.95%，这是用以下数据来源计算出来的：
 
-- 44.49 TWh of annualized electrical energy is consumed by mining Ethereum - [Digiconomist](https://digiconomist.net/ethereum-energy-consumption)
+- 挖掘以太坊所消耗的年化电能为44.49太瓦时 -
 
-- The average desktop computer, all that's needed to run Proof of Stake, uses 0.06kWh of energy per hour – [Silicon Valley power chart](https://www.siliconvalleypower.com/residents/save-energy/appliance-energy-use-chart) (Some estimates are a little higher at 0.15kWh)
+Digiconomist </a</p></li> 
+  
+  - 普通的台式电脑，运行权益证明所需的一切，每小时消耗0.06千瓦时的能源--[硅谷电力图表](https://www.siliconvalleypower.com/residents/save-energy/appliance-energy-use-chart)(有些估计略高，为0.15千瓦时)。</ul> 
 
-At the time of writing, there are 140 592 validators from 16 405 unique addresses. Of those, 87 897 validators are assumed to be staking from home.
+在撰写本报告时，有140,592个验证人，来自16 405个独特的地址。 其中，87,897名验证者被认为是在家里质押的。
 
-It is assumed the average person staking from home uses a 100 watt desktop personal computer setup to run an average of 5.4 validator clients.
+假设普通人在家里质押，使用100瓦的台式个人电脑，平均运行5.4个验证者客户端。
 
-The 87 897 validators running from home gives us 16 300 users consuming ~1.64 megawatt of energy.
+在家里运行的87,897个验证者为我们提供了16,300个用户，消耗了约1.64兆瓦的能源。
 
-The rest of the validators are run by custodial stakers such as exchanges and staking services. It can be assumed that they use 100w per 5.5 validators. This is a gross overestimation to be on the safe side.
+其余的验证者是由交易所和质押服务商等运行。 可以假设他们每5.5个验证者消耗100瓦。 为了安全起见，这是个严重的高估。
 
-In total, Ethereum on proof-of-stake therefore consumes something on the order of 2.62 megawatt, which is about the same as a small American town.
+因此，总的来说，以太坊在股权证明上的消耗量约为2.62兆瓦，这与一个美国小镇差不多。
 
-This is a reduction of at least 99.95% in total energy usage from the Digiconomist estimate of 44.94 TWh per year that the Ethereum miners currently consume.
+这比Digiconomist估计的以太坊矿工目前每年消耗的44.94太瓦时的总能源消耗量至少减少了99.95%。
 
-#### 2. Visa energy consumption {#fn-2}
 
-The cost of 100,000 Visa transactions is 149 kwH - [Bitcoin network average energy consumption per transaction compared to VISA network as of 2020, Statista](https://www.statista.com/statistics/881541/bitcoin-energy-consumption-transaction-comparison-visa/)
 
-Year-ending September 2020 they processed 140,839,000,000 transactions – [Visa financials report Q4 2020](https://s1.q4cdn.com/050606653/files/doc_financials/2020/q4/Visa-Inc.-Q4-2020-Operational-Performance-Data.pdf)
+#### 2. Visa能源消耗 {#fn-2}
 
-#### 3. Eth2 energy usage for 100,000 transactions {#fn-3}
+10万笔Visa交易的成本是149千瓦时 - [截至2020年，比特币网络每笔交易的平均能耗与VISA网络相比，Statista](https://www.statista.com/statistics/881541/bitcoin-energy-consumption-transaction-comparison-visa/)。
 
-It's estimated that Eth2 will allow the network to process between 25,000 and 100,000 transactions per second, with [100,000 as the theoretical maximum right now](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698).
+到2020年9月底，他们处理了140,839,000,000笔交易 - [Visa financial report Q4 202020](https://s1.q4cdn.com/050606653/files/doc_financials/2020/q4/Visa-Inc.-Q4-2020-Operational-Performance-Data.pdf)
 
-[Vitalik Buterin on transactions per second potential on Eth2](https://twitter.com/VitalikButerin/status/1312905884549300224?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1312905886327664640%7Ctwgr%5E%7Ctwcon%5Es2_&ref_url=https%3A%2F%2Fwww.coinspeaker.com%2Fvitalik-buterin-ethereum-layer-2%2F)
 
-At the bare minimum, Eth2 will allow 64 times the amount of transactions as today which sits at around 15 transactions. That's the amount of shard chains (extra data and capacity) being introduced. [More on shard chains](/eth2/shard-chains/)
 
-That means we can estimate how long it will take to process 100,000 transactions so we can compare it to the Visa example above.
+#### 3. 100,000次交易的Eth2能源使用量 {#fn-3}
 
-- `15 * 64 = 960` transactions per second.
-- `100,000 / 960 = 104.2` seconds to process 100,000 transactions.
+据估计，Eth2将允许网络每秒处理25,000至100,000笔交易，其中[100,000是目前的理论最大值](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698)。
 
-In 104.2 seconds, the Ethereum network will use the following amount of energy:
+[Vitalik Buterin, Eth2 上每秒的交易量](https://twitter.com/VitalikButerin/status/1312905884549300224?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1312905886327664640%7Ctwgr%5E%7Ctwcon%5Es2_&ref_url=https%3A%2F%2Fwww.coinspeaker.com%2Fvitalik-buterin-ethereum-layer-2%2F)
 
-`1.44kWh daily usage * 10,000 network nodes = 14,400kWh` per day.
+起码来说，Eth2 允许的交易量是目前交易量的64倍，当前交易量大约为15笔交易。 这是正在采用分片链（额外数据和容量）的数量。 [更多关于分片链的信息](/eth2/shard-chains/)
 
-There are 86,400 seconds in a day, so `14,400 / 86,400 = 0.1666666667kWh` per second.
+这意味着我们可以估计处理 100,000 笔交易需要多长时间，以便我们能够将其与上述 Visa 例子做对比。
 
-If we multiply that by the amount of time it takes to process 100,000 transaction: `0.1666666667 * 104.2 = 17.3666666701 kWh`.
+- `15 * 64 = 960` 笔交易每秒。
+- `100,000 / 960 = 104.2` 秒完成 100,000 笔交易。
 
-That is **11.6554809866%** of the energy consumed by the same amount of transactions on Visa.
+在 104.2 秒内，以太坊网络将使用以下能量：
 
-And remember, this is based on the minimum amount of transactions that Eth2 will be able to handle per second. If Eth2 reaches its potential of 100,000 transactions per second, 100,000 transactions would consume 0.1666666667kWh.
+`1.44kWh 每日用量 * 10,000个网络节点 = 每天14,400kWh`
 
-To put it another way, if Visa handled 140,839,000,000 transactions at a cost of 149 kWh per 100,000 transactions that's 209,850,110 kWh energy consumed for the year.
+每天有 86,400 秒，所以 `14,400/86,400=0.1666667kWh` 每秒。
 
-Eth2 in a single year stands to consume 5,256,000 kWh. With a potential of 788,940,000,000 - 3,153,600,000,000 transactions processed in that time.
+如果我们记时处理 100,000 笔交易需要时间： `0.1666666667 * 104.2 = 17.366666701 kWh`
+
+这只占 Visa 上相同数量交易消耗的能量的 **11.6554809866 %**
+
+而且记住，这是基于 Eth2 每秒能够处理的最低交易量。 如果 Eth2 达到每秒 100,000 笔交易，这 100,000 笔交易耗费为 0.16666667kWh。
+
+换言之，如果 Visa 处理 140,839,000,000 笔交易，费用为每 100,000 笔交易 149 kWh，这将导致 209,850,110 kWh 年消耗量。
+
+一年内的 Eth2 消耗量为 5,256,000 kWh。 有处理 788,940,000,000 - 3,153,600,000,000 笔交易的潜力。
 
 <InfoBanner emoji=":evergreen_tree:">
-  If you think these stats are incorrect or can be made more accurate, please raise an issue or PR. These are estimates by the ethereum.org team made using publicly accessible information and the current Eth2 design. This doesn't represent an official promise from the Ethereum Foundation. 
+  如果您认为这些数据不正确或可以变得更加精确，请提出问题或 PR。 这些预估是 etherum.org 团队利用公开可获取的信息和当前 Eth2 设计做出的估计。 这并不代表以太坊基金会的正式承诺。 
 </InfoBanner>
